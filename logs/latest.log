@@ -595,3 +595,23 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [17:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
 [17:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
 [17:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[17:09:47] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[17:09:47] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[17:09:47] [Render thread/INFO]: Stopping JEI
+[17:09:47] [Render thread/INFO]: Sending Runtime Unavailable...
+[17:09:47] [Render thread/INFO]: Stopping JEI GUI
+[17:09:47] [Render thread/INFO]: Sending Runtime Unavailable took 4.592 ms
+[17:09:47] [Server thread/INFO]: Z3EKnCleve lost connection: Disconnected
+[17:09:47] [Server thread/INFO]: Z3EKnCleve left the game
+[17:09:47] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:09:47] [Server thread/INFO]: Stopping server
+[17:09:47] [Server thread/INFO]: Saving players
+[17:09:47] [Server thread/INFO]: Saving worlds
+[17:09:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[17:09:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[17:09:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[17:09:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test 1_3): All chunks are saved
+[17:09:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:09:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:09:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:10:01] [Render thread/INFO]: Stopping!
