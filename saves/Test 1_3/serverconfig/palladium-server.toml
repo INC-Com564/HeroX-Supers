@@ -1,0 +1,8 @@
+
+[worldGen]
+	redstoneFluxCrystalGeneration = true
+
+[general]
+	#Allows you to disable specific abilities from addons. Structure: 'power_namespace:power_id#ability_key'. The ability_key can be found in the json of a power.
+	disabledAbilities = []
+
