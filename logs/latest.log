@@ -1,130 +1,88 @@
-[12:33:26] [main/INFO]: ModLauncher running: args [--username, Z3EKnCleve, --version, forge-47.4.16, --gameDir, /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/, --assetsDir, /Users/Isaiah/Documents/curseforge/minecraft/Install/assets, --assetIndex, 5, --uuid, 5f390ef2a4c34ed2a4fde4d7985b137b, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, dc32b1-476db7-1db081-8b7b68-e86d83, --xuid, 2535406226976220, --userType, msa, --versionType, release, --width, 1512, --height, 982, --quickPlayPath, /Users/Isaiah/Documents/curseforge/minecraft/Quickplay/4266b565-2bc5-435c-8c4f-cd9773a2125d.json, , , , --launchTarget, forgeclient, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[12:33:26] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Microsoft; OS Mac OS X arch aarch64 version 26.2
-[12:33:26] [main/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/fml.toml is not correct. Correcting
-[12:33:26] [main/INFO]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[12:33:26] [main/INFO]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[12:33:26] [main/INFO]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[12:33:26] [main/INFO]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[12:33:26] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[12:33:27] [main/ERROR]: WARNING : glfwInit took 1.427428167 seconds to start.
-[12:33:27] [main/INFO]: Trying GL version 4.6
-[12:33:27] [main/INFO]: If this message is the only thing at the bottom of your log before a crash, you probably have a driver issue.
-
-Possible solutions:
-A) Make sure Minecraft is set to prefer high performance graphics in the OS and/or driver control panel
-B) Check for driver updates on the graphics brand's website
-C) Try reinstalling your graphics drivers
-D) If still not working after trying all of the above, ask for further help on the Forge forums or Discord
-
-You can safely ignore this message if the game starts up successfully.
-[12:33:28] [main/INFO]: Trying GL version 4.5
-[12:33:28] [main/INFO]: Trying GL version 4.4
-[12:33:28] [main/INFO]: Trying GL version 4.3
-[12:33:28] [main/INFO]: Trying GL version 4.2
-[12:33:28] [main/INFO]: Trying GL version 4.1
-[12:33:28] [main/INFO]: Requested GL version 4.1 got version 4.1
-[12:33:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2394!/ Service=ModLauncher Env=CLIENT
-[12:33:28] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file cwb-forge-3.0.0+mc1.20.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file dummmmmmy-1.20-2.0.9.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.8.2.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file jei-1.20.1-forge-15.20.0.129.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.16.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file kubejsoffline-5.2.0.27.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file moonlight-1.20-2.16.23-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file palladium-4.4.2+1.20.1-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file probejs-6.0.1-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/INFO]: Found mod file rhino-forge-2001.2.3-build.10.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
-[12:33:28] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
-[12:33:28] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[12:33:28] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[12:33:28] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[12:33:28] [main/INFO]: Found mod file fmlcore-1.20.1-47.4.16.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [main/INFO]: Found mod file mclanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [main/INFO]: Found mod file forge-1.20.1-47.4.16-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3add81c4
-[12:33:28] [pool-2-thread-1/INFO]: GL info: Apple M2 Pro GL version 4.1 Metal - 90.5, Apple
-[12:33:29] [main/INFO]: Found 10 dependencies adding them to mods collection
-[12:33:29] [main/INFO]: Found mod file MixinSquared-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file mixinextras-forge-0.4.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file javaparser-symbol-solver-core-3.25.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file mixinsquared-forge-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file Java-WebSocket-1.5.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file vineflower-1.9.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file player-animation-lib-forge-1.0.2-rc1+1.20.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file palladiumcore-forge-1.0.1+1.20.1-forge.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Found mod file MixinExtras-0.4.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@4e38d975
-[12:33:29] [main/INFO]: Compatibility level set to JAVA_17
-[12:33:29] [main/ERROR]: Mixin config kubejsoffline.mixins.json does not specify "minVersion" property
-[12:33:29] [main/ERROR]: Mixin config kubejsoffline-common.mixins.json does not specify "minVersion" property
-[12:33:29] [main/ERROR]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
-[12:33:29] [main/ERROR]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
-[12:33:29] [main/INFO]: Launching target 'forgeclient' with arguments [--version, forge-47.4.16, --gameDir, /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers, --assetsDir, /Users/Isaiah/Documents/curseforge/minecraft/Install/assets, --uuid, 5f390ef2a4c34ed2a4fde4d7985b137b, --username, Z3EKnCleve, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, dc32b1-476db7-1db081-8b7b68-e86d83, --xuid, 2535406226976220, --userType, msa, --versionType, release, --width, 1512, --height, 982, --quickPlayPath, /Users/Isaiah/Documents/curseforge/minecraft/Quickplay/4266b565-2bc5-435c-8c4f-cd9773a2125d.json, , , ]
-[12:33:29] [main/WARN]: Reference map 'kubejsoffline-forge-refmap.json' for kubejsoffline.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:33:29] [main/WARN]: Reference map 'probejs-forge-refmap.json' for probejs.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:33:30] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
-[12:33:30] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
-[12:33:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12:33:33] [pool-4-thread-1/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zeb000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[12:33:34] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 90 milliseconds
-[12:33:35] [Render thread/WARN]: Assets URL 'union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
-[12:33:35] [Render thread/WARN]: Assets URL 'union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
-[12:33:35] [Render thread/ERROR]: File /addon/.mcassetsroot does not exist in classpath
-[12:33:35] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:33:36] [Render thread/INFO]: Setting user: Z3EKnCleve
-[12:33:36] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
-[12:33:36] [Render thread/INFO]: Loaded client.properties
-[12:33:36] [modloading-worker-0/INFO]: Added new union URL Type to VFS
-[12:33:36] [modloading-worker-0/INFO]: Added new directory Url Types to VFS
-[12:33:36] [modloading-worker-0/INFO]: Now attempting to load JavaAssist ClassFile class
-[12:33:37] [modloading-worker-0/INFO]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
-[12:33:37] [modloading-worker-0/INFO]: MinecraftForge v47.4.16 Initialized
-[12:33:37] [modloading-worker-0/INFO]: Loaded common.properties
-[12:33:37] [modloading-worker-0/INFO]: Loaded dev.properties
-[12:33:37] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/moonlight-common.toml is not correct. Correcting
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.clear_dynamic_resources was corrected from null to its default, false. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.extra_debug was corrected from null to its default, false. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.extra_children_debug was corrected from null to its default, false. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.global_datapacks_folder was corrected from null to its default, moonlight-global-datapacks. 
-[12:33:37] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
-[12:33:37] [modloading-worker-0/INFO]: Found plugin source kubejs
-[12:33:37] [modloading-worker-0/INFO]: Successfully loaded JavaAssist ClassFile class!
-[12:33:37] [modloading-worker-0/INFO]: Automatic generation of KubeJS documentation is disabled.
-[12:33:37] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
-[12:33:37] [modloading-worker-0/INFO]: Found plugin source kubejsoffline
-[12:33:37] [modloading-worker-0/INFO]: Found plugin source probejs
-[12:33:37] [modloading-worker-0/INFO]: Found plugin source palladium
-[12:33:37] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/dummmmmmy-common.toml is not correct. Correcting
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key scarecrow was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key scarecrow.mobs_whitelist was corrected from null to its default, []. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key scarecrow.mobs_blacklist was corrected from null to its default, []. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key scarecrow.scare_radius was corrected from null to its default, 12. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.DPS_mode was corrected from null to its default, DYNAMIC. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.disable_equipment_damage was corrected from null to its default, true. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.dummy_decoy was corrected from null to its default, false. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.xp_per_damage_on_hit was corrected from null to its default, 0.0. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.boss_health_color was corrected from null to its default, YELLOW. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.boss_health was corrected from null to its default, 200. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key mobs_damage_numbers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key mobs_damage_numbers.damage_mode was corrected from null to its default, NONE. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key mobs_damage_numbers.healing_mode was corrected from null to its default, NONE. 
-[12:33:37] [modloading-worker-0/INFO]: Done in 88.30 ms
-[12:33:37] [modloading-worker-0/INFO]: Sending ConfigManager...
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
-[12:33:37] [modloading-worker-0/INFO]: Sending ConfigManager took 1.193 ms
-[12:33:37] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
-[12:33:37] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/moonlight-client.toml is not correct. Correcting
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.merge_dynamic_resource_packs was corrected from null to its default, true. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.lazy_map_upload was corrected from null to its default, true. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.maps_mipmap was corrected from null to its default, 3. 
-[12:33:37] [modloading-worker-0/WARN]: Incorrect key general.consistent_entity_renderer_shading was corrected from null to its default, NO_GUI. 
-[12:33:37] [modloading-worker-0/ERROR]: Couldn't load pack metadata
+[14:01:01] [main/INFO]: ModLauncher running: args [--username, Z3EKnCleve, --version, forge-47.4.16, --gameDir, /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/, --assetsDir, /Users/Isaiah/Documents/curseforge/minecraft/Install/assets, --assetIndex, 5, --uuid, 5f390ef2a4c34ed2a4fde4d7985b137b, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, dc32b1-476db7-1db081-8b7b68-e86d83, --xuid, 2535406226976220, --userType, msa, --versionType, release, --width, 1512, --height, 982, --quickPlayPath, /Users/Isaiah/Documents/curseforge/minecraft/Quickplay/4266b565-2bc5-435c-8c4f-cd9773a2125d.json, , , , --launchTarget, forgeclient, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14:01:01] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Microsoft; OS Mac OS X arch aarch64 version 26.2
+[14:01:01] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[14:01:01] [main/INFO]: Trying GL version 4.6
+[14:01:02] [main/INFO]: Trying GL version 4.5
+[14:01:02] [main/INFO]: Trying GL version 4.4
+[14:01:02] [main/INFO]: Trying GL version 4.3
+[14:01:02] [main/INFO]: Trying GL version 4.2
+[14:01:02] [main/INFO]: Trying GL version 4.1
+[14:01:02] [main/INFO]: Requested GL version 4.1 got version 4.1
+[14:01:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2394!/ Service=ModLauncher Env=CLIENT
+[14:01:02] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file cwb-forge-3.0.0+mc1.20.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file dummmmmmy-1.20-2.0.9.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.8.2.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file jei-1.20.1-forge-15.20.0.129.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.16.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file kubejsoffline-5.2.0.27.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file moonlight-1.20-2.16.23-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file palladium-4.4.2+1.20.1-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file probejs-6.0.1-forge.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/INFO]: Found mod file rhino-forge-2001.2.3-build.10.jar of type MOD with provider {mods folder locator at /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/mods}
+[14:01:02] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
+[14:01:02] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[14:01:02] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[14:01:02] [main/WARN]: Mod file /Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[14:01:02] [main/INFO]: Found mod file fmlcore-1.20.1-47.4.16.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [main/INFO]: Found mod file mclanguage-1.20.1-47.4.16.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [main/INFO]: Found mod file forge-1.20.1-47.4.16-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@7cc9ce8
+[14:01:02] [pool-2-thread-1/INFO]: GL info: Apple M2 Pro GL version 4.1 Metal - 90.5, Apple
+[14:01:02] [main/INFO]: Found 10 dependencies adding them to mods collection
+[14:01:02] [main/INFO]: Found mod file MixinSquared-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file mixinextras-forge-0.4.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file javaparser-symbol-solver-core-3.25.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file mixinsquared-forge-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file Java-WebSocket-1.5.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file vineflower-1.9.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file player-animation-lib-forge-1.0.2-rc1+1.20.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file palladiumcore-forge-1.0.1+1.20.1-forge.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:02] [main/INFO]: Found mod file MixinExtras-0.4.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@5b5c0057
+[14:01:04] [main/INFO]: Compatibility level set to JAVA_17
+[14:01:04] [main/ERROR]: Mixin config kubejsoffline.mixins.json does not specify "minVersion" property
+[14:01:04] [main/ERROR]: Mixin config kubejsoffline-common.mixins.json does not specify "minVersion" property
+[14:01:04] [main/ERROR]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[14:01:04] [main/ERROR]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[14:01:04] [main/INFO]: Launching target 'forgeclient' with arguments [--version, forge-47.4.16, --gameDir, /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers, --assetsDir, /Users/Isaiah/Documents/curseforge/minecraft/Install/assets, --uuid, 5f390ef2a4c34ed2a4fde4d7985b137b, --username, Z3EKnCleve, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, dc32b1-476db7-1db081-8b7b68-e86d83, --xuid, 2535406226976220, --userType, msa, --versionType, release, --width, 1512, --height, 982, --quickPlayPath, /Users/Isaiah/Documents/curseforge/minecraft/Quickplay/4266b565-2bc5-435c-8c4f-cd9773a2125d.json, , , ]
+[14:01:04] [main/WARN]: Reference map 'kubejsoffline-forge-refmap.json' for kubejsoffline.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:01:04] [main/WARN]: Reference map 'probejs-forge-refmap.json' for probejs.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:01:04] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[14:01:04] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[14:01:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:01:08] [pool-4-thread-1/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zeb000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:01:09] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 108 milliseconds
+[14:01:10] [Render thread/WARN]: Assets URL 'union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[14:01:10] [Render thread/WARN]: Assets URL 'union:/Users/Isaiah/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[14:01:10] [Render thread/ERROR]: File /addon/.mcassetsroot does not exist in classpath
+[14:01:10] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:01:10] [Render thread/INFO]: Setting user: Z3EKnCleve
+[14:01:10] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[14:01:10] [Render thread/INFO]: Loaded client.properties
+[14:01:11] [modloading-worker-0/INFO]: Added new union URL Type to VFS
+[14:01:11] [modloading-worker-0/INFO]: Added new directory Url Types to VFS
+[14:01:11] [modloading-worker-0/INFO]: Now attempting to load JavaAssist ClassFile class
+[14:01:11] [modloading-worker-0/INFO]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
+[14:01:11] [modloading-worker-0/INFO]: MinecraftForge v47.4.16 Initialized
+[14:01:11] [modloading-worker-0/INFO]: Loaded common.properties
+[14:01:11] [modloading-worker-0/INFO]: Loaded dev.properties
+[14:01:11] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
+[14:01:11] [modloading-worker-0/INFO]: Found plugin source kubejs
+[14:01:11] [modloading-worker-0/INFO]: Successfully loaded JavaAssist ClassFile class!
+[14:01:11] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[14:01:11] [modloading-worker-0/INFO]: Found plugin source kubejsoffline
+[14:01:11] [modloading-worker-0/INFO]: Found plugin source probejs
+[14:01:11] [modloading-worker-0/INFO]: Found plugin source palladium
+[14:01:11] [modloading-worker-0/INFO]: Automatic generation of KubeJS documentation is disabled.
+[14:01:11] [modloading-worker-0/INFO]: Done in 114.0 ms
+[14:01:11] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
+[14:01:11] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
+[14:01:11] [modloading-worker-0/INFO]: Sending ConfigManager...
+[14:01:11] [modloading-worker-0/INFO]: Sending ConfigManager took 4.129 ms
+[14:01:11] [modloading-worker-0/ERROR]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -155,15 +113,15 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12:33:37] [modloading-worker-0/WARN]: Missing metadata in pack mod:minecraft
-[12:33:37] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
-[12:33:37] [modloading-worker-0/INFO]: Rhino properties loaded.
-[12:33:37] [modloading-worker-0/INFO]: Loading mappings for 1.20.1
-[12:33:37] [modloading-worker-0/INFO]: Done in 0.067 s
-[12:33:37] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded startup scripts)
-[12:33:37] [modloading-worker-0/INFO]: Loaded script startup_scripts:example.js in 0.055 s
-[12:33:37] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS startup scripts in 0.328 s with 0 errors and 0 warnings
-[12:33:37] [modloading-worker-0/ERROR]: Couldn't load pack metadata
+[14:01:11] [modloading-worker-0/WARN]: Missing metadata in pack mod:minecraft
+[14:01:11] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
+[14:01:11] [modloading-worker-0/INFO]: Rhino properties loaded.
+[14:01:11] [modloading-worker-0/INFO]: Loading mappings for 1.20.1
+[14:01:11] [modloading-worker-0/INFO]: Done in 0.080 s
+[14:01:12] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded startup scripts)
+[14:01:12] [modloading-worker-0/INFO]: Loaded script startup_scripts:example.js in 0.025 s
+[14:01:12] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS startup scripts in 0.284 s with 0 errors and 0 warnings
+[14:01:12] [modloading-worker-0/ERROR]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -196,23 +154,23 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12:33:37] [modloading-worker-0/WARN]: Missing metadata in pack mod:minecraft
-[12:33:37] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded client scripts)
-[12:33:37] [modloading-worker-0/INFO]: Loaded script client_scripts:example.js in 0.001 s
-[12:33:37] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS client scripts in 0.02 s with 0 errors and 0 warnings
-[12:33:37] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
-[12:33:37] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:toast
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:reload_startup_scripts
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_server_errors
-[12:33:37] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_client_errors
-[12:33:37] [Render thread/INFO]: Starting addonpack initialisation...
-[12:33:37] [Render thread/ERROR]: Couldn't load pack metadata
+[14:01:12] [modloading-worker-0/WARN]: Missing metadata in pack mod:minecraft
+[14:01:12] [modloading-worker-0/INFO]: example.js#5: Hello, World! (Loaded client scripts)
+[14:01:12] [modloading-worker-0/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[14:01:12] [modloading-worker-0/INFO]: Loaded 1/1 KubeJS client scripts in 0.017 s with 0 errors and 0 warnings
+[14:01:12] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[14:01:12] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:toast
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_server_errors
+[14:01:12] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_client_errors
+[14:01:12] [Render thread/INFO]: Starting addonpack initialisation...
+[14:01:12] [Render thread/ERROR]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -264,128 +222,106 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[12:33:37] [Render thread/WARN]: Missing metadata in pack mod:minecraft
-[12:33:37] [Render thread/INFO]: Skipping mod:architectury as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:cubes_without_borders as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:dummmmmmy as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:forge as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:geckolib as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:jei as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:kubejs as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:kubejsoffline as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:mixinextras as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:mixinsquared as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:moonlight as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:palladium as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:palladiumcore as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:playeranimator as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:probejs as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Skipping mod:rhino as it's not been marked as an addonpack
-[12:33:37] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
-[12:33:37] [Render thread/INFO]: Reloading ResourceManager: architectury-9.2.14-forge.jar, cwb-forge-3.0.0+mc1.20.jar, dummmmmmy-1.20-2.0.9.jar, forge-1.20.1-47.4.16-universal.jar, geckolib-forge-1.20.1-4.8.2.jar, jei-1.20.1-forge-15.20.0.129.jar, kubejs-forge-2001.6.5-build.16.jar, kubejsoffline-5.2.0.27.jar, mixinextras-forge-0.4.1.jar, mixinsquared-forge-0.1.1.jar, moonlight-1.20-2.16.23-forge.jar, palladium-4.4.2+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, probejs-6.0.1-forge.jar, rhino-forge-2001.2.3-build.10.jar
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack creative_mode_tab
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack armor materials
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack tool tiers
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack block
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack item
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack suit_set
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack particle_type
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack point_of_interest_type
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack villager_profession
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack accessory slots
-[12:33:37] [Render thread/INFO]: Registered 0 addonpack accessories
-[12:33:37] [Render thread/INFO]: Finished addonpack initialisation!
-[12:33:37] [Render thread/INFO]: Initialized block sets in 5ms
-[12:33:39] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources, Moonlight Mods Dynamic Assets, KubeJS Resource Pack [assets]
-[12:33:39] [Worker-Main-4/INFO]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators from mods [moonlight]: [net.mehvahdjukaar.moonlight.core.MoonlightClient$MLDynamicClientResources@3b147517]
-[12:33:39] [Worker-Main-4/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (moonlight)
-[12:33:39] [Render thread/INFO]: Client resource reload complete!
-[12:33:39] [Worker-Main-4/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 4 ms (multithreaded)
-[12:33:39] [Worker-Main-4/INFO]: Finished runtime resources generation for 1 packs in a total of 5 ms
-[12:33:39] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/forge-client.toml is not correct. Correcting
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.calculateAllNormals was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key client.allowMipmapLowering was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/dummmmmmy-client.toml is not correct. Correcting
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.animation_intensity was corrected from null to its default, 0.75. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.show_hearths was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.damage_numbers was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.full_bright_damage_numbers was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.crit_mode was corrected from null to its default, COLOR_AND_MULTIPLIER. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.hay_particles was corrected from null to its default, true. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.texture was corrected from null to its default, DEFAULT. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key visuals.damage_type_colors was corrected from null to its default, SimpleCommentedConfig:{minecraft:wind_charge=#00BEF3FF, #dummmmmmy:is_fire=#00FF7700, dummmmmmy:critical=#00FF0000, #minecraft:is_drowning=#001898E3, minecraft:dragon_breath=#00E600FF, #dummmmmmy:is_thorn=#000FA209, minecraft:generic=#00FFFFFF, #minecraft:is_lightning=#00FFF200, #dummmmmmy:is_explosion=#00FFBB29, #minecraft:witch_resistant_to=#00844CE7, minecraft:sonic_boom=#00074550, #dummmmmmy:is_cold=#0009D2FF, #dummmmmmy:is_wither=#00666666, dummmmmmy:true=#00910038, attributeslib:bleeding=#00810A0A, minecraft:trident=#0000FF9D}. 
-[12:33:39] [modloading-worker-0/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/config/palladium-client.toml is not correct. Correcting
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key abilityBarPosition was corrected from null to its default, BOTTOM_RIGHT. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key addonPackDevMode was corrected from null to its default, false. 
-[12:33:39] [modloading-worker-0/WARN]: Incorrect key accessoryButton was corrected from null to its default, true. 
-[12:33:39] [Forge Version Check/INFO]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
-[12:33:39] [Worker-Main-9/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[12:33:39] [Worker-Main-10/INFO]: Successfully generated documentation file: abilities.html
-[12:33:39] [Worker-Main-10/INFO]: Successfully generated documentation file: conditions.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: creative_mode_tabs.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: armor_materials.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: tool_tiers.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: blocks.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: items.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: icons.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: variables.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: accessories.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: accessory_slots.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: trails.html
-[12:33:40] [Worker-Main-10/INFO]: Successfully generated documentation file: energy_beam_renderers.html
-[12:33:40] [Render thread/INFO]: Initialized color sets in 12ms
-[12:33:40] [Forge Version Check/INFO]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.23 Target: 1.20-2.16.23-forge
-[12:33:40] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12:33:41] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 47.4.16 Target: null
-[12:33:41] [Forge Version Check/INFO]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
-[12:33:41] [Forge Version Check/INFO]: [palladium] Found status: UP_TO_DATE Current: 4.4.2 Target: null
-[12:33:42] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[12:33:42] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[12:33:42] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
-[12:33:42] [Render thread/INFO]: Sound engine started
-[12:33:43] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[12:33:43] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[12:33:43] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12:33:43] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
-[12:33:43] [Render thread/INFO]: Loaded 0 dynamic textures
-[12:33:43] [Render thread/INFO]: Loaded 1 armor renderers
-[12:33:43] [Render thread/INFO]: Loaded 0 particle emitters
-[12:33:43] [Render thread/INFO]: Loaded 0 energy beams
-[12:33:43] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[12:33:52] [Render thread/ERROR]: Couldn't load pack metadata
+[14:01:12] [Render thread/WARN]: Missing metadata in pack mod:minecraft
+[14:01:12] [Render thread/INFO]: Skipping mod:architectury as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:cubes_without_borders as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:dummmmmmy as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:forge as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:geckolib as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:jei as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:kubejs as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:kubejsoffline as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:mixinextras as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:mixinsquared as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:moonlight as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:palladium as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:palladiumcore as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:playeranimator as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:probejs as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Skipping mod:rhino as it's not been marked as an addonpack
+[14:01:12] [Render thread/ERROR]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[14:01:12] [Render thread/INFO]: Reloading ResourceManager: file/NexGEN26, architectury-9.2.14-forge.jar, cwb-forge-3.0.0+mc1.20.jar, dummmmmmy-1.20-2.0.9.jar, forge-1.20.1-47.4.16-universal.jar, geckolib-forge-1.20.1-4.8.2.jar, jei-1.20.1-forge-15.20.0.129.jar, kubejs-forge-2001.6.5-build.16.jar, kubejsoffline-5.2.0.27.jar, mixinextras-forge-0.4.1.jar, mixinsquared-forge-0.1.1.jar, moonlight-1.20-2.16.23-forge.jar, palladium-4.4.2+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, probejs-6.0.1-forge.jar, rhino-forge-2001.2.3-build.10.jar
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack creative_mode_tab
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack armor materials
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack tool tiers
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack block
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack item
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack suit_set
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack particle_type
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack point_of_interest_type
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack villager_profession
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack accessory slots
+[14:01:12] [Render thread/INFO]: Registered 0 addonpack accessories
+[14:01:12] [Render thread/INFO]: Finished addonpack initialisation!
+[14:01:12] [Render thread/INFO]: Initialized block sets in 6ms
+[14:01:14] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources, Moonlight Mods Dynamic Assets, addonpack:file/NexGEN26, KubeJS Resource Pack [assets]
+[14:01:14] [Worker-Main-4/INFO]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators from mods [moonlight]: [net.mehvahdjukaar.moonlight.core.MoonlightClient$MLDynamicClientResources@2f823de9]
+[14:01:14] [Worker-Main-4/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (moonlight)
+[14:01:14] [Render thread/INFO]: Client resource reload complete!
+[14:01:14] [Worker-Main-4/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 78 ms (multithreaded)
+[14:01:14] [Worker-Main-4/INFO]: Finished runtime resources generation for 1 packs in a total of 78 ms
+[14:01:14] [Forge Version Check/INFO]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: abilities.html
+[14:01:14] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: conditions.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: creative_mode_tabs.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: armor_materials.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: tool_tiers.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: blocks.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: items.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: icons.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: variables.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: accessories.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: accessory_slots.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: trails.html
+[14:01:14] [Worker-Main-1/INFO]: Successfully generated documentation file: energy_beam_renderers.html
+[14:01:14] [Render thread/INFO]: Initialized color sets in 8ms
+[14:01:16] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:01:16] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:01:18] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
+[14:01:18] [Render thread/INFO]: Sound engine started
+[14:01:18] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:01:18] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:01:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:01:18] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[14:01:18] [Render thread/INFO]: Loaded 0 dynamic textures
+[14:01:18] [Render thread/INFO]: Loaded 1 armor renderers
+[14:01:18] [Render thread/INFO]: Loaded 0 particle emitters
+[14:01:18] [Render thread/INFO]: Loaded 0 energy beams
+[14:01:18] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[14:01:19] [Forge Version Check/INFO]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.23 Target: 1.20-2.16.23-forge
+[14:01:19] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14:01:19] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 47.4.16 Target: null
+[14:01:19] [Forge Version Check/INFO]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
+[14:01:20] [Forge Version Check/INFO]: [palladium] Found status: UP_TO_DATE Current: 4.4.2 Target: null
+[14:01:27] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[14:01:27] [Render thread/INFO]: Found new data pack addonpack:file/NexGEN26, loading it automatically
+[14:01:27] [Render thread/ERROR]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -404,83 +340,15 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.server.WorldLoader$PackConfig.localvar$zfb000$injectKubeJSPacks(WorldLoader.java:515) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.WorldLoader$PackConfig.m_214399_(WorldLoader.java:80) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:28) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_232896_(CreateWorldScreen.java:125) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.m_233213_(WorldSelectionList.java:167) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList.<init>(WorldSelectionList.java:93) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.m_7856_(SelectWorldScreen.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.Screen.m_6575_(Screen.java:321) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.Minecraft.m_91152_(Minecraft.java:1007) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.TitleScreen.m_279796_(TitleScreen.java:159) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.TitleScreen.m_6375_(TitleScreen.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:92) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:188) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23136!/:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23148!/:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23136!/:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1173) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.4.16.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.16.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.16.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.16.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[12:33:52] [Render thread/WARN]: Missing metadata in pack mod:minecraft
-[12:33:53] [Render thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
-[12:33:53] [Render thread/INFO]: Loaded script server_scripts:example.js in 0.0 s
-[12:33:53] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
-[12:33:53] [Render thread/INFO]: Scripts loaded
-[12:33:53] [Render thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
-[12:33:53] [Render thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
-[12:33:54] [Render thread/INFO]: Loaded 0 loot table modifications
-[12:33:54] [Render thread/INFO]: Loaded 7 recipes
-[12:33:54] [Render thread/INFO]: Loaded 1356 advancements
-[12:33:54] [Render thread/INFO]: Loaded 0 powers
-[12:33:54] [Render thread/INFO]: Loaded 0 item powers
-[12:33:54] [Render thread/INFO]: Loaded 0 suit set powers
-[12:34:12] [Render thread/ERROR]: Couldn't load pack metadata
-com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
-	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.4.2+1.20.1-forge.jar%23170!/:4.4.2+1.20.1]
-	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zgo000$loadFromDirectory(ScriptManager.java:1037) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
-	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
-	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
-	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
-	at net.minecraft.server.WorldLoader$PackConfig.localvar$zfb000$injectKubeJSPacks(WorldLoader.java:515) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.WorldLoader$PackConfig.m_214399_(WorldLoader.java:80) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_245064_(WorldOpenFlows.java:107) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_245184_(CreateWorldScreen.java:226) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_244678_(CreateWorldScreen.java:213) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_269260_(WorldOpenFlows.java:290) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:212) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_232937_(CreateWorldScreen.java:174) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_246486_(WorldOpenFlows.java:162) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233122_(WorldOpenFlows.java:113) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233145_(WorldOpenFlows.java:169) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233133_(WorldOpenFlows.java:65) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:575) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:474) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.m_232979_(SelectWorldScreen.java:59) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -513,85 +381,105 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[12:34:12] [Render thread/WARN]: Missing metadata in pack mod:minecraft
-[12:34:12] [Render thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
-[12:34:12] [Render thread/INFO]: Loaded script server_scripts:example.js in 0.003 s
-[12:34:12] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.026 s with 0 errors and 0 warnings
-[12:34:12] [Render thread/INFO]: Scripts loaded
-[12:34:12] [Render thread/WARN]: Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
-[12:34:12] [Render thread/WARN]: You can still see the full log (including past reloads) in your latest.log file.
-[12:34:12] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
-[12:34:12] [Server thread/INFO]: Generating keypair
-[12:34:12] [Server thread/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/saves/Test 1_3/serverconfig/jei-server.toml is not correct. Correcting
-[12:34:12] [Server thread/WARN]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:34:12] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[12:34:12] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[12:34:12] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[12:34:12] [Server thread/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/saves/Test 1_3/serverconfig/forge-server.toml is not correct. Correcting
-[12:34:12] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[12:34:12] [Server thread/WARN]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[12:34:12] [Server thread/WARN]: Configuration file /Users/Isaiah/Documents/curseforge/minecraft/Instances/HeroX Supers/saves/Test 1_3/serverconfig/palladium-server.toml is not correct. Correcting
-[12:34:12] [Server thread/WARN]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:34:12] [Server thread/WARN]: Incorrect key worldGen.redstoneFluxCrystalGeneration was corrected from null to its default, true. 
-[12:34:12] [Server thread/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12:34:12] [Server thread/WARN]: Incorrect key general.disabledAbilities was corrected from null to its default, []. 
-[12:34:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:34:17] [Server thread/INFO]: Server resource reload complete!
-[12:34:17] [Render thread/INFO]: Preparing spawn area: 0%
-[12:34:17] [Render thread/INFO]: Preparing spawn area: 0%
-[12:34:18] [Render thread/INFO]: Preparing spawn area: 0%
-[12:34:18] [Render thread/INFO]: Preparing spawn area: 0%
-[12:34:19] [Render thread/INFO]: Preparing spawn area: 0%
-[12:34:19] [Render thread/INFO]: Preparing spawn area: 1%
-[12:34:20] [Render thread/INFO]: Preparing spawn area: 2%
-[12:34:20] [Render thread/INFO]: Preparing spawn area: 3%
-[12:34:21] [Render thread/INFO]: Preparing spawn area: 4%
-[12:34:21] [Render thread/INFO]: Preparing spawn area: 5%
-[12:34:22] [Render thread/INFO]: Preparing spawn area: 9%
-[12:34:22] [Render thread/INFO]: Preparing spawn area: 10%
-[12:34:23] [Render thread/INFO]: Preparing spawn area: 12%
-[12:34:23] [Render thread/INFO]: Preparing spawn area: 15%
-[12:34:24] [Render thread/INFO]: Preparing spawn area: 17%
-[12:34:24] [Render thread/INFO]: Preparing spawn area: 19%
-[12:34:25] [Render thread/INFO]: Preparing spawn area: 22%
-[12:34:25] [Render thread/INFO]: Preparing spawn area: 24%
-[12:34:26] [Render thread/INFO]: Preparing spawn area: 26%
-[12:34:26] [Render thread/INFO]: Preparing spawn area: 31%
-[12:34:27] [Render thread/INFO]: Preparing spawn area: 33%
-[12:34:27] [Render thread/INFO]: Preparing spawn area: 35%
-[12:34:28] [Render thread/INFO]: Preparing spawn area: 39%
-[12:34:28] [Render thread/INFO]: Preparing spawn area: 43%
-[12:34:29] [Render thread/INFO]: Preparing spawn area: 45%
-[12:34:29] [Render thread/INFO]: Preparing spawn area: 50%
-[12:34:30] [Render thread/INFO]: Preparing spawn area: 52%
-[12:34:30] [Render thread/INFO]: Preparing spawn area: 55%
-[12:34:31] [Render thread/INFO]: Preparing spawn area: 59%
-[12:34:31] [Render thread/INFO]: Preparing spawn area: 62%
-[12:34:32] [Render thread/INFO]: Preparing spawn area: 67%
-[12:34:32] [Render thread/INFO]: Preparing spawn area: 69%
-[12:34:33] [Render thread/INFO]: Preparing spawn area: 72%
-[12:34:33] [Render thread/INFO]: Preparing spawn area: 78%
-[12:34:34] [Render thread/INFO]: Preparing spawn area: 83%
-[12:34:34] [Render thread/INFO]: Preparing spawn area: 86%
-[12:34:35] [Render thread/INFO]: Preparing spawn area: 89%
-[12:34:35] [Render thread/INFO]: Preparing spawn area: 94%
-[12:34:36] [Render thread/INFO]: Preparing spawn area: 99%
-[12:34:36] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[12:34:36] [Render thread/INFO]: Time elapsed: 19023 ms
-[12:34:36] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:34:36] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[12:34:36] [Render thread/WARN]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[12:34:36] [Netty Local Client IO #0/INFO]: Connected to a modded server.
-[12:34:36] [Server thread/INFO]: Z3EKnCleve[local:E:737f2888] logged in with entity id 38 at (-6.5, 187.0, -7.5)
-[12:34:36] [Server thread/INFO]: Z3EKnCleve joined the game
-[12:34:37] [Server thread/ERROR]: Couldn't load pack metadata
+[14:01:27] [Render thread/WARN]: Missing metadata in pack mod:minecraft
+[14:01:27] [Render thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
+[14:01:27] [Render thread/INFO]: Loaded script server_scripts:example.js in 0.001 s
+[14:01:27] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.014 s with 0 errors and 0 warnings
+[14:01:27] [Render thread/INFO]: Scripts loaded
+[14:01:27] [Render thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
+[14:01:27] [Render thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
+[14:01:28] [Render thread/INFO]: Loaded 0 loot table modifications
+[14:01:28] [Render thread/INFO]: Loaded 7 recipes
+[14:01:28] [Render thread/INFO]: Loaded 1356 advancements
+[14:01:28] [Render thread/INFO]: Loaded 1 powers
+[14:01:28] [Render thread/INFO]: Loaded 0 item powers
+[14:01:28] [Render thread/INFO]: Loaded 0 suit set powers
+[14:01:28] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[14:01:28] [Server thread/INFO]: Generating keypair
+[14:01:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:01:30] [Server thread/INFO]: Server resource reload complete!
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:33] [Render thread/INFO]: Preparing spawn area: 0%
+[14:01:34] [Render thread/INFO]: Preparing spawn area: 45%
+[14:01:34] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[14:01:34] [Render thread/INFO]: Time elapsed: 4307 ms
+[14:01:34] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:01:34] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[14:01:34] [Render thread/WARN]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[14:01:35] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[14:01:35] [Server thread/INFO]: Z3EKnCleve[local:E:0a97a376] logged in with entity id 64 at (71.39857598295235, 72.0, 167.37896470519095)
+[14:01:35] [Server thread/INFO]: Z3EKnCleve joined the game
+[14:01:35] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[14:01:35] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[14:01:35] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[14:01:35] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:01:35] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[14:01:35] [Render thread/INFO]: Starting JEI...
+[14:01:35] [Render thread/INFO]: Registering item subtypes...
+[14:01:35] [Render thread/INFO]: Registering item subtypes took 3.153 ms
+[14:01:35] [Render thread/INFO]: Registering fluid subtypes...
+[14:01:35] [Render thread/INFO]: Registering fluid subtypes took 980.3 μs
+[14:01:35] [Render thread/INFO]: Registering ingredients...
+[14:01:35] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[14:01:35] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[14:01:35] [Render thread/INFO]: Registering ingredients: jei:minecraft took 118.1 milliseconds
+[14:01:35] [Render thread/INFO]: Registering ingredients took 118.6 ms
+[14:01:35] [Render thread/INFO]: Registering extra ingredients...
+[14:01:35] [Render thread/INFO]: Registering extra ingredients took 201.9 μs
+[14:01:35] [Render thread/INFO]: Registering search ingredient aliases...
+[14:01:35] [Render thread/INFO]: Registering search ingredient aliases took 309.2 μs
+[14:01:35] [Render thread/INFO]: Registering categories...
+[14:01:35] [Render thread/INFO]: Registering categories took 8.109 ms
+[14:01:35] [Render thread/INFO]: Registering vanilla category extensions...
+[14:01:35] [Render thread/INFO]: Registering vanilla category extensions took 1.362 ms
+[14:01:35] [Render thread/INFO]: Registering recipe catalysts...
+[14:01:35] [Render thread/INFO]: Registering recipe catalysts took 423.0 μs
+[14:01:35] [Render thread/INFO]: Building recipe registry...
+[14:01:35] [Render thread/INFO]: Building recipe registry took 5.116 ms
+[14:01:35] [Render thread/INFO]: Registering advanced plugins...
+[14:01:35] [Render thread/INFO]: Registering advanced plugins took 144.7 μs
+[14:01:35] [Render thread/INFO]: Registering recipes...
+[14:01:36] [Render thread/INFO]: Registering recipes: jei:minecraft took 172.0 milliseconds
+[14:01:36] [Render thread/INFO]: Registering recipes took 172.5 ms
+[14:01:36] [Render thread/INFO]: Registering recipes transfer handlers...
+[14:01:36] [Render thread/INFO]: Registering recipes transfer handlers took 1.789 ms
+[14:01:36] [Render thread/INFO]: Building runtime...
+[14:01:36] [Render thread/INFO]: Registering gui handlers...
+[14:01:36] [Render thread/INFO]: Registering gui handlers took 3.430 ms
+[14:01:36] [Render thread/INFO]: Registering Runtime...
+[14:01:36] [Render thread/INFO]: Starting JEI GUI
+[14:01:36] [Render thread/INFO]: Building ingredient list...
+[14:01:36] [Render thread/INFO]: Building ingredient list took 30.69 ms
+[14:01:36] [Render thread/INFO]: Building ingredient filter...
+[14:01:36] [Render thread/INFO]: Adding 1611 ingredients
+[14:01:36] [Render thread/INFO]: Added 1611 ingredients
+[14:01:36] [Render thread/INFO]: Building ingredient filter took 154.7 ms
+[14:01:36] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 233.0 milliseconds
+[14:01:36] [Render thread/INFO]: Registering Runtime took 233.5 ms
+[14:01:36] [Render thread/INFO]: Building runtime took 240.3 ms
+[14:01:36] [Render thread/INFO]: Sending Runtime...
+[14:01:36] [Render thread/INFO]: Sending Runtime took 165.7 μs
+[14:01:36] [Render thread/INFO]: Starting JEI took 584.2 ms
+[14:01:36] [Render thread/INFO]: Loaded 3 advancements
+[14:03:08] [Server thread/INFO]: [Z3EKnCleve: Z3EKnCleve has gained the superpower Electric Metahuman]
+[14:03:08] [Render thread/INFO]: [System] [CHAT] Z3EKnCleve has gained the superpower Electric Metahuman
+[14:03:17] [Server thread/INFO]: Saving and pausing game...
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:04:15] [Server thread/INFO]: Saving and pausing game...
+[14:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:09:15] [Server thread/INFO]: [Z3EKnCleve: Reloading!]
+[14:09:15] [Render thread/INFO]: [System] [CHAT] Reloading!
+[14:09:15] [Server thread/ERROR]: Couldn't load pack metadata
 com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
@@ -609,219 +497,402 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
 	at net.minecraft.server.MinecraftServer.localvar$zfa000$wrapResourceManager(MinecraftServer.java:2836) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.MinecraftServer.lambda$reloadResources$25(MinecraftServer.java:1322) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187) ~[?:?]
-	at java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2309) ~[?:?]
-	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1321) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%23108!/:?]
 	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at dev.latvian.mods.kubejs.core.MinecraftServerKJS.kjs$runCommandSilent(MinecraftServerKJS.java:64) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
-	at com.probejs.ProbeCommands.triggerDump(ProbeCommands.java:97) ~[probejs-6.0.1-forge.jar%23171!/:?]
-	at com.probejs.ProbeJSEvents.playerJoined(ProbeJSEvents.java:90) ~[probejs-6.0.1-forge.jar%23171!/:?]
-	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732) ~[?:?]
-	at dev.architectury.event.EventFactory.invokeMethod(EventFactory.java:53) ~[architectury-9.2.14-forge.jar%23162!/:?]
-	at dev.architectury.event.EventFactory$1.handleInvocation(EventFactory.java:62) ~[architectury-9.2.14-forge.jar%23162!/:?]
-	at com.google.common.reflect.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:87) ~[guava-31.1-jre.jar%23104!/:?]
-	at jdk.proxy3.$Proxy94.join(Unknown Source) ~[?:?]
-	at dev.architectury.event.forge.EventHandlerImplCommon.event(EventHandlerImplCommon.java:115) ~[architectury-9.2.14-forge.jar%23162!/:?]
-	at dev.architectury.event.forge.__EventHandlerImplCommon_event_PlayerLoggedInEvent.invoke(.dynamic) ~[architectury-9.2.14-forge.jar%23162!/:?]
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:55) ~[eventbus-6.2.33.jar%2381!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:312) ~[eventbus-6.2.33.jar%2381!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.2.33.jar%2381!/:?]
-	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:900) ~[forge-1.20.1-47.4.16-universal.jar%23178!/:?]
-	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:261) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:126) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:70) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1250) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1227) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[12:34:37] [Server thread/WARN]: Missing metadata in pack mod:minecraft
-[12:34:37] [Server thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
-[12:34:37] [Server thread/INFO]: Loaded script server_scripts:example.js in 0.001 s
-[12:34:37] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
-[12:34:37] [Server thread/INFO]: Scripts loaded
-[12:34:37] [Server thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
-[12:34:37] [Server thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
-[12:34:37] [Server thread/INFO]: Loaded 0 loot table modifications
-[12:34:37] [Server thread/INFO]: Loaded 7 recipes
-[12:34:37] [Server thread/INFO]: Loaded 1356 advancements
-[12:34:37] [Server thread/INFO]: Loaded 0 powers
-[12:34:37] [Server thread/INFO]: Loaded 0 item powers
-[12:34:37] [Server thread/INFO]: Loaded 0 suit set powers
-[12:34:37] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[12:34:37] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[12:34:37] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[12:34:37] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[12:34:37] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[12:34:37] [Render thread/INFO]: Starting JEI...
-[12:34:37] [Render thread/INFO]: Registering item subtypes...
-[12:34:37] [Render thread/INFO]: Registering item subtypes took 3.072 ms
-[12:34:37] [Render thread/INFO]: Registering fluid subtypes...
-[12:34:37] [Render thread/INFO]: Registering fluid subtypes took 1.117 ms
-[12:34:37] [Render thread/INFO]: Registering ingredients...
-[12:34:37] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
-[12:34:37] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
-[12:34:37] [Render thread/INFO]: Registering ingredients: jei:minecraft took 77.16 milliseconds
-[12:34:37] [Render thread/INFO]: Registering ingredients took 78.21 ms
-[12:34:37] [Render thread/INFO]: Registering extra ingredients...
-[12:34:37] [Render thread/INFO]: Registering extra ingredients took 234.4 μs
-[12:34:37] [Render thread/INFO]: Registering search ingredient aliases...
-[12:34:37] [Render thread/INFO]: Registering search ingredient aliases took 1.775 ms
-[12:34:37] [Render thread/INFO]: Registering categories...
-[12:34:37] [Render thread/INFO]: Registering categories: jei:minecraft took 11.60 milliseconds
-[12:34:37] [Render thread/INFO]: Registering categories took 18.53 ms
-[12:34:37] [Render thread/INFO]: Registering vanilla category extensions...
-[12:34:37] [Render thread/INFO]: Registering vanilla category extensions took 2.142 ms
-[12:34:37] [Render thread/INFO]: Registering recipe catalysts...
-[12:34:37] [Render thread/INFO]: Registering recipe catalysts took 464.2 μs
-[12:34:37] [Render thread/INFO]: Building recipe registry...
-[12:34:37] [Render thread/INFO]: Building recipe registry took 8.456 ms
-[12:34:37] [Render thread/INFO]: Registering advanced plugins...
-[12:34:37] [Render thread/INFO]: Registering advanced plugins took 176.3 μs
-[12:34:37] [Render thread/INFO]: Registering recipes...
-[12:34:37] [Server thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[12:34:37] [Server thread/INFO]: Reloaded with no KubeJS errors!
-[12:34:37] [Server thread/INFO]: Server resource reload complete!
-[12:34:37] [Render thread/INFO]: Registering recipes: jei:minecraft took 173.7 milliseconds
-[12:34:37] [Render thread/INFO]: Registering recipes took 175.9 ms
-[12:34:37] [Render thread/INFO]: Registering recipes transfer handlers...
-[12:34:37] [Render thread/INFO]: Registering recipes transfer handlers took 1.860 ms
-[12:34:37] [Render thread/INFO]: Building runtime...
-[12:34:37] [Render thread/INFO]: Registering gui handlers...
-[12:34:37] [Render thread/INFO]: Registering gui handlers: jei:gui took 51.13 milliseconds
-[12:34:37] [Render thread/INFO]: Registering gui handlers took 53.18 ms
-[12:34:37] [Render thread/INFO]: Registering Runtime...
-[12:34:37] [Render thread/INFO]: Starting JEI GUI
-[12:34:37] [Render thread/INFO]: Building ingredient list...
-[12:34:38] [Render thread/INFO]: Building ingredient list took 26.74 ms
-[12:34:38] [Render thread/INFO]: Building ingredient filter...
-[12:34:38] [Render thread/INFO]: Adding 1611 ingredients
-[12:34:38] [Render thread/INFO]: Added 1611 ingredients
-[12:34:38] [Render thread/INFO]: Building ingredient filter took 137.0 ms
-[12:34:38] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 211.6 milliseconds
-[12:34:38] [Render thread/INFO]: Registering Runtime took 212.2 ms
-[12:34:38] [Render thread/INFO]: Building runtime took 269.1 ms
-[12:34:38] [Render thread/INFO]: Sending Runtime...
-[12:34:38] [Render thread/INFO]: Sending Runtime took 200.9 μs
-[12:34:38] [Render thread/INFO]: Starting JEI took 602.2 ms
-[12:34:38] [Render thread/INFO]: [System] [CHAT] Mod list has changed, dumping new docs...
-[12:34:38] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[12:34:38] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[12:34:38] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[12:34:38] [Render thread/INFO]: Stopping JEI
-[12:34:38] [Render thread/INFO]: Sending Runtime Unavailable...
-[12:34:38] [Render thread/INFO]: Stopping JEI GUI
-[12:34:38] [Render thread/INFO]: Sending Runtime Unavailable took 2.092 ms
-[12:34:38] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[12:34:38] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[12:34:38] [Render thread/INFO]: Starting JEI...
-[12:34:38] [Render thread/INFO]: Registering item subtypes...
-[12:34:38] [Render thread/INFO]: Registering item subtypes took 240.9 μs
-[12:34:38] [Render thread/INFO]: Registering fluid subtypes...
-[12:34:38] [Render thread/INFO]: Registering fluid subtypes took 218.0 μs
-[12:34:38] [Render thread/INFO]: Registering ingredients...
-[12:34:38] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
-[12:34:38] [Render thread/INFO]: Registering ingredients: jei:minecraft took 13.86 milliseconds
-[12:34:38] [Render thread/INFO]: Registering ingredients took 14.31 ms
-[12:34:38] [Render thread/INFO]: Registering extra ingredients...
-[12:34:38] [Render thread/INFO]: Registering extra ingredients took 1.747 ms
-[12:34:38] [Render thread/INFO]: Registering search ingredient aliases...
-[12:34:38] [Render thread/INFO]: Registering search ingredient aliases took 2.824 ms
-[12:34:38] [Render thread/INFO]: Registering categories...
-[12:34:38] [Render thread/INFO]: Registering categories took 30.61 ms
-[12:34:38] [Render thread/INFO]: Registering vanilla category extensions...
-[12:34:38] [Render thread/INFO]: Registering vanilla category extensions took 3.126 ms
-[12:34:38] [Render thread/INFO]: Registering recipe catalysts...
-[12:34:38] [Render thread/INFO]: Registering recipe catalysts took 3.326 ms
-[12:34:38] [Render thread/INFO]: Building recipe registry...
-[12:34:38] [Render thread/INFO]: Building recipe registry took 289.6 μs
-[12:34:38] [Render thread/INFO]: Registering advanced plugins...
-[12:34:38] [Render thread/INFO]: Registering advanced plugins took 184.1 μs
-[12:34:38] [Render thread/INFO]: Registering recipes...
-[12:34:38] [Thread-13/ERROR]: Failed to load events from Forge
-java.lang.ClassCastException: class net.minecraftforge.eventbus.internal.CacheConcurrent cannot be cast to class net.minecraftforge.eventbus.LockHelper (net.minecraftforge.eventbus.internal.CacheConcurrent and net.minecraftforge.eventbus.LockHelper are in module net.minecraftforge.eventbus of loader 'MC-BOOTSTRAP' @123f1134)
-	at com.probejs.util.forge.PlatformSpecialImpl.preCompile(PlatformSpecialImpl.java:80) ~[probejs-6.0.1-forge.jar%23171!/:?]
-	at com.probejs.docs.DocCompiler.compile(DocCompiler.java:333) ~[probejs-6.0.1-forge.jar%23171!/:?]
-	at com.probejs.ProbeCommands.lambda$triggerDump$4(ProbeCommands.java:122) ~[probejs-6.0.1-forge.jar%23171!/:?]
+[14:09:15] [Server thread/WARN]: Missing metadata in pack mod:minecraft
+[14:09:15] [Server thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
+[14:09:15] [Server thread/INFO]: Loaded script server_scripts:example.js in 0.001 s
+[14:09:15] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[14:09:15] [Server thread/INFO]: Scripts loaded
+[14:09:15] [Server thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
+[14:09:15] [Server thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
+[14:09:15] [Server thread/INFO]: Loaded 0 loot table modifications
+[14:09:15] [Server thread/INFO]: Loaded 7 recipes
+[14:09:15] [Server thread/INFO]: Loaded 1356 advancements
+[14:09:15] [Server thread/INFO]: Loaded 1 powers
+[14:09:15] [Server thread/INFO]: Loaded 0 item powers
+[14:09:15] [Server thread/INFO]: Loaded 0 suit set powers
+[14:09:15] [Server thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:09:15] [Server thread/INFO]: Reloaded with no KubeJS errors!
+[14:09:15] [Server thread/INFO]: Server resource reload complete!
+[14:09:15] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:09:15] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[14:09:15] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[14:09:15] [Render thread/INFO]: Stopping JEI
+[14:09:15] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:09:15] [Render thread/INFO]: Stopping JEI GUI
+[14:09:15] [Render thread/INFO]: Sending Runtime Unavailable took 1.499 ms
+[14:09:15] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[14:09:15] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[14:09:15] [Render thread/INFO]: Starting JEI...
+[14:09:15] [Render thread/INFO]: Registering item subtypes...
+[14:09:15] [Render thread/INFO]: Registering item subtypes took 203.9 μs
+[14:09:15] [Render thread/INFO]: Registering fluid subtypes...
+[14:09:15] [Render thread/INFO]: Registering fluid subtypes took 180.8 μs
+[14:09:15] [Render thread/INFO]: Registering ingredients...
+[14:09:15] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[14:09:15] [Render thread/INFO]: Registering ingredients took 9.088 ms
+[14:09:15] [Render thread/INFO]: Registering extra ingredients...
+[14:09:15] [Render thread/INFO]: Registering extra ingredients took 116.8 μs
+[14:09:15] [Render thread/INFO]: Registering search ingredient aliases...
+[14:09:15] [Render thread/INFO]: Registering search ingredient aliases took 306.4 μs
+[14:09:15] [Render thread/INFO]: Registering categories...
+[14:09:15] [Render thread/INFO]: Registering categories took 372.6 μs
+[14:09:15] [Render thread/INFO]: Registering vanilla category extensions...
+[14:09:15] [Render thread/INFO]: Registering vanilla category extensions took 140.1 μs
+[14:09:15] [Render thread/INFO]: Registering recipe catalysts...
+[14:09:15] [Render thread/INFO]: Registering recipe catalysts took 164.8 μs
+[14:09:15] [Render thread/INFO]: Building recipe registry...
+[14:09:15] [Render thread/INFO]: Building recipe registry took 360.3 μs
+[14:09:15] [Render thread/INFO]: Registering advanced plugins...
+[14:09:15] [Render thread/INFO]: Registering advanced plugins took 119.9 μs
+[14:09:15] [Render thread/INFO]: Registering recipes...
+[14:09:16] [Render thread/INFO]: Registering recipes: jei:minecraft took 84.98 milliseconds
+[14:09:16] [Render thread/INFO]: Registering recipes took 85.47 ms
+[14:09:16] [Render thread/INFO]: Registering recipes transfer handlers...
+[14:09:16] [Render thread/INFO]: Registering recipes transfer handlers took 204.9 μs
+[14:09:16] [Render thread/INFO]: Building runtime...
+[14:09:16] [Render thread/INFO]: Registering gui handlers...
+[14:09:16] [Render thread/INFO]: Registering gui handlers took 140.6 μs
+[14:09:16] [Render thread/INFO]: Registering Runtime...
+[14:09:16] [Render thread/INFO]: Starting JEI GUI
+[14:09:16] [Render thread/INFO]: Building ingredient list...
+[14:09:16] [Render thread/INFO]: Building ingredient list took 8.875 ms
+[14:09:16] [Render thread/INFO]: Building ingredient filter...
+[14:09:16] [Render thread/INFO]: Adding 1640 ingredients
+[14:09:16] [Render thread/INFO]: Added 1640 ingredients
+[14:09:16] [Render thread/INFO]: Building ingredient filter took 57.62 ms
+[14:09:16] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 69.53 milliseconds
+[14:09:16] [Render thread/INFO]: Registering Runtime took 69.76 ms
+[14:09:16] [Render thread/INFO]: Building runtime took 70.17 ms
+[14:09:16] [Render thread/INFO]: Sending Runtime...
+[14:09:16] [Render thread/INFO]: Sending Runtime took 154.2 μs
+[14:09:16] [Render thread/INFO]: Starting JEI took 170.1 ms
+[14:09:16] [Render thread/INFO]: Loaded 3 advancements
+[14:09:16] [Render thread/INFO]: [System] [CHAT] Reloaded with no KubeJS errors!
+[14:09:30] [Server thread/INFO]: Saving and pausing game...
+[14:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:14:42] [Server thread/INFO]: [Z3EKnCleve: Reloading!]
+[14:14:42] [Render thread/INFO]: [System] [CHAT] Reloading!
+[14:14:42] [Server thread/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.4.2+1.20.1-forge.jar%23170!/:4.4.2+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zgo000$loadFromDirectory(ScriptManager.java:1037) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at net.minecraft.server.MinecraftServer.localvar$zfa000$wrapResourceManager(MinecraftServer.java:2836) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$reloadResources$25(MinecraftServer.java:1322) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%23108!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1250) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1227) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[12:34:38] [Render thread/INFO]: Registering recipes: jei:minecraft took 102.6 milliseconds
-[12:34:38] [Render thread/INFO]: Registering recipes took 103.1 ms
-[12:34:38] [Render thread/INFO]: Registering recipes transfer handlers...
-[12:34:38] [Render thread/INFO]: Registering recipes transfer handlers took 352.0 μs
-[12:34:38] [Render thread/INFO]: Building runtime...
-[12:34:38] [Render thread/INFO]: Registering gui handlers...
-[12:34:38] [Render thread/INFO]: Registering gui handlers took 249.5 μs
-[12:34:38] [Render thread/INFO]: Registering Runtime...
-[12:34:38] [Render thread/INFO]: Starting JEI GUI
-[12:34:38] [Render thread/INFO]: Building ingredient list...
-[12:34:38] [Render thread/INFO]: Building ingredient list took 15.97 ms
-[12:34:38] [Render thread/INFO]: Building ingredient filter...
-[12:34:38] [Render thread/INFO]: Adding 1640 ingredients
-[12:34:38] [Render thread/INFO]: Added 1640 ingredients
-[12:34:38] [Render thread/INFO]: Building ingredient filter took 108.5 ms
-[12:34:38] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 127.7 milliseconds
-[12:34:38] [Render thread/INFO]: Registering Runtime took 128.0 ms
-[12:34:38] [Render thread/INFO]: Building runtime took 128.5 ms
-[12:34:38] [Render thread/INFO]: Sending Runtime...
-[12:34:38] [Render thread/INFO]: Sending Runtime took 170.0 μs
-[12:34:38] [Render thread/INFO]: Starting JEI took 292.9 ms
-[12:34:38] [Render thread/INFO]: [System] [CHAT] Reloaded with no KubeJS errors!
-[12:34:38] [Render thread/INFO]: [System] [CHAT] This is the first time you are running ProbeJS. An automatic dump will be triggered.
-[12:34:38] [Render thread/INFO]: [System] [CHAT] ProbeJS now supports downloading of recipe schema scripts. These scripts are for adding recipe support for mods that don't have recipe support yet.
-[12:34:38] [Render thread/INFO]: [System] [CHAT] To configure ProbeJS, open this file.
-[12:34:38] [Render thread/INFO]: [System] [CHAT] Started generating type files... [0.001s]
-[12:34:38] [Render thread/INFO]: [System] [CHAT] Snippets generated. [0.549s]
-[12:34:38] [Render thread/INFO]: [System] [CHAT] KubeJS plugins reloaded. [0.565s]
-[12:34:39] [Render thread/INFO]: Loaded 3 advancements
-[12:34:47] [Render thread/INFO]: [System] [CHAT] Classes fetched. [9.410s]
-[12:34:51] [Thread-13/INFO]: Checking docs timestamps...
-[12:34:51] [Render thread/INFO]: [System] [CHAT] Started downloading and merging docs... [13.435s]
-[12:34:52] [Thread-13/INFO]: Found timestamp mismatch (local=0, remote=1720270423220), downloading docs from remote.
-[12:34:52] [Thread-13/INFO]: Downloaded doc: dynamicjs.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: events.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: kubejs.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: kubejs_recipes.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: morejs.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: probe.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: registry.json
-[12:34:52] [Thread-13/INFO]: Downloaded doc: types.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: registry.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: events.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: types.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: morejs.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: kubejs.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: kubejs_recipes.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: probe.json
-[12:34:52] [Thread-13/INFO]: Loaded fetched doc: dynamicjs.json
-[12:34:53] [Render thread/INFO]: [System] [CHAT] Docs merged. Started compiling... [15.015s]
-[12:35:03] [Render thread/INFO]: [System] [CHAT] ProbeJS typing generation finished. [25.455s]
-[12:36:34] [Render thread/INFO]: [System] [CHAT] Unknown or incomplete command, see below for error
-[12:36:34] [Render thread/INFO]: [System] [CHAT] su<--[HERE]
-[12:36:50] [Render thread/INFO]: Stopping!
-[12:36:50] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[12:36:50] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[12:36:50] [Render thread/INFO]: Stopping JEI
-[12:36:50] [Render thread/INFO]: Sending Runtime Unavailable...
-[12:36:50] [Render thread/INFO]: Stopping JEI GUI
-[12:36:50] [Render thread/INFO]: Sending Runtime Unavailable took 1.935 ms
-[12:36:50] [Server thread/INFO]: Z3EKnCleve lost connection: Disconnected
-[12:36:50] [Server thread/INFO]: Z3EKnCleve left the game
-[12:36:50] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[12:36:50] [Server thread/INFO]: Stopping server
-[12:36:50] [Server thread/INFO]: Saving players
-[12:36:50] [Server thread/INFO]: Saving worlds
-[12:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
-[12:36:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
-[12:36:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
-[12:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test 1_3): All chunks are saved
-[12:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:14:42] [Server thread/WARN]: Missing metadata in pack mod:minecraft
+[14:14:42] [Server thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
+[14:14:42] [Server thread/INFO]: Loaded script server_scripts:example.js in 0.001 s
+[14:14:42] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.015 s with 0 errors and 0 warnings
+[14:14:42] [Server thread/INFO]: Scripts loaded
+[14:14:42] [Server thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
+[14:14:42] [Server thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
+[14:14:42] [Server thread/INFO]: Loaded 0 loot table modifications
+[14:14:42] [Server thread/INFO]: Loaded 7 recipes
+[14:14:42] [Server thread/INFO]: Loaded 1356 advancements
+[14:14:42] [Server thread/INFO]: Loaded 1 powers
+[14:14:42] [Server thread/INFO]: Loaded 0 item powers
+[14:14:42] [Server thread/INFO]: Loaded 0 suit set powers
+[14:14:43] [Server thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:14:43] [Server thread/INFO]: Reloaded with no KubeJS errors!
+[14:14:43] [Server thread/INFO]: Server resource reload complete!
+[14:14:43] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:14:43] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[14:14:43] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[14:14:43] [Render thread/INFO]: Stopping JEI
+[14:14:43] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:14:43] [Render thread/INFO]: Stopping JEI GUI
+[14:14:43] [Render thread/INFO]: Sending Runtime Unavailable took 1.245 ms
+[14:14:43] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[14:14:43] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[14:14:43] [Render thread/INFO]: Starting JEI...
+[14:14:43] [Render thread/INFO]: Registering item subtypes...
+[14:14:43] [Render thread/INFO]: Registering item subtypes took 159.0 μs
+[14:14:43] [Render thread/INFO]: Registering fluid subtypes...
+[14:14:43] [Render thread/INFO]: Registering fluid subtypes took 132.9 μs
+[14:14:43] [Render thread/INFO]: Registering ingredients...
+[14:14:43] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[14:14:43] [Render thread/INFO]: Registering ingredients took 5.524 ms
+[14:14:43] [Render thread/INFO]: Registering extra ingredients...
+[14:14:43] [Render thread/INFO]: Registering extra ingredients took 117.5 μs
+[14:14:43] [Render thread/INFO]: Registering search ingredient aliases...
+[14:14:43] [Render thread/INFO]: Registering search ingredient aliases took 214.5 μs
+[14:14:43] [Render thread/INFO]: Registering categories...
+[14:14:43] [Render thread/INFO]: Registering categories took 313.9 μs
+[14:14:43] [Render thread/INFO]: Registering vanilla category extensions...
+[14:14:43] [Render thread/INFO]: Registering vanilla category extensions took 220.5 μs
+[14:14:43] [Render thread/INFO]: Registering recipe catalysts...
+[14:14:43] [Render thread/INFO]: Registering recipe catalysts took 150.8 μs
+[14:14:43] [Render thread/INFO]: Building recipe registry...
+[14:14:43] [Render thread/INFO]: Building recipe registry took 1.629 ms
+[14:14:43] [Render thread/INFO]: Registering advanced plugins...
+[14:14:43] [Render thread/INFO]: Registering advanced plugins took 150.0 μs
+[14:14:43] [Render thread/INFO]: Registering recipes...
+[14:14:43] [Render thread/INFO]: Registering recipes: jei:minecraft took 45.55 milliseconds
+[14:14:43] [Render thread/INFO]: Registering recipes took 45.97 ms
+[14:14:43] [Render thread/INFO]: Registering recipes transfer handlers...
+[14:14:43] [Render thread/INFO]: Registering recipes transfer handlers took 198.5 μs
+[14:14:43] [Render thread/INFO]: Building runtime...
+[14:14:43] [Render thread/INFO]: Registering gui handlers...
+[14:14:43] [Render thread/INFO]: Registering gui handlers took 141.5 μs
+[14:14:43] [Render thread/INFO]: Registering Runtime...
+[14:14:43] [Render thread/INFO]: Starting JEI GUI
+[14:14:43] [Render thread/INFO]: Building ingredient list...
+[14:14:43] [Render thread/INFO]: Building ingredient list took 7.141 ms
+[14:14:43] [Render thread/INFO]: Building ingredient filter...
+[14:14:43] [Render thread/INFO]: Adding 1640 ingredients
+[14:14:43] [Render thread/INFO]: Added 1640 ingredients
+[14:14:43] [Render thread/INFO]: Building ingredient filter took 69.46 ms
+[14:14:43] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 79.34 milliseconds
+[14:14:43] [Render thread/INFO]: Registering Runtime took 79.59 ms
+[14:14:43] [Render thread/INFO]: Building runtime took 79.98 ms
+[14:14:43] [Render thread/INFO]: Sending Runtime...
+[14:14:43] [Render thread/INFO]: Sending Runtime took 109.4 μs
+[14:14:43] [Render thread/INFO]: Starting JEI took 137.6 ms
+[14:14:43] [Render thread/INFO]: Loaded 3 advancements
+[14:14:43] [Render thread/INFO]: [System] [CHAT] Reloaded with no KubeJS errors!
+[14:14:51] [Server thread/INFO]: Saving and pausing game...
+[14:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:15:35] [Server thread/INFO]: Saving and pausing game...
+[14:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:15:59] [Server thread/INFO]: Saving and pausing game...
+[14:15:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:15:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:15:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:16:59] [Server thread/INFO]: [Z3EKnCleve: Reloading!]
+[14:16:59] [Render thread/INFO]: [System] [CHAT] Reloading!
+[14:16:59] [Server thread/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.4.2+1.20.1-forge.jar%23170!/:4.4.2+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zgo000$loadFromDirectory(ScriptManager.java:1037) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23167!/:2001.6.5-build.16]
+	at net.minecraft.server.MinecraftServer.localvar$zfa000$wrapResourceManager(MinecraftServer.java:2836) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$reloadResources$25(MinecraftServer.java:1322) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%23108!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1250) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1227) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23173!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[14:16:59] [Server thread/WARN]: Missing metadata in pack mod:minecraft
+[14:16:59] [Server thread/INFO]: example.js#5: Hello, World! (Loaded server scripts)
+[14:16:59] [Server thread/INFO]: Loaded script server_scripts:example.js in 0.001 s
+[14:16:59] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[14:16:59] [Server thread/INFO]: Scripts loaded
+[14:16:59] [Server thread/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [moonlight]: []
+[14:16:59] [Server thread/INFO]: Finished runtime resources generation for 1 packs in a total of 0 ms
+[14:16:59] [Server thread/INFO]: Loaded 0 loot table modifications
+[14:16:59] [Server thread/INFO]: Loaded 7 recipes
+[14:16:59] [Server thread/INFO]: Loaded 1356 advancements
+[14:16:59] [Server thread/INFO]: Loaded 1 powers
+[14:16:59] [Server thread/INFO]: Loaded 0 item powers
+[14:16:59] [Server thread/INFO]: Loaded 0 suit set powers
+[14:17:00] [Server thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:17:00] [Server thread/INFO]: Reloaded with no KubeJS errors!
+[14:17:00] [Server thread/INFO]: Server resource reload complete!
+[14:17:00] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[14:17:00] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[14:17:00] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[14:17:00] [Render thread/INFO]: Stopping JEI
+[14:17:00] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:17:00] [Render thread/INFO]: Stopping JEI GUI
+[14:17:00] [Render thread/INFO]: Sending Runtime Unavailable took 1.217 ms
+[14:17:00] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[14:17:00] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[14:17:00] [Render thread/INFO]: Starting JEI...
+[14:17:00] [Render thread/INFO]: Registering item subtypes...
+[14:17:00] [Render thread/INFO]: Registering item subtypes took 145.6 μs
+[14:17:00] [Render thread/INFO]: Registering fluid subtypes...
+[14:17:00] [Render thread/INFO]: Registering fluid subtypes took 115.3 μs
+[14:17:00] [Render thread/INFO]: Registering ingredients...
+[14:17:00] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[14:17:00] [Render thread/INFO]: Registering ingredients took 5.694 ms
+[14:17:00] [Render thread/INFO]: Registering extra ingredients...
+[14:17:00] [Render thread/INFO]: Registering extra ingredients took 160.6 μs
+[14:17:00] [Render thread/INFO]: Registering search ingredient aliases...
+[14:17:00] [Render thread/INFO]: Registering search ingredient aliases took 188.3 μs
+[14:17:00] [Render thread/INFO]: Registering categories...
+[14:17:00] [Render thread/INFO]: Registering categories took 363.8 μs
+[14:17:00] [Render thread/INFO]: Registering vanilla category extensions...
+[14:17:00] [Render thread/INFO]: Registering vanilla category extensions took 130.8 μs
+[14:17:00] [Render thread/INFO]: Registering recipe catalysts...
+[14:17:00] [Render thread/INFO]: Registering recipe catalysts took 143.6 μs
+[14:17:00] [Render thread/INFO]: Building recipe registry...
+[14:17:00] [Render thread/INFO]: Building recipe registry took 220.4 μs
+[14:17:00] [Render thread/INFO]: Registering advanced plugins...
+[14:17:00] [Render thread/INFO]: Registering advanced plugins took 115.5 μs
+[14:17:00] [Render thread/INFO]: Registering recipes...
+[14:17:00] [Render thread/INFO]: Registering recipes: jei:minecraft took 51.61 milliseconds
+[14:17:00] [Render thread/INFO]: Registering recipes took 52.18 ms
+[14:17:00] [Render thread/INFO]: Registering recipes transfer handlers...
+[14:17:00] [Render thread/INFO]: Registering recipes transfer handlers took 174.3 μs
+[14:17:00] [Render thread/INFO]: Building runtime...
+[14:17:00] [Render thread/INFO]: Registering gui handlers...
+[14:17:00] [Render thread/INFO]: Registering gui handlers took 198.4 μs
+[14:17:00] [Render thread/INFO]: Registering Runtime...
+[14:17:00] [Render thread/INFO]: Starting JEI GUI
+[14:17:00] [Render thread/INFO]: Building ingredient list...
+[14:17:00] [Render thread/INFO]: Building ingredient list took 6.543 ms
+[14:17:00] [Render thread/INFO]: Building ingredient filter...
+[14:17:00] [Render thread/INFO]: Adding 1640 ingredients
+[14:17:00] [Render thread/INFO]: Added 1640 ingredients
+[14:17:00] [Render thread/INFO]: Building ingredient filter took 37.29 ms
+[14:17:00] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 46.36 milliseconds
+[14:17:00] [Render thread/INFO]: Registering Runtime took 46.58 ms
+[14:17:00] [Render thread/INFO]: Building runtime took 47.12 ms
+[14:17:00] [Render thread/INFO]: Sending Runtime...
+[14:17:00] [Render thread/INFO]: Sending Runtime took 107.3 μs
+[14:17:00] [Render thread/INFO]: Starting JEI took 110.0 ms
+[14:17:00] [Render thread/INFO]: Loaded 3 advancements
+[14:17:00] [Render thread/INFO]: [System] [CHAT] Reloaded with no KubeJS errors!
+[14:17:02] [Server thread/INFO]: Saving and pausing game...
+[14:17:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:17:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:17:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:17:25] [Server thread/INFO]: Saving and pausing game...
+[14:17:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:17:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:17:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:18:47] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[14:18:47] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[14:18:47] [Render thread/INFO]: Stopping JEI
+[14:18:47] [Render thread/INFO]: Sending Runtime Unavailable...
+[14:18:47] [Render thread/INFO]: Stopping JEI GUI
+[14:18:47] [Render thread/INFO]: Sending Runtime Unavailable took 5.087 ms
+[14:18:47] [Server thread/INFO]: Z3EKnCleve lost connection: Disconnected
+[14:18:47] [Server thread/INFO]: Z3EKnCleve left the game
+[14:18:47] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[14:18:47] [Server thread/INFO]: Stopping server
+[14:18:47] [Server thread/INFO]: Saving players
+[14:18:47] [Server thread/INFO]: Saving worlds
+[14:18:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:overworld
+[14:18:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_nether
+[14:18:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test 1.3]'/minecraft:the_end
+[14:18:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test 1_3): All chunks are saved
+[14:18:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:18:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:18:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:18:51] [Render thread/INFO]: Stopping!
