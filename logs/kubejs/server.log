@@ -1,12 +1,18 @@
-[17:05:59] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[17:05:59] [INIT] Loaded plugins:
-[17:05:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:05:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:05:59] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[17:05:59] [INIT] - com.probejs.ProbeJSPlugin
-[17:05:59] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[17:05:59] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[17:05:59] [INFO] Loaded script server_scripts:example.js in 0.002 s
-[17:05:59] [INFO] Loaded 1/1 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
-[17:05:59] [INFO] Scripts loaded
-[17:05:59] [INFO] Server resource reload complete!
+[17:12:48] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[17:12:48] [INIT] Loaded plugins:
+[17:12:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:12:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[17:12:48] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[17:12:48] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[17:12:48] [INIT] - com.probejs.ProbeJSPlugin
+[17:12:48] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[17:12:48] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[17:12:48] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/receive_power_selected.js in 0.0 s
+[17:12:48] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key.js in 0.0 s
+[17:12:48] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/death_no_armour.js in 0.0 s
+[17:12:48] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera.js in 0.0 s
+[17:12:48] [INFO] Loaded 5/5 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[17:12:48] [INFO] Scripts loaded
+[17:12:48] [INFO] [minecraft:block] Found 308 tags, added 1 objects, removed 0 objects
+[17:12:48] [INFO] [minecraft:item] Found 434 tags, added 1 objects, removed 0 objects
+[17:12:50] [INFO] Server resource reload complete!

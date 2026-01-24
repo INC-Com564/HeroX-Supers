@@ -1,0 +1,52 @@
+https://github.com/tryashtar/image-map/releases/tag/v3.5.1
+
+\.minecraft\saves\RC_020422_RELEASE_9_47_MC_1_17_1\data
+
+/give @p minecraft:filled_map{map:1001} 1
+/summon item_frame ~ ~ ~ {Facing:2b,Item:{map:1671}}
+
+47-80 (47-61,63-69,71-75,78-80) - city mini-map
+1001-1008 - athena OLD
+1011-1022 - parthenon
+1031-1039 - zeus
+1041-1052 - sic
+1061-1069 - bg
+1071-1074 - mojang red logo x4
+1081-1084 - notch photo
+1085-1088 - mojang blue logo x4
+1089 - mojang red logo x1
+1090 - mojang blue logo x1
+1091-1092 - notch x2
+1093-1094 - jeb x2
+1101-1104 - cake x4
+1105 - cake x1
+1111-1113 - detective
+1121-1126 - court
+1131-1133 - police x3
+1134 - police x1
+1141 - armor x1
+1142 - clotch x1
+1151-1159 - rainbowcat
+1161-1162 - night club x2
+1163 - night club x1
+1171-1172 - tavern x2
+1173 - tavern x1
+1181-1182 - market x2
+1183 - market - x1
+1191-1194 - minecraft education logo - REMOVE
+1201-1214 - mojang logo v2
+1221-1234 - minecraft logo
+1241-1254 - microsoft logo
+1261-1264 - sweem x4
+1265 - sweem x1
+1271-1273 - bank x3
+1274 - bank x1
+1281-1282 - flower x2
+1283 - flower x1
+1291-1292 - bed shop x2
+1293 - bed shop x1
+1294-1295 - furniture x2
+1296 - furniture x1
+1671 - athena
+1761-1775 - hades
+1778 - vase

@@ -28,6 +28,70 @@ Abilities</h1>
 <h2>
 Overview</h2>
 <h3>
+Gravestone: Core</h3>
+<ul>
+<li>
+<a href="#gravecore:aoe_damage">
+aoe_damage</a>
+</li>
+<li>
+<a href="#gravecore:aoe_knockback">
+aoe_knockback</a>
+</li>
+<li>
+<a href="#gravecore:bonemeal">
+bonemeal</a>
+</li>
+<li>
+<a href="#gravecore:dynamic_attribute_modifier">
+dynamic_attribute_modifier</a>
+</li>
+<li>
+<a href="#gravecore:explode">
+explode</a>
+</li>
+<li>
+<a href="#gravecore:forcefield">
+forcefield</a>
+</li>
+<li>
+<a href="#gravecore:movement">
+movement</a>
+</li>
+<li>
+<a href="#gravecore:no_burn">
+no_burn</a>
+</li>
+<li>
+<a href="#gravecore:particle_aura">
+particle_aura</a>
+</li>
+<li>
+<a href="#gravecore:potion_punch">
+potion_punch</a>
+</li>
+<li>
+<a href="#gravecore:projectile">
+projectile</a>
+</li>
+<li>
+<a href="#gravecore:rotate">
+rotate</a>
+</li>
+<li>
+<a href="#gravecore:screenshake">
+screenshake</a>
+</li>
+<li>
+<a href="#gravecore:set_palladium_property_by_score">
+set_palladium_property_by_score</a>
+</li>
+<li>
+<a href="#gravecore:swing_hand">
+swing_hand</a>
+</li>
+</ul>
+<h3>
 GeckoLib 4</h3>
 <ul>
 <li>
@@ -207,7 +271,2667 @@ vibrate</a>
 water_walk</a>
 </li>
 </ul>
+<h3>
+gravestone</h3>
+<ul>
+<li>
+<a href="#gravestone:aoe_damage">
+aoe_damage</a>
+</li>
+<li>
+<a href="#gravestone:aoe_knockback">
+aoe_knockback</a>
+</li>
+<li>
+<a href="#gravestone:charged_knockback">
+charged_knockback</a>
+</li>
+<li>
+<a href="#gravestone:drain_accessory_energy">
+drain_accessory_energy</a>
+</li>
+<li>
+<a href="#gravestone:drain_per_tick">
+drain_per_tick</a>
+</li>
+<li>
+<a href="#gravestone:dynamic_pehkui">
+dynamic_pehkui</a>
+</li>
+<li>
+<a href="#gravestone:explode">
+explode</a>
+</li>
+<li>
+<a href="#gravestone:knockback">
+knockback</a>
+</li>
+<li>
+<a href="#gravestone:movement">
+movement</a>
+</li>
+<li>
+<a href="#gravestone:no_fire">
+no_fire</a>
+</li>
+<li>
+<a href="#gravestone:projectile">
+projectile</a>
+</li>
+<li>
+<a href="#gravestone:set_palladium_property_by_score">
+set_palladium_property_by_score</a>
+</li>
+<li>
+<a href="#gravestone:stat_ability">
+stat_ability</a>
+</li>
+<li>
+<a href="#gravestone:stone_index_detection">
+stone_index_detection</a>
+</li>
+<li>
+<a href="#gravestone:store_armour">
+store_armour</a>
+</li>
+<li>
+<a href="#gravestone:telekinesis">
+telekinesis</a>
+</li>
+</ul>
 </p>
+<hr>
+
+<div id="gravecore:aoe_damage">
+<h2>
+aoe_damage</h2>
+<p>
+damages opponents within an area.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 fire_charge}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+the range of which enemies can be damaged.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+damage</td>
+<td>
+Float</td>
+<td>
+the amount of damage delt per tick.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.0</td>
+</tr>
+<tr>
+<td>
+fire_ticks</td>
+<td>
+Integer</td>
+<td>
+the amount of ticks targeted entities are set on fire.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0</td>
+</tr>
+<tr>
+<td>
+damage_type</td>
+<td>
+ResourceLocation</td>
+<td>
+Damage type which is applied when an entity is hit. Uses normal player/mob attack if null/unchanged.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+cone</td>
+<td>
+Boolean</td>
+<td>
+only damage entities in front of you</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:aoe_damage","icon":"minecraft:fire_charge","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"damage":1.0,"fire_ticks":0,"damage_type":"null","cone":false}</pre>
+</div>
+<hr>
+
+<div id="gravecore:aoe_knockback">
+<h2>
+aoe_knockback</h2>
+<p>
+damages opponents within an area.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 fire_charge}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+Radius in which surrounding entities will be knocked back.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+knockback</td>
+<td>
+Float</td>
+<td>
+the strength of the knockback.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.0</td>
+</tr>
+<tr>
+<td>
+invert</td>
+<td>
+Boolean</td>
+<td>
+Invert the knockback direction</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+cone</td>
+<td>
+Boolean</td>
+<td>
+only knockback entities in front of you</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+crush</td>
+<td>
+Boolean</td>
+<td>
+Crush the target if they are pressed up against a wall</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+is_charged</td>
+<td>
+Boolean</td>
+<td>
+decides if the ability uses knockback to define strength or charges the strength using scoreboards</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+Scoreboard Name.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+Score.Board</td>
+</tr>
+<tr>
+<td>
+scoreboard_max</td>
+<td>
+String</td>
+<td>
+Scoreboard Name.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+Score.Board.Max</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:aoe_knockback","icon":"minecraft:fire_charge","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"knockback":1.0,"invert":false,"cone":false,"crush":false,"is_charged":false,"scoreboard":"Score.Board","scoreboard_max":"Score.Board.Max"}</pre>
+</div>
+<hr>
+
+<div id="gravecore:bonemeal">
+<h2>
+bonemeal</h2>
+<p>
+allows a targeted location to be bonemealed.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 bone_meal}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+max_distance</td>
+<td>
+Float</td>
+<td>
+The maximum distance you can reach to bonemeal</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+30.0</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:bonemeal","icon":"minecraft:bone_meal","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","max_distance":30.0}</pre>
+</div>
+<hr>
+
+<div id="gravecore:dynamic_attribute_modifier">
+<h2>
+dynamic_attribute_modifier</h2>
+<p>
+Adds an attribute modifier to the entity while the ability is enabled that is entirely configurable via a scoreboard.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+Scoreboard Name.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+Score.Board</td>
+</tr>
+<tr>
+<td>
+attribute</td>
+<td>
+Attribute</td>
+<td>
+Determines which attribute should be modified. Possible attributes: caelus:fall_flying, forge:block_reach, forge:entity_gravity, forge:entity_reach, forge:nametag_distance, forge:step_height_addition, forge:swim_speed, gravecore:fall_resistance, irons_spellbooks:blood_magic_resist, irons_spellbooks:blood_spell_power, irons_spellbooks:cast_time_reduction, irons_spellbooks:casting_movespeed, irons_spellbooks:cooldown_reduction, irons_spellbooks:eldritch_magic_resist, irons_spellbooks:eldritch_spell_power, irons_spellbooks:ender_magic_resist, irons_spellbooks:ender_spell_power, irons_spellbooks:evocation_magic_resist, irons_spellbooks:evocation_spell_power, irons_spellbooks:fire_magic_resist, irons_spellbooks:fire_spell_power, irons_spellbooks:holy_magic_resist, irons_spellbooks:holy_spell_power, irons_spellbooks:ice_magic_resist, irons_spellbooks:ice_spell_power, irons_spellbooks:lightning_magic_resist, irons_spellbooks:lightning_spell_power, irons_spellbooks:mana_regen, irons_spellbooks:max_mana, irons_spellbooks:nature_magic_resist, irons_spellbooks:nature_spell_power, irons_spellbooks:spell_power, irons_spellbooks:spell_resist, irons_spellbooks:summon_damage, lodestone:magic_damage, lodestone:magic_proficiency, lodestone:magic_resistance, minecraft:generic.armor, minecraft:generic.armor_toughness, minecraft:generic.attack_damage, minecraft:generic.attack_knockback, minecraft:generic.attack_speed, minecraft:generic.flying_speed, minecraft:generic.follow_range, minecraft:generic.knockback_resistance, minecraft:generic.luck, minecraft:generic.max_health, minecraft:generic.movement_speed, minecraft:horse.jump_strength, minecraft:zombie.spawn_reinforcements, palladium:destroy_speed, palladium:fall_resistance, palladium:flight_flexibility, palladium:flight_speed, palladium:heroic_flight_type, palladium:jump_power, palladium:leaping, palladium:levitation_speed, palladium:punch_damage, timeclock:time_magic_resist, timeclock:time_spell_power</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:generic.armor</td>
+</tr>
+<tr>
+<td>
+division_amount</td>
+<td>
+Double</td>
+<td>
+The amount the scoreboard value will be divided by</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.0</td>
+</tr>
+<tr>
+<td>
+operation</td>
+<td>
+Integer</td>
+<td>
+The operation for the giving attribute modifier (More: https://minecraft.gamepedia.com/Attribute#Operations)</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0</td>
+</tr>
+<tr>
+<td>
+uuid</td>
+<td>
+UUID</td>
+<td>
+Sets the unique identifier for this attribute modifier. If not specified it will generate a random one</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+498be4fb-af04-42f2-8948-e6ccdc0d99e1</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:dynamic_attribute_modifier","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","scoreboard":"Score.Board","attribute":"minecraft:generic.armor","division_amount":1.0,"operation":0,"uuid":"498be4fb-af04-42f2-8948-e6ccdc0d99e1"}</pre>
+</div>
+<hr>
+
+<div id="gravecore:explode">
+<h2>
+explode</h2>
+<p>
+he brings the boom.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 fire_charge}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+explosion</td>
+<td>
+Integer</td>
+<td>
+the scale of the explosion.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+fire</td>
+<td>
+Boolean</td>
+<td>
+does it set things on fire?</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:explode","icon":"minecraft:fire_charge","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","explosion":10,"fire":false}</pre>
+</div>
+<hr>
+
+<div id="gravecore:forcefield">
+<h2>
+forcefield</h2>
+<p>
+makes a forcefeild around the player that deflects damage.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+sound</td>
+<td>
+ResourceLocation</td>
+<td>
+Sound ID that is played when a block is successful</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:item.shield.block</td>
+</tr>
+<tr>
+<td>
+max_health</td>
+<td>
+Integer</td>
+<td>
+sets the max health of the shield.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+100</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+optional output for shield health to a scoreboard.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+regen_rate</td>
+<td>
+Integer</td>
+<td>
+how many ticks it takes to regenerate 1 health.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+20</td>
+</tr>
+<tr>
+<td>
+damage_sources</td>
+<td>
+List</td>
+<td>
+Determines which damage sources have no effect on the entity based on a tag. Minecraft's builtin damage source tags: [minecraft:damages_helmet, minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:bypasses_invulnerability, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_enchantments, minecraft:is_fire, minecraft:is_projectile, minecraft:witch_resistant_to, minecraft:is_explosion, minecraft:is_fall, minecraft:is_drowning, minecraft:is_freezing, minecraft:is_lightning, minecraft:no_anger, minecraft:no_impact, minecraft:always_most_significant_fall, minecraft:wither_immune_to, minecraft:ignites_armor_stands, minecraft:burns_armor_stands, minecraft:avoids_guardian_thorns, minecraft:always_triggers_silverfish, minecraft:always_hurts_ender_dragons]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+[minecraft:is_lightning, minecraft:is_fall]</td>
+</tr>
+<tr>
+<td>
+thorns</td>
+<td>
+Boolean</td>
+<td>
+Decides of the power deals damage back to the opponent</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:forcefield","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","sound":"minecraft:item.shield.block","max_health":100,"scoreboard":"null","regen_rate":20,"damage_sources":["minecraft:is_lightning","minecraft:is_fall"],"thorns":false}</pre>
+</div>
+<hr>
+
+<div id="gravecore:movement">
+<h2>
+movement</h2>
+<p>
+Pushes the entity in a set direction.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 fire_charge}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+motion_scale</td>
+<td>
+Double</td>
+<td>
+the speed you move.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.1</td>
+</tr>
+<tr>
+<td>
+direction</td>
+<td>
+String</td>
+<td>
+[ backward, left, right, up, down, forward, facing ]. pick the direction you are going.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+forward</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:movement","icon":"minecraft:fire_charge","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","motion_scale":1.1,"direction":"forward"}</pre>
+</div>
+<hr>
+
+<div id="gravecore:no_burn">
+<h2>
+no_burn</h2>
+<p>
+extinguishes fire.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 flint_and_steel}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:no_burn","icon":"minecraft:flint_and_steel","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
+</div>
+<hr>
+
+<div id="gravecore:particle_aura">
+<h2>
+particle_aura</h2>
+<p>
+summons some fancy new particles via lodestone.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 amethyst_shard}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+count</td>
+<td>
+Integer</td>
+<td>
+controls the amount of particles that are summoned</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+8</td>
+</tr>
+<tr>
+<td>
+start_hex</td>
+<td>
+String</td>
+<td>
+controls the main colour of the particle</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+#ff17c6</td>
+</tr>
+<tr>
+<td>
+end_hex</td>
+<td>
+String</td>
+<td>
+controls what the particle will fade into at the end of its lifetime</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+#ff17c6</td>
+</tr>
+<tr>
+<td>
+property_start_hex</td>
+<td>
+String</td>
+<td>
+controls the main colour of the particle via a palladium string property</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+null</td>
+</tr>
+<tr>
+<td>
+property_end_hex</td>
+<td>
+String</td>
+<td>
+controls what the particle will fade into at the end of its lifetime via a palladium string property</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+null</td>
+</tr>
+<tr>
+<td>
+aura_type</td>
+<td>
+String</td>
+<td>
+[ aura, wave, column, scream, inner_aura ]. pick the type of particle aura you want.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+aura</td>
+</tr>
+<tr>
+<td>
+particle_type</td>
+<td>
+String</td>
+<td>
+[ smoke, sparkle, wisp, spark, star, twinkle ]. pick particle you want.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+smoke</td>
+</tr>
+<tr>
+<td>
+particle_size</td>
+<td>
+Float</td>
+<td>
+controls how large the particles are</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.9</td>
+</tr>
+<tr>
+<td>
+visibility</td>
+<td>
+Float</td>
+<td>
+controls how visible the particles are</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.9</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:particle_aura","icon":"minecraft:amethyst_shard","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","count":8,"start_hex":"#ff17c6","end_hex":"#ff17c6","property_start_hex":"null","property_end_hex":"null","aura_type":"aura","particle_type":"smoke","particle_size":0.9,"visibility":0.9}</pre>
+</div>
+<hr>
+
+<div id="gravecore:potion_punch">
+<h2>
+potion_punch</h2>
+<p>
+anything the player hits is given a desired potion effect for a configurable time.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+effect</td>
+<td>
+MobEffect</td>
+<td>
+name of the potion effect.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:poison</td>
+</tr>
+<tr>
+<td>
+time</td>
+<td>
+Integer</td>
+<td>
+the length of time that the potion lasts (in seconds).</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:potion_punch","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","effect":"minecraft:poison","time":0}</pre>
+</div>
+<hr>
+
+<div id="gravecore:projectile">
+<h2>
+projectile</h2>
+<p>
+Allows you to shoot a projectile.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 snowball}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+entity_type</td>
+<td>
+EntityType</td>
+<td>
+Entity type ID for the projectile entity</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:snowball</td>
+</tr>
+<tr>
+<td>
+entity_data</td>
+<td>
+CompoundTag</td>
+<td>
+Entity NBT data</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+inaccuracy</td>
+<td>
+Float</td>
+<td>
+Determines the inaccuracy when shooting the projectile</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.0</td>
+</tr>
+<tr>
+<td>
+velocity</td>
+<td>
+Float</td>
+<td>
+Determines the velocity when shooting the projectile</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.5</td>
+</tr>
+<tr>
+<td>
+yawOffset</td>
+<td>
+Float</td>
+<td>
+the value offset for the yaw from the body</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-20.0</td>
+</tr>
+<tr>
+<td>
+pitchOffset</td>
+<td>
+Float</td>
+<td>
+the value offset for the pitch from the body</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+25.0</td>
+</tr>
+<tr>
+<td>
+swinging_arm</td>
+<td>
+ArmType</td>
+<td>
+Determines which arm(s) should swing upon shooting. Possible values: [none, main_arm, off_arm, right_arm, left_arm, both]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+MAIN_ARM</td>
+</tr>
+<tr>
+<td>
+damage_from_player</td>
+<td>
+Boolean</td>
+<td>
+If this is set to true and a custom projectile is used, the damage will automatically be set the player damage value</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+ignore_player_movement</td>
+<td>
+Boolean</td>
+<td>
+If this is set to true and you shoot a projectile, your player's movement will NOT be added to it. Having the player movement be added is default default vanilla behaviour</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:projectile","icon":"minecraft:snowball","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","entity_type":"minecraft:snowball","entity_data":"null","inaccuracy":0.0,"velocity":1.5,"yawOffset":-20.0,"pitchOffset":25.0,"swinging_arm":"main_arm","damage_from_player":false,"ignore_player_movement":false}</pre>
+</div>
+<hr>
+
+<div id="gravecore:rotate">
+<h2>
+rotate</h2>
+<p>
+makes your body spin round, right round.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+spin_speed</td>
+<td>
+Float</td>
+<td>
+Determines the Degrees to spin per tick</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+20.0</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:rotate","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","spin_speed":20.0}</pre>
+</div>
+<hr>
+
+<div id="gravecore:screenshake">
+<h2>
+screenshake</h2>
+<p>
+makes the screen shake at a varying intensity.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+intensity</td>
+<td>
+Integer</td>
+<td>
+sets the intensity of the screenshake.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+duration</td>
+<td>
+Integer</td>
+<td>
+sets the duration of the screenshake from the first tick of the ability (in ticks).</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+distance</td>
+<td>
+Float</td>
+<td>
+sets the distance people are effected by screenshake.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+26.0</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:screenshake","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","intensity":1,"duration":10,"distance":26.0}</pre>
+</div>
+<hr>
+
+<div id="gravecore:set_palladium_property_by_score">
+<h2>
+set_palladium_property_by_score</h2>
+<p>
+Sets a Palladium Property .</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 flint_and_steel}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+Scoreboard Name.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.omni.setslot</td>
+</tr>
+<tr>
+<td>
+palladium_property</td>
+<td>
+String</td>
+<td>
+Palladium Property Name.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+graveomnicycle</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:set_palladium_property_by_score","icon":"minecraft:flint_and_steel","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","scoreboard":"grave.omni.setslot","palladium_property":"graveomnicycle"}</pre>
+</div>
+<hr>
+
+<div id="gravecore:swing_hand">
+<h2>
+swing_hand</h2>
+<p>
+makes your hands swing at the enemy.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 iron_chestplate}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+swinging_arm</td>
+<td>
+ArmType</td>
+<td>
+Determines which arm(s) should swing. Possible values: [none, main_arm, off_arm, right_arm, left_arm, both]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+MAIN_ARM</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravecore:swing_hand","icon":"minecraft:iron_chestplate","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","swinging_arm":"main_arm"}</pre>
+</div>
 <hr>
 
 <div id="geckolib:armor_animation">
@@ -1137,7 +3861,7 @@ attribute</td>
 <td>
 Attribute</td>
 <td>
-Determines which attribute should be modified. Possible attributes: forge:block_reach, forge:entity_gravity, forge:entity_reach, forge:nametag_distance, forge:step_height_addition, forge:swim_speed, minecraft:generic.armor, minecraft:generic.armor_toughness, minecraft:generic.attack_damage, minecraft:generic.attack_knockback, minecraft:generic.attack_speed, minecraft:generic.flying_speed, minecraft:generic.follow_range, minecraft:generic.knockback_resistance, minecraft:generic.luck, minecraft:generic.max_health, minecraft:generic.movement_speed, minecraft:horse.jump_strength, minecraft:zombie.spawn_reinforcements, palladium:destroy_speed, palladium:fall_resistance, palladium:flight_flexibility, palladium:flight_speed, palladium:heroic_flight_type, palladium:jump_power, palladium:leaping, palladium:levitation_speed, palladium:punch_damage</td>
+Determines which attribute should be modified. Possible attributes: caelus:fall_flying, forge:block_reach, forge:entity_gravity, forge:entity_reach, forge:nametag_distance, forge:step_height_addition, forge:swim_speed, gravecore:fall_resistance, irons_spellbooks:blood_magic_resist, irons_spellbooks:blood_spell_power, irons_spellbooks:cast_time_reduction, irons_spellbooks:casting_movespeed, irons_spellbooks:cooldown_reduction, irons_spellbooks:eldritch_magic_resist, irons_spellbooks:eldritch_spell_power, irons_spellbooks:ender_magic_resist, irons_spellbooks:ender_spell_power, irons_spellbooks:evocation_magic_resist, irons_spellbooks:evocation_spell_power, irons_spellbooks:fire_magic_resist, irons_spellbooks:fire_spell_power, irons_spellbooks:holy_magic_resist, irons_spellbooks:holy_spell_power, irons_spellbooks:ice_magic_resist, irons_spellbooks:ice_spell_power, irons_spellbooks:lightning_magic_resist, irons_spellbooks:lightning_spell_power, irons_spellbooks:mana_regen, irons_spellbooks:max_mana, irons_spellbooks:nature_magic_resist, irons_spellbooks:nature_spell_power, irons_spellbooks:spell_power, irons_spellbooks:spell_resist, irons_spellbooks:summon_damage, lodestone:magic_damage, lodestone:magic_proficiency, lodestone:magic_resistance, minecraft:generic.armor, minecraft:generic.armor_toughness, minecraft:generic.attack_damage, minecraft:generic.attack_knockback, minecraft:generic.attack_speed, minecraft:generic.flying_speed, minecraft:generic.follow_range, minecraft:generic.knockback_resistance, minecraft:generic.luck, minecraft:generic.max_health, minecraft:generic.movement_speed, minecraft:horse.jump_strength, minecraft:zombie.spawn_reinforcements, palladium:destroy_speed, palladium:fall_resistance, palladium:flight_flexibility, palladium:flight_speed, palladium:heroic_flight_type, palladium:jump_power, palladium:leaping, palladium:levitation_speed, palladium:punch_damage, timeclock:time_magic_resist, timeclock:time_spell_power</td>
 <td style="background-color: lightcoral">
 false</td>
 <td>
@@ -6861,6 +9585,2796 @@ false</td>
 Example:</h3>
 <pre class="json-snippet">
 {"type":"palladium:water_walk","icon":"minecraft:blaze_rod","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:aoe_damage">
+<h2>
+aoe_damage</h2>
+<p>
+deals damage around the ability user has options to exclude things and or do fire damage if desired as well as give damage credit to the ability user. - thanks nexo</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+Radius in which surrounding entities will be damaged</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+damage</td>
+<td>
+Float</td>
+<td>
+Damage the ability will deal</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+3.0</td>
+</tr>
+<tr>
+<td>
+fire_seconds</td>
+<td>
+Float</td>
+<td>
+How many seconds the entity should be on fire</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.0</td>
+</tr>
+<tr>
+<td>
+tag_ex</td>
+<td>
+String</td>
+<td>
+Tag that exlcudes entities if desired</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+exclusion_tag</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:aoe_damage","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"damage":3.0,"fire_seconds":0.0,"tag_ex":"exclusion_tag"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:aoe_knockback">
+<h2>
+aoe_knockback</h2>
+<p>
+knocks entities around the user back.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+Radius in which surrounding entities will be knockedback</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+knockback</td>
+<td>
+Float</td>
+<td>
+the strength of the knockback</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+2.0</td>
+</tr>
+<tr>
+<td>
+tag_ex</td>
+<td>
+String</td>
+<td>
+Tag that exlcudes entities if desired</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+exclusion_tag</td>
+</tr>
+<tr>
+<td>
+invert</td>
+<td>
+Boolean</td>
+<td>
+Invert the knockback direction</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+crush</td>
+<td>
+Boolean</td>
+<td>
+Crush the target if they are pressed up against a wall</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+cone</td>
+<td>
+Boolean</td>
+<td>
+only knockback entities in front of you</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:aoe_knockback","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"knockback":2.0,"tag_ex":"exclusion_tag","invert":false,"crush":false,"cone":false}</pre>
+</div>
+<hr>
+
+<div id="gravestone:charged_knockback">
+<h2>
+charged_knockback</h2>
+<p>
+aoe knockback ability with variable knockback strength based off a score - VenWhoVian</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+Radius in which surrounding entities will be damaged</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+score</td>
+<td>
+String</td>
+<td>
+what scoreboard to use for knockback strength</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.biot.shove</td>
+</tr>
+<tr>
+<td>
+scoreMax</td>
+<td>
+String</td>
+<td>
+what scoreboard to use for max possible knockback strength</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.biot.shoveMax</td>
+</tr>
+<tr>
+<td>
+tag_ex</td>
+<td>
+String</td>
+<td>
+Tag that exlcudes entities if desired</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+exclusion_tag</td>
+</tr>
+<tr>
+<td>
+invert</td>
+<td>
+Boolean</td>
+<td>
+Invert the knockback direction</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:charged_knockback","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"score":"grave.biot.shove","scoreMax":"grave.biot.shoveMax","tag_ex":"exclusion_tag","invert":false}</pre>
+</div>
+<hr>
+
+<div id="gravestone:drain_accessory_energy">
+<h2>
+drain_accessory_energy</h2>
+<p>
+drain an accessory by a certain amount per tick - thank you awesomebossdj7</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 redstone}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+curios_slot</td>
+<td>
+String</td>
+<td>
+Curios Slot Id</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+body</td>
+</tr>
+<tr>
+<td>
+trinket_slot</td>
+<td>
+String</td>
+<td>
+Trinket Slot Id</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+chest/cape</td>
+</tr>
+<tr>
+<td>
+energy_drain</td>
+<td>
+Integer</td>
+<td>
+The amount of energy to drain (per tick, which is 20 per second.)</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:drain_accessory_energy","icon":"minecraft:redstone","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","curios_slot":"body","trinket_slot":"chest/cape","energy_drain":10}</pre>
+</div>
+<hr>
+
+<div id="gravestone:drain_per_tick">
+<h2>
+drain_per_tick</h2>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+energy</td>
+<td>
+Integer</td>
+<td>
+Amount of energy to drain per tick</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+id</td>
+<td>
+String</td>
+<td>
+Item to look for in curios slot</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.codec:tachyon_device</td>
+</tr>
+<tr>
+<td>
+curios_slot</td>
+<td>
+String</td>
+<td>
+curios slot id</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+body</td>
+</tr>
+<tr>
+<td>
+trinket_slot</td>
+<td>
+String</td>
+<td>
+trinket slot id</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+chest/cape</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:drain_per_tick","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","energy":10,"id":"grave.codec:tachyon_device","curios_slot":"body","trinket_slot":"chest/cape"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:dynamic_pehkui">
+<h2>
+dynamic_pehkui</h2>
+<p>
+lets the player tie a scoreboard to any scale type or just set any scale type normally.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 blaze_rod}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+scale_type</td>
+<td>
+String</td>
+<td>
+from the list of pehkui scales in game</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+palladium:ability</td>
+</tr>
+<tr>
+<td>
+scale_number</td>
+<td>
+Float</td>
+<td>
+what you set the scale to if not by scoreboard</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.1</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+Motion Scale</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.scale.test</td>
+</tr>
+<tr>
+<td>
+scoreboard_divider</td>
+<td>
+Float</td>
+<td>
+what you divide the score by</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.0</td>
+</tr>
+<tr>
+<td>
+delay</td>
+<td>
+Integer</td>
+<td>
+what you divide the score by</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0</td>
+</tr>
+<tr>
+<td>
+is_score</td>
+<td>
+String</td>
+<td>
+True or False</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+true</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:dynamic_pehkui","icon":"minecraft:blaze_rod","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","scale_type":"palladium:ability","scale_number":1.1,"scoreboard":"grave.scale.test","scoreboard_divider":0.0,"delay":0,"is_score":"true"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:explode">
+<h2>
+explode</h2>
+<p>
+EXPLOSION</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+explosion</td>
+<td>
+Integer</td>
+<td>
+boom</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+fire</td>
+<td>
+Boolean</td>
+<td>
+boom</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+true</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:explode","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","explosion":10,"fire":true}</pre>
+</div>
+<hr>
+
+<div id="gravestone:knockback">
+<h2>
+knockback</h2>
+<p>
+knocks entities infront of the user back.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+radius</td>
+<td>
+Integer</td>
+<td>
+Radius in which surrounding entities will be knockedback</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+knockback</td>
+<td>
+Float</td>
+<td>
+the strength of the knockback</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+2.0</td>
+</tr>
+<tr>
+<td>
+tag_ex</td>
+<td>
+String</td>
+<td>
+Tag that exlcudes entities if desired</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+exclusion_tag</td>
+</tr>
+<tr>
+<td>
+invert</td>
+<td>
+Boolean</td>
+<td>
+Invert the knockback direction</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+crush</td>
+<td>
+Boolean</td>
+<td>
+Crush the target if they are pressed up against a wall</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:knockback","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","radius":10,"knockback":2.0,"tag_ex":"exclusion_tag","invert":false,"crush":false}</pre>
+</div>
+<hr>
+
+<div id="gravestone:movement">
+<h2>
+movement</h2>
+<p>
+Adds forward momentum to the player.</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 blaze_rod}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+motion_scale</td>
+<td>
+Float</td>
+<td>
+Motion Scale</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.1</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:movement","icon":"minecraft:blaze_rod","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","motion_scale":1.1}</pre>
+</div>
+<hr>
+
+<div id="gravestone:no_fire">
+<h2>
+no_fire</h2>
+<p>
+the player is unable to set on fire, via cores burning effect and actual fire</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:no_fire","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:projectile">
+<h2>
+projectile</h2>
+<p>
+amazing new projectile script. - thanks phantompig</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+velocity</td>
+<td>
+Float</td>
+<td>
+Determines the velocity when shooting the projectile</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+5.0</td>
+</tr>
+<tr>
+<td>
+yawOverride</td>
+<td>
+Float</td>
+<td>
+Locks the calculated yaw value to this (setting this to -999 will make it ignored</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-999.0</td>
+</tr>
+<tr>
+<td>
+pitchOverride</td>
+<td>
+Float</td>
+<td>
+Locks the calculated pitch value to this (setting this to -999 will make it ignored</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-999.0</td>
+</tr>
+<tr>
+<td>
+yawOffset</td>
+<td>
+Float</td>
+<td>
+the value offset for the yaw from the body</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-20.0</td>
+</tr>
+<tr>
+<td>
+pitchOffset</td>
+<td>
+Float</td>
+<td>
+the value offset for the pitch from the body</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+25.0</td>
+</tr>
+<tr>
+<td>
+yawInaccuracy</td>
+<td>
+Float</td>
+<td>
+how inaccurate the projectiles yaw value is going to be</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.0</td>
+</tr>
+<tr>
+<td>
+pitchInaccuracy</td>
+<td>
+Float</td>
+<td>
+how inaccurate the projectiles pitch value is going to be</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.0</td>
+</tr>
+<tr>
+<td>
+entity_type</td>
+<td>
+String</td>
+<td>
+Entity type ID for the projectile entity</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+palladium:custom_projectile</td>
+</tr>
+<tr>
+<td>
+entity_data</td>
+<td>
+CompoundTag</td>
+<td>
+Entity NBT data; works the same as the projectile ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+count</td>
+<td>
+Float</td>
+<td>
+how many fire when the ability is activated</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1.0</td>
+</tr>
+<tr>
+<td>
+swinging_arm</td>
+<td>
+String</td>
+<td>
+Determines which arm(s) should swing upon shooting. Possible values: [none, main_arm, off_arm, right_arm, left_arm, both]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+main_arm</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:projectile","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","velocity":5.0,"yawOverride":-999.0,"pitchOverride":-999.0,"yawOffset":-20.0,"pitchOffset":25.0,"yawInaccuracy":0.0,"pitchInaccuracy":0.0,"entity_type":"palladium:custom_projectile","entity_data":"null","count":1.0,"swinging_arm":"main_arm"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:set_palladium_property_by_score">
+<h2>
+set_palladium_property_by_score</h2>
+<p>
+sets a palladium properly based on a scoreboard</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+palladium_property</td>
+<td>
+String</td>
+<td>
+palladium property being altered</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+graveomnicycle</td>
+</tr>
+<tr>
+<td>
+scoreboard</td>
+<td>
+String</td>
+<td>
+scoreboard altering the palladium property</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.omni.setslot</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:set_palladium_property_by_score","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","palladium_property":"graveomnicycle","scoreboard":"grave.omni.setslot"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:stat_ability">
+<h2>
+stat_ability</h2>
+<p>
+Deprecated, please switch to 'gravecore:dynamic_attribute_modifier'</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+score_value</td>
+<td>
+String</td>
+<td>
+Scoreboard Name</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+Score.Board</td>
+</tr>
+<tr>
+<td>
+Division_Amount</td>
+<td>
+String</td>
+<td>
+The amount the scoreboard value will be divided by</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+Attribute_Type</td>
+<td>
+String</td>
+<td>
+The attribute that will be used</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+palladium:levitation_speed</td>
+</tr>
+<tr>
+<td>
+UUID</td>
+<td>
+String</td>
+<td>
+The UUID used for the attribute</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+cc154bdc-21f8-11ee-be56-0242ac120002</td>
+</tr>
+<tr>
+<td>
+Attribute_Mod</td>
+<td>
+String</td>
+<td>
+addition , multiply_total , multiply_base</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+addition</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:stat_ability","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","score_value":"Score.Board","Division_Amount":"1","Attribute_Type":"palladium:levitation_speed","UUID":"cc154bdc-21f8-11ee-be56-0242ac120002","Attribute_Mod":"addition"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:stone_index_detection">
+<h2>
+stone_index_detection</h2>
+<p>
+detects the most common block from the stone index in a BLANK radius</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+score</td>
+<td>
+String</td>
+<td>
+the scoreboard that the type is put in</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+cm.ninjago.earth.index</td>
+</tr>
+<tr>
+<td>
+needs</td>
+<td>
+Integer</td>
+<td>
+the required amount of any 1 block</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+6</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:stone_index_detection","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","score":"cm.ninjago.earth.index","needs":6}</pre>
+</div>
+<hr>
+
+<div id="gravestone:store_armour">
+<h2>
+store_armour</h2>
+<p>
+store your armour away for when you need it most. tags: grave.armour.store stores the amour, grave.armour.add returns the armour to the player</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=0 air}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+namespace</td>
+<td>
+String</td>
+<td>
+unique namespace for your storage location</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft</td>
+</tr>
+<tr>
+<td>
+identity</td>
+<td>
+String</td>
+<td>
+unique extra name for your storage location "namespace:username_identity"</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+banana</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:store_armour","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","namespace":"minecraft","identity":"banana"}</pre>
+</div>
+<hr>
+
+<div id="gravestone:telekinesis">
+<h2>
+telekinesis</h2>
+<p>
+Entity Targeter/Falling Block Generator inspired by Hazender - VenWhoVian</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 blaze_rod}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+allowed_blocks</td>
+<td>
+String</td>
+<td>
+block tags for allowed blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.ht:magnetic</td>
+</tr>
+<tr>
+<td>
+banned_entities</td>
+<td>
+String</td>
+<td>
+entity tags for banned entities</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.ht:magnetic_entities</td>
+</tr>
+<tr>
+<td>
+distance</td>
+<td>
+Integer</td>
+<td>
+Distance in which the player can target entities or blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+10</td>
+</tr>
+<tr>
+<td>
+grip_score</td>
+<td>
+String</td>
+<td>
+score used to control the distance of the held entity/block</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+grave.biot.scroll</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"gravestone:telekinesis","icon":"minecraft:blaze_rod","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","allowed_blocks":"grave.ht:magnetic","banned_entities":"grave.ht:magnetic_entities","distance":10,"grip_score":"grave.biot.scroll"}</pre>
 </div>
 <script>
 function syntaxHighlight(json) {
