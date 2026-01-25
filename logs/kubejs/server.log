@@ -1,28 +1,61 @@
-[13:53:38] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:53:38] [INIT] Loaded plugins:
-[13:53:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:53:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:53:38] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[13:53:38] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[13:53:38] [INIT] - com.probejs.ProbeJSPlugin
-[13:53:38] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[13:53:38] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/toggle_theft.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/toggle_hud.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/spatial_travel_command.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/prevent_death.js in 0.0 s
-[13:53:38] [INFO] addonpack_heroes:kubejs_scripts/prevent_damage.js#8: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/prevent_damage.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/intuitive_teach.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/heroes_superpower_command.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_heroes:kubejs_scripts/clairvoyance.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_palladiumextras:kubejs_scripts/titanium.js in 0.001 s
-[13:53:38] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/receive_power_selected.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/death_no_armour.js in 0.0 s
-[13:53:38] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera.js in 0.0 s
-[13:53:38] [INFO] Loaded 14/14 KubeJS server scripts in 0.014 s with 0 errors and 0 warnings
-[13:53:38] [INFO] Scripts loaded
-[13:53:38] [INFO] [minecraft:block] Found 316 tags, added 4 objects, removed 0 objects
-[13:53:38] [INFO] [minecraft:item] Found 438 tags, added 2 objects, removed 0 objects
-[13:53:41] [INFO] Server resource reload complete!
+[16:40:17] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[16:40:17] [INIT] Loaded plugins:
+[16:40:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:40:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:40:17] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[16:40:17] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[16:40:17] [INIT] - com.probejs.ProbeJSPlugin
+[16:40:17] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[16:40:17] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/toggle_theft.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/toggle_hud.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/spatial_travel_command.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/prevent_death.js in 0.0 s
+[16:40:17] [INFO] addonpack_heroes:kubejs_scripts/prevent_damage.js#8: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/prevent_damage.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/intuitive_teach.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/heroes_superpower_command.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_heroes:kubejs_scripts/clairvoyance.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_dampened:kubejs_scripts/block_tag_adder.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_dampened:kubejs_scripts/item_tags.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_dampened:kubejs_scripts/dampening_recipes.js in 0.001 s
+[16:40:17] [INFO] addonpack_dampened:kubejs_scripts/dampening_ticks.js#1: Loaded Java class 'net.threetag.palladium.compat.curiostinkets.CuriosTrinketsUtil'
+[16:40:17] [INFO] addonpack_dampened:kubejs_scripts/dampening_ticks.js#2: Loaded Java class 'top.theillusivec4.curios.api.CuriosApi'
+[16:40:17] [INFO] addonpack_dampened:kubejs_scripts/dampening_ticks.js#3: Loaded Java class 'java.util.UUID'
+[16:40:17] [INFO] addonpack_dampened:kubejs_scripts/dampening_ticks.js#5: Loaded Java class 'net.minecraft.world.level.ClipContext'
+[16:40:17] [INFO] addonpack_dampened:kubejs_scripts/dampening_ticks.js#6: Loaded Java class 'net.minecraft.world.entity.projectile.ProjectileUtil'
+[16:40:17] [INFO] Loaded script addonpack_dampened:kubejs_scripts/dampening_ticks.js in 0.003 s
+[16:40:17] [INFO] Loaded script addonpack_palladiumextras:kubejs_scripts/titanium.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/wiki.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/space_travel.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/skill_points.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/server_data.js in 0.003 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/receive_power_selected.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/property.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/prevent_damage.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_registry.js in 0.004 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_lock.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_command.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/nodrop.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/max_energy.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/items.js in 0.003 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/gamerules.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/data_enderchest.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/create_item.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_eop:kubejs_scripts/check_adaptation.js in 0.001 s
+[16:40:17] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/receive_power_selected.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/death_no_armour.js in 0.0 s
+[16:40:17] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera.js in 0.0 s
+[16:40:17] [INFO] Loaded 35/35 KubeJS server scripts in 0.036 s with 0 errors and 0 warnings
+[16:40:17] [INFO] Scripts loaded
+[16:40:17] [INFO] Initializing recipe event...
+[16:40:18] [INFO] [minecraft:item] Found 485 tags, added 14 objects, removed 0 objects
+[16:40:18] [INFO] [minecraft:block] Found 359 tags, added 10 objects, removed 0 objects
+[16:40:19] [INFO] Processing recipes...
+[16:40:19] [WARN] Failed to parse recipe 'gravecore:titanium/titanium_nugget[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:40:19] [INFO] Found 1462 recipes in 23.10 ms
+[16:40:19] [INFO] Posted recipe events in 4.219 ms
+[16:40:19] [WARN] Error parsing recipe gravecore:titanium/titanium_nugget[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"grave.core:titanium_ingot"}],"result":{"count":9,"item":"palladium:titanium_nugget"}}: Unknown item 'palladium:titanium_nugget'
+[16:40:19] [INFO] Added 15 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes in 16.55 ms
+[16:40:21] [INFO] Server resource reload complete!

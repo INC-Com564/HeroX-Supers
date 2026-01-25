@@ -1,0 +1,97 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-25 15:29:57 -0600"
+    },
+    "done": true
+  },
+  "heroes:root": {
+    "criteria": {
+      "Join World": "2026-01-25 15:29:57 -0600"
+    },
+    "done": true
+  },
+  "palladium:recipes/decorations/tailoring_bench": {
+    "criteria": {
+      "unlock_right_away": "2026-01-25 15:29:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-01-25 15:42:45 -0600",
+      "minecraft:lukewarm_ocean": "2026-01-25 15:42:43 -0600",
+      "minecraft:stony_shore": "2026-01-25 15:29:59 -0600",
+      "minecraft:warm_ocean": "2026-01-25 15:42:42 -0600",
+      "minecraft:savanna": "2026-01-25 15:42:48 -0600"
+    },
+    "done": false
+  },
+  "eop:root": {
+    "criteria": {
+      "requirement": "2026-01-25 16:28:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "eop:bloodweaver/blood_scythe": {
+    "criteria": {
+      "requirement": "2026-01-25 16:42:10 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

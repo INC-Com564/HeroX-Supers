@@ -1,20 +1,42 @@
-[13:53:27] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:53:27] [INIT] Loaded plugins:
-[13:53:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:53:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:53:27] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[13:53:27] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[13:53:27] [INIT] - com.probejs.ProbeJSPlugin
-[13:53:27] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[13:53:27] [INFO] Loaded script client_scripts:example.js in 0.0 s
-[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/super_speed.js in 0.001 s
-[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/powers.js in 0.005 s
-[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/plasma_manip.js in 0.001 s
-[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/geokinetic.js in 0.0 s
-[13:53:27] [INFO] addonpack_grave.core:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
-[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.002 s
-[13:53:27] [INFO] addonpack_grave.core:kubejs_scripts/key_reference.js#1: Loaded Java class 'org.lwjgl.glfw.GLFW'
-[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.006 s
-[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.0 s
-[13:53:27] [INFO] Loaded 8/8 KubeJS client scripts in 0.033 s with 0 errors and 0 warnings
-[13:53:29] [INFO] Client resource reload complete!
+[16:40:06] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[16:40:06] [INIT] Loaded plugins:
+[16:40:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:40:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:40:06] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[16:40:06] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[16:40:06] [INIT] - com.probejs.ProbeJSPlugin
+[16:40:06] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[16:40:06] [INFO] Loaded script client_scripts:example.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_heroes:kubejs_scripts/super_speed.js in 0.002 s
+[16:40:06] [INFO] Loaded script addonpack_heroes:kubejs_scripts/powers.js in 0.004 s
+[16:40:06] [INFO] Loaded script addonpack_heroes:kubejs_scripts/plasma_manip.js in 0.001 s
+[16:40:06] [INFO] Loaded script addonpack_heroes:kubejs_scripts/geokinetic.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_dampened:kubejs_scripts/animations.js in 0.001 s
+[16:40:06] [INFO] Loaded script addonpack_dampened:kubejs_scripts/hide_stuff.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_dampened:kubejs_scripts/tooltip_clientside.js in 0.001 s
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#2: Loaded Java class 'net.minecraft.client.Minecraft'
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#3: Loaded Java class 'com.mojang.blaze3d.systems.RenderSystem'
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#4: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#5: Loaded Java class 'net.minecraft.network.chat.Component'
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#6: Loaded Java class 'org.lwjgl.glfw.GLFW'
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#7: Loaded Java class 'org.lwjgl.glfw.GLFWScrollCallbackI'
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/werewolf_fur.js in 0.012 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/warper_materials.js in 0.002 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/third_person.js in 0.002 s
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/speedster_lightning_change.js#8: Loaded Java class 'net.minecraft.client.gui.components.EditBox'
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/speedster_lightning_change.js in 0.01 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_lightning_change.js in 0.003 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_flame_lightning_change.js in 0.005 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/smith_metal_bones.js in 0.002 s
+[16:40:06] [INFO] addonpack_eop:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/send_power_selected.js in 0.001 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/property.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_screen.js in 0.004 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/key_bind.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/client_data.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_eop:kubejs_scripts/ability_animation.js in 0.011 s
+[16:40:06] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.001 s
+[16:40:06] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.0 s
+[16:40:06] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.0 s
+[16:40:06] [INFO] Loaded 24/24 KubeJS client scripts in 0.08 s with 0 errors and 0 warnings
+[16:40:08] [INFO] Client resource reload complete!

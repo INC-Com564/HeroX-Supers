@@ -36,6 +36,18 @@ is_moon_knight_gliding</a>
 </li>
 </ul>
 <h3>
+hertz</h3>
+<ul>
+<li>
+<a href="#hertz:dampened_by">
+dampened_by</a>
+</li>
+<li>
+<a href="#hertz:safe_has_effect_check">
+safe_has_effect_check</a>
+</li>
+</ul>
+<h3>
 Gravestone: Core</h3>
 <ul>
 <li>
@@ -483,6 +495,58 @@ KubeJS</h3>
 gravestone/is_mainhand</a>
 </li>
 </ul>
+<h3>
+Echoes of Power</h3>
+<ul>
+<li>
+<a href="#eop:attribute_check">
+attribute_check</a>
+</li>
+<li>
+<a href="#eop:can_see_sky">
+can_see_sky</a>
+</li>
+<li>
+<a href="#eop:damaged">
+damaged</a>
+</li>
+<li>
+<a href="#eop:entity_check">
+entity_check</a>
+</li>
+<li>
+<a href="#eop:gamemode_check">
+gamemode_check</a>
+</li>
+<li>
+<a href="#eop:has_effect">
+has_effect</a>
+</li>
+<li>
+<a href="#eop:health_below_percent">
+health_below_percent</a>
+</li>
+<li>
+<a href="#eop:inventory_empty_check">
+inventory_empty_check</a>
+</li>
+<li>
+<a href="#eop:inventory_item_check">
+inventory_item_check</a>
+</li>
+<li>
+<a href="#eop:lightning_check">
+lightning_check</a>
+</li>
+<li>
+<a href="#eop:looking_up">
+looking_up</a>
+</li>
+<li>
+<a href="#eop:power_selected">
+power_selected</a>
+</li>
+</ul>
 </p>
 <hr>
 
@@ -495,6 +559,94 @@ Checks if the entity is current doing the Moon Knight gliding.<br><br>Applicable
 Example:</h3>
 <pre class="json-snippet">
 {"type":"pantheonsent:is_moon_knight_gliding"}</pre>
+</div>
+<hr>
+
+<div id="hertz:dampened_by">
+<h2>
+dampened_by</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+effect</td>
+<td>
+String</td>
+<td>
+Effect to search for</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:health_boost</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"hertz:dampened_by","effect":"minecraft:health_boost"}</pre>
+</div>
+<hr>
+
+<div id="hertz:safe_has_effect_check">
+<h2>
+safe_has_effect_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+effect</td>
+<td>
+String</td>
+<td>
+Effect to search for</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:health_boost</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"hertz:safe_has_effect_check","effect":"minecraft:health_boost"}</pre>
 </div>
 <hr>
 
@@ -5207,6 +5359,522 @@ right</td>
 Example:</h3>
 <pre class="json-snippet">
 {"type":"kubejs:gravestone/is_mainhand","hand_type":"right"}</pre>
+</div>
+<hr>
+
+<div id="eop:attribute_check">
+<h2>
+attribute_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+attribute</td>
+<td>
+String</td>
+<td>
+Attribute ID to check</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:generic.max_health</td>
+</tr>
+<tr>
+<td>
+comparison</td>
+<td>
+String</td>
+<td>
+Comparison: >, <, >=, <=, ==, !=</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+>=</td>
+</tr>
+<tr>
+<td>
+value</td>
+<td>
+Float</td>
+<td>
+Value to compare the attribute against</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+20.0</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:attribute_check","attribute":"minecraft:generic.max_health","comparison":">=","value":20.0}</pre>
+</div>
+<hr>
+
+<div id="eop:can_see_sky">
+<h2>
+can_see_sky</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:can_see_sky"}</pre>
+</div>
+<hr>
+
+<div id="eop:damaged">
+<h2>
+damaged</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:damaged"}</pre>
+</div>
+<hr>
+
+<div id="eop:entity_check">
+<h2>
+entity_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+radius</td>
+<td>
+Float</td>
+<td>
+Search radius in blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+8.0</td>
+</tr>
+<tr>
+<td>
+min_count</td>
+<td>
+Integer</td>
+<td>
+Minimum number required</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+entity</td>
+<td>
+String</td>
+<td>
+Entity type ID</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:pig</td>
+</tr>
+<tr>
+<td>
+tags</td>
+<td>
+String[]</td>
+<td>
+Tags to check</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+[]</td>
+</tr>
+<tr>
+<td>
+tags_mode</td>
+<td>
+String</td>
+<td>
+Tag filter mode: all, whitelist, blacklist</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+all</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:entity_check","radius":8.0,"min_count":1,"entity":"minecraft:pig","tags":[],"tags_mode":"all"}</pre>
+</div>
+<hr>
+
+<div id="eop:gamemode_check">
+<h2>
+gamemode_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+gamemode</td>
+<td>
+String</td>
+<td>
+Gamemode to check: survival, creative, adventure, spectator</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+survival</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:gamemode_check","gamemode":"survival"}</pre>
+</div>
+<hr>
+
+<div id="eop:has_effect">
+<h2>
+has_effect</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+effect</td>
+<td>
+String</td>
+<td>
+The ID of the potion effect to check for.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:speed</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:has_effect","effect":"minecraft:speed"}</pre>
+</div>
+<hr>
+
+<div id="eop:health_below_percent">
+<h2>
+health_below_percent</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+percentage</td>
+<td>
+Float</td>
+<td>
+Triggers if health is at or below this percentage (0.0 to 1.0).</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+0.99</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:health_below_percent","percentage":0.99}</pre>
+</div>
+<hr>
+
+<div id="eop:inventory_empty_check">
+<h2>
+inventory_empty_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:inventory_empty_check"}</pre>
+</div>
+<hr>
+
+<div id="eop:inventory_item_check">
+<h2>
+inventory_item_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+item_id</td>
+<td>
+String</td>
+<td>
+ID of the item to check for in the player inventory</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:diamond</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:inventory_item_check","item_id":"minecraft:diamond"}</pre>
+</div>
+<hr>
+
+<div id="eop:lightning_check">
+<h2>
+lightning_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+radius</td>
+<td>
+Float</td>
+<td>
+Search radius in blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+8.0</td>
+</tr>
+<tr>
+<td>
+min_count</td>
+<td>
+Integer</td>
+<td>
+Minimum number required to enable</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:lightning_check","radius":8.0,"min_count":1}</pre>
+</div>
+<hr>
+
+<div id="eop:looking_up">
+<h2>
+looking_up</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+range</td>
+<td>
+Integer</td>
+<td>
+Minimum pitch</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-45</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:looking_up","range":-45}</pre>
+</div>
+<hr>
+
+<div id="eop:power_selected">
+<h2>
+power_selected</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+power</td>
+<td>
+String</td>
+<td>
+ID of the power to test</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+pack:power</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"eop:power_selected","power":"pack:power"}</pre>
 </div>
 <script>
 function syntaxHighlight(json) {
