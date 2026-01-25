@@ -1,16 +1,20 @@
-[16:08:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[16:08:52] [INIT] Loaded plugins:
-[16:08:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:08:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:08:52] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[16:08:52] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[16:08:52] [INIT] - com.probejs.ProbeJSPlugin
-[16:08:53] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[16:08:53] [INFO] Loaded script client_scripts:example.js in 0.001 s
-[16:08:53] [INFO] addonpack_grave.core:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
-[16:08:53] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.001 s
-[16:08:53] [INFO] addonpack_grave.core:kubejs_scripts/key_reference.js#1: Loaded Java class 'org.lwjgl.glfw.GLFW'
-[16:08:53] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.006 s
-[16:08:53] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.001 s
-[16:08:53] [INFO] Loaded 4/4 KubeJS client scripts in 0.025 s with 0 errors and 0 warnings
-[16:08:54] [INFO] Client resource reload complete!
+[13:53:27] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[13:53:27] [INIT] Loaded plugins:
+[13:53:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:53:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:53:27] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[13:53:27] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[13:53:27] [INIT] - com.probejs.ProbeJSPlugin
+[13:53:27] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[13:53:27] [INFO] Loaded script client_scripts:example.js in 0.0 s
+[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/super_speed.js in 0.001 s
+[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/powers.js in 0.005 s
+[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/plasma_manip.js in 0.001 s
+[13:53:27] [INFO] Loaded script addonpack_heroes:kubejs_scripts/geokinetic.js in 0.0 s
+[13:53:27] [INFO] addonpack_grave.core:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
+[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.002 s
+[13:53:27] [INFO] addonpack_grave.core:kubejs_scripts/key_reference.js#1: Loaded Java class 'org.lwjgl.glfw.GLFW'
+[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.006 s
+[13:53:27] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.0 s
+[13:53:27] [INFO] Loaded 8/8 KubeJS client scripts in 0.033 s with 0 errors and 0 warnings
+[13:53:29] [INFO] Client resource reload complete!
