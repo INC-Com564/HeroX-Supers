@@ -1,0 +1,4472 @@
+{
+  "export": {
+    "filesSelection": [
+      {
+        "path": "config",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/Test_1_8",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/New_World-X",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/Test_1_3",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/Test_1_5",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/Earth-3",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/NY-Midtown-Manhattan-v1_2",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/New_World-9",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/New_World",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/world/local/New_World/lookupHistory.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/ingredient-list-mod-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/jei-mod-id-format.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/jei-debug.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/jei-client.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/ingredient-list-type-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/blacklist.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/jei-colors.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/jei/recipe-category-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config/timeclock",
+        "isSelected": true
+      },
+      {
+        "path": "config/timeclock/server.json",
+        "isSelected": true
+      },
+      {
+        "path": "config/timeclock/client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config/irons_spellbooks_spell_config",
+        "isSelected": true
+      },
+      {
+        "path": "config/irons_spellbooks_spell_config/irons_spellbooks",
+        "isSelected": true
+      },
+      {
+        "path": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+        "isSelected": true
+      },
+      {
+        "path": "config/palladium-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/graveht-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/lodestone-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/packetfixer.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config/dummmmmmy-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/curios-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/pehkui-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/moonlight-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/forge-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/dummmmmmy-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/curios-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/tickrate-api.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/yacl.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config/moonlight-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/irons_spellbooks-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/cubes_without_borders.json",
+        "isSelected": true
+      },
+      {
+        "path": "config/pehkui-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/fml.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config/fsang_config.json",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-21_20.11.07-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-21_20.05.33-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-21_19.53.45-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-21_19.56.33-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-29_22.22.49-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-23_12.21.00-fml.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports/crash-2026-01-29_22.36.23-client.txt",
+        "isSelected": true
+      },
+      {
+        "path": "moonlight-global-datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "defaultconfigs",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/addon",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/addon/metahumans",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/addon/metahumans/kubejs_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/kubejs_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/palladium",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/palladium/powers",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/palladium/powers/electric_metahuman.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/palladium/powers/saber_metahuman.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/palladium/powers/vector_metahuman.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/data/metahumans/tracked_scores.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/textures",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/textures/models",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/textures/icons",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/kubejs_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/particles",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/lang",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/lang/en_us.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails/smoke_form.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails/gravity_crush.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails/zipline_trail.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails/select_aura.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/trails/scale_effect.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/energy_beams",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/assets/metahumans/palladium/energy_beams/electric_laser.json",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/pack.mcmeta",
+        "isSelected": true
+      },
+      {
+        "path": "addonpacks/NexGEN26/.palladiumignore",
+        "isSelected": true
+      },
+      {
+        "path": "local",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/cache",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/WorldgenEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/WorldgenEvents/add.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/WorldgenEvents/remove.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ProbeJSEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ProbeJSEvents/generateDoc.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ProbeJSEvents/fileSaved.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/registerProperties.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/registerPropertiesClientSided.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/registerAnimations.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/renderPowerScreen.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/customProjectileTick.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PalladiumEvents/registerGuiOverlays.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/tick.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/paintScreen.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/atlasSpriteRegistry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/loggedIn.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/loggedOut.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/init.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/lang.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/highPriorityAssets.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/leftDebugInfo.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/painterUpdated.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ClientEvents/rightDebugInfo.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents/afterExplosion.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents/tick.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents/loaded.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents/beforeExplosion.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/LevelEvents/unloaded.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/tick.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/chat.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/chestOpened.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/loggedIn.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/loggedOut.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/inventoryClosed.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/respawned.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/decorateChat.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/inventoryOpened.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/inventoryChanged.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/advancement.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/PlayerEvents/chestClosed.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents/hurt.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents/spawned.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents/drops.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents/death.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/EntityEvents/checkSpawn.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/hideFluids.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/removeCategories.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/removeRecipes.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/subtypes.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/addFluids.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/information.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/hideCustom.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/hideItems.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/JEIEvents/addItems.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/blockLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/fishingLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/tick.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/recipes.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/giftLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/compostableRecipes.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/chestLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/highPriorityData.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/loaded.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/genericLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/entityLootTables.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/afterRecipes.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/customCommand.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/command.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/tags.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/unloaded.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/lowPriorityData.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/specialRecipeSerializers.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ServerEvents/commandRegistry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents/postInit.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents/recipeSchemaRegistry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents/init.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents/registry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/StartupEvents/modifyCreativeTab.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/NetworkEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/NetworkEvents/dataReceived.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/rightClicked.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/detectorUnpowered.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/detectorChanged.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/farmlandTrampled.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/detectorPowered.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/leftClicked.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/broken.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/placed.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/BlockEvents/modification.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/firstRightClicked.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/rightClicked.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/firstLeftClicked.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/modelProperties.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/pickedUp.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/entityInteracted.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/modification.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/dropped.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/armorTierRegistry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/toolTierRegistry.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/foodEaten.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/destroyed.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/canPickUp.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/tooltip.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/crafted.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/event_groups/ItemEvents/smelted.md",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/exported_packs",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/export",
+        "isSelected": true
+      },
+      {
+        "path": "local/kubejs/dev.properties",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/server_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/server_scripts/example.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/client_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/client_scripts/example.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/config",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/config/common.properties",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/config/client.properties",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/config/probejs.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/startup_scripts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/startup_scripts/@recipes",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/startup_scripts/example.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/data",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs/textures",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs/textures/item",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs/textures/block",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/assets/kubejs/textures/block/example_block.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_12.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_28.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_2.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_24.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_32.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_33.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_25.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_3.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_29.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_13.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_18.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_4.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_22.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_34.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_14.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_8.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_9.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_15.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_35.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_23.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_5.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_19.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_20.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_6.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_16.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_17.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_7.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_21.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_10.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_30.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_26.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/index.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_0.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_1.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_27.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_31.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/internals/internal_11.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/constants.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/globals.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/events.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/raw.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/tag_events.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/names.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/generated/registries.d.ts",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/registry.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/events.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/types.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/morejs.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/kubejs.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/kubejs_recipes.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/probe.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/docs/dynamicjs.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/rich",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/cachedJava.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/modHash.txt",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/cache/cachedForgeEvents.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/user",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/docs",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/probe/.gitignore",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/jsconfig.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs/README.txt",
+        "isSelected": true
+      },
+      {
+        "path": "saves",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/irons_spellbooks-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/pehkui-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/jei-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/forge-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/palladium-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/pantheonapi-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/serverconfig/curios-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/advancements",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/advancements/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/playerdata",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.0.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/poi/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM-1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM-1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM-1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM-1/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.-1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.0.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/region/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/DIM1/data/raids_end.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.core",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.core/space",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.core/space/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.core/space/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.core/space/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/heroes",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/heroes/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/heroes/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/heroes/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/heroes/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/reality_warp",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/reality_warp/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/reality_warp/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/reality_warp/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/eop/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.ht",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.ht/omnitrix",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.ht/omnitrix/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.ht/omnitrix/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/grave.ht/omnitrix/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/irons_spellbooks",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/irons_spellbooks/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/irons_spellbooks/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/irons_spellbooks/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/irons_spellbooks/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/codex",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/codex/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/codex/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/codex/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/negative_speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/negative_speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/negative_speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/negative_speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/the_radiant",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/the_radiant/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/the_radiant/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/the_radiant/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/dimensions/fsang/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data/random_sequences.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data/scoreboard.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/data/irons_spellbooks_data.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/stats",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/stats/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/entities/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/icon.png",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/level.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/kubejs_persistent_data.nbt",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/level.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-9/session.lock",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/irons_spellbooks-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/pehkui-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/jei-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/forge-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/palladium-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/pantheonapi-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/serverconfig/curios-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/advancements",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/advancements/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/advancements/9fd3975c-0931-4bf9-a88e-7ed5d9cfc3ec.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/playerdata",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/playerdata/9fd3975c-0931-4bf9-a88e-7ed5d9cfc3ec.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/playerdata/9fd3975c-0931-4bf9-a88e-7ed5d9cfc3ec.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-4.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-4.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-4.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-4.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-4.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.2.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-2.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.2.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.0.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.1.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-1.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/poi/r.-3.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM-1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM-1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM-1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM-1/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-4.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.2.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.2.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-2.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.2.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.0.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.1.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-1.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/region/r.-3.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/DIM1/data/raids_end.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.core",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.core/space",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.core/space/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.core/space/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.core/space/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/heroes",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/heroes/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/heroes/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/heroes/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/heroes/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/reality_warp",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/reality_warp/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/reality_warp/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/reality_warp/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/eop/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.ht",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.ht/omnitrix",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.ht/omnitrix/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.ht/omnitrix/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/grave.ht/omnitrix/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/irons_spellbooks",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/irons_spellbooks/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/irons_spellbooks/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/irons_spellbooks/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/irons_spellbooks/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/codex",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/codex/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/codex/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/codex/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/negative_speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/negative_speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/negative_speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/negative_speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/the_radiant",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/the_radiant/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/the_radiant/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/the_radiant/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/fsang/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/evo_reds_alienpack",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/evo_reds_alienpack/hyperspeed",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/evo_reds_alienpack/hyperspeed/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/evo_reds_alienpack/hyperspeed/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/dimensions/evo_reds_alienpack/hyperspeed/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data/random_sequences.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data/scoreboard.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/data/irons_spellbooks_data.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/stats",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/stats/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/stats/9fd3975c-0931-4bf9-a88e-7ed5d9cfc3ec.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-4.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-4.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-4.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-4.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-4.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-2.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.0.2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.1.1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-1.-4.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.-3.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/entities/r.-3.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/xaeromap.txt",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/icon.png",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/level.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/kubejs_persistent_data.nbt",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/level.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/NY-Midtown-Manhattan-v1.2/session.lock",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/pehkui-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/jei-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/forge-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/palladium-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/pantheonapi-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/serverconfig/curios-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/advancements",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/advancements/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/playerdata",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/playerdata/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.0.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/poi/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM-1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM-1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM-1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM-1/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.0.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.-1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.1.-2.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/region/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM1",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM1/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM1/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/DIM1/data/raids_end.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/grave.core",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/grave.core/space",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/grave.core/space/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/grave.core/space/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/grave.core/space/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/heroes",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/heroes/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/heroes/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/heroes/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/heroes/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/reality_warp",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/reality_warp/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/reality_warp/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/reality_warp/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/eop/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/codex",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/codex/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/codex/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/codex/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/negative_speedforce",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/negative_speedforce/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/negative_speedforce/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/negative_speedforce/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/the_radiant",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/the_radiant/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/the_radiant/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/the_radiant/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/pocket_dimension",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/pocket_dimension/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/pocket_dimension/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/fsang/pocket_dimension/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/evo_reds_alienpack",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/evo_reds_alienpack/hyperspeed",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/evo_reds_alienpack/hyperspeed/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/evo_reds_alienpack/hyperspeed/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/dimensions/evo_reds_alienpack/hyperspeed/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/data",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/data/capabilities.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/data/random_sequences.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/data/raids.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/data/scoreboard.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/stats",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/stats/5f390ef2-a4c3-4ed2-a4fd-e4d7985b137b.json",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.-1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.0.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.0.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.1.0.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.-1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/entities/r.1.-1.mca",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/icon.png",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/level.dat_old",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/kubejs_persistent_data.nbt",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/level.dat",
+        "isSelected": true
+      },
+      {
+        "path": "saves/New World-X/session.lock",
+        "isSelected": true
+      },
+      {
+        "path": "saves/READ ME.txt",
+        "isSelected": true
+      },
+      {
+        "path": "logs",
+        "isSelected": true
+      },
+      {
+        "path": "logs/kubejs",
+        "isSelected": true
+      },
+      {
+        "path": "logs/kubejs/client.log",
+        "isSelected": true
+      },
+      {
+        "path": "logs/kubejs/startup.log",
+        "isSelected": true
+      },
+      {
+        "path": "logs/kubejs/server.log",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-7.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-23.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-5.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-11.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-4.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-13.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-15.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-18.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-12.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-5.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-14.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-19.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-6.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-22.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-10.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-4.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-3.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-10.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-4.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-7.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-16.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-20.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-4.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-12.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-6.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260127-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-21.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-5.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-7.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-13.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-2.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-6.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-11.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-28.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-5.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-17.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-12.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-20.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-7.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-9.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-3.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-14.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-2.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-16.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-24.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-17.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-3.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-25.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-13.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-6.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-8.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-21.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-15.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-2.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-15.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-18.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-3.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-27.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-9.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-11.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-6.json",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-8.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-3.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-4.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-10.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-9.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-1.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-16.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260129-2.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-22.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260126-5.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260123-14.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-19.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260124-2.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-8.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/telemetry/20260125-26.json.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-22-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/latest.log",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-27-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-1 2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-5.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-27-1.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-24-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-25-2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-6.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-2 2.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-23-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-21-7.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-29-4.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "logs/2026-01-26-3.log.gz",
+        "isSelected": true
+      },
+      {
+        "path": "mods",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/dynamic_textures",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/dynamic_textures/variables.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/cherry.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/jungle.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/dark_oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/spruce.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/bamboo.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/acacia.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/mangrove.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/boat/birch.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/cherry.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/jungle.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/dark_oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/spruce.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/bamboo.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/acacia.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/mangrove.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/warped.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/birch.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hanging_sign/crimson.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/cherry.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/jungle.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/dark_oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/spruce.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/bamboo.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/acacia.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/mangrove.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/warped.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/birch.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sign/crimson.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/cherry.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/jungle.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/dark_oak.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/spruce.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/bamboo.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/acacia.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/mangrove.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_boat/birch.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/player_slim.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/dolphin.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/vindicator.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/furnace_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/tropical_fish_large.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/glow_squid.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/llama_spit.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/cod.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/goat.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/player_head.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/ender_dragon.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/spin_attack.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/pig.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/elder_guardian.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wither.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hopper_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/end_crystal.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/villager.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/trader_llama.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/creeper_head.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/bell.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/tropical_fish_small.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/panda.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/cave_spider.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zombie_horse.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/donkey.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/drowned.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chicken.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/pufferfish_big.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/ravager.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/axolotl.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sniffer.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/ocelot.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wolf.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/fox.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/shulker.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/llama.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/cat.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zombie_villager.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/tnt_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/mule.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/shulker_bullet.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/polar_bear.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/double_chest_right.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/banner.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wither_skeleton.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/pillager.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/salmon.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/husk.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/cow.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/pufferfish_medium.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/tadpole.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/player.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/book.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/bed_head.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/evoker.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/shield.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/pufferfish_small.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/command_block_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/enderman.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/creeper.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/decorated_pot_base.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/piglin_brute.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/allay.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/bee.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wither_skeleton_skull.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/frog.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zombified_piglin.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/slime.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/skeleton_skull.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/hoglin.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/endermite.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/sheep.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/chest_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/witch.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/snow_golem.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wandering_trader.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zombie_head.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/warden.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/piglin_head.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/leash_knot.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/camel.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/elytra.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/stray.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/skeleton.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/iron_golem.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/phantom.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/magma_cube.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/wither_skull.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/horse_armor.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/turtle.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/spider.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/strider.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/parrot.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/silverfish.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/squid.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/guardian.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/dragon_skull.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/mooshroom.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/bat.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/skeleton_horse.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/blaze.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/spawner_minecart.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zombie.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/evoker_fangs.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/giant.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/armor_stand.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/zoglin.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/trident.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/decorated_pot_sides.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/piglin.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/double_chest_left.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/rabbit.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/ghast.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/horse.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/bed_foot.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/vex.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/vanilla_models/illusioner.json",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/abilities.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/creative_mode_tabs.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/armor_materials.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/blocks.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/conditions.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/items.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/energy_beam_renderers.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/icons.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/tool_tiers.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/accessory_slots.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/accessories.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/documentation/palladium/trails.html",
+        "isSelected": true
+      },
+      {
+        "path": "mods/stretchakln-tokustar.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/moonlight-1.20-2.16.27-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/Fulmini a rise(0.9.7).jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/dampened-v1.2.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/FSang18's Heroes v11.8.6.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/probejs-6.0.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/IntoTheOmniverse-v1.0.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/AlienEvo-1.1.2-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/palladiumextras-1.0.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/cwb-forge-3.0.0+mc1.20.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/cloth-config-11.1.136-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/architectury-9.2.14-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/pantheonapi-1.1.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/Heroes_Beta_Forge_Fabric_V.1.1.83.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/RecalAddon4.8.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/kubejsoffline-5.2.0.27.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/entityjs-0.6.6-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/pinnacle_of_evolution-v3.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/palladium-4.4.2+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/anur(evo1.1.0).jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/pantheonsent-1.1.1+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/lodestone-1.20.1-1.6.4.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/caelus-forge-3.2.0+1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/geckolib-forge-1.20.1-4.8.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/gravecore-1.2.4-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/fangs-of-the-night(1.1.0).jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/omni-extras(1.0.5.4)fix.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/Echoes-of-Power-3.0.5.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/timeclock-3.5.0-forge-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/dummmmmmy-1.20-2.0.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/nosedeenian_buzzshock_2.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods/jei-1.20.1-forge-15.20.0.129.jar",
+        "isSelected": true
+      },
+      {
+        "path": "shaderpacks",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks",
+        "isSelected": true
+      },
+      {
+        "path": "downloads",
+        "isSelected": true
+      },
+      {
+        "path": "datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "hs_err_pid93956.log",
+        "isSelected": true
+      },
+      {
+        "path": "usernamecache.json",
+        "isSelected": false
+      },
+      {
+        "path": ".curseclient",
+        "isSelected": false
+      },
+      {
+        "path": "hs_err_pid92633.log",
+        "isSelected": true
+      },
+      {
+        "path": "hs_err_pid93105.log",
+        "isSelected": true
+      },
+      {
+        "path": "minecraftinstance.json",
+        "isSelected": true
+      },
+      {
+        "path": "hs_err_pid92824.log",
+        "isSelected": true
+      },
+      {
+        "path": "rhino.local.properties",
+        "isSelected": true
+      },
+      {
+        "path": "usercache.json",
+        "isSelected": true
+      },
+      {
+        "path": "options.txt",
+        "isSelected": true
+      }
+    ],
+    "recommendedRam": 4096,
+    "enableRecommendedRam": false
+  }
+}

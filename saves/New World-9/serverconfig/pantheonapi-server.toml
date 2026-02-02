@@ -1,0 +1,9 @@
+#Minimum operator level required for admin permissions (default: 2)
+#Range: 0 ~ 4
+requiredOpLevelForAdmin = 2
+#List of player UUIDs that are allowed to approve proposals (in addition to operators)
+approverAllowlistUUIDs = []
+#Maximum number of audit log entries to keep (default: 10000)
+#Range: 100 ~ 1000000
+maxAuditEntries = 10000
+

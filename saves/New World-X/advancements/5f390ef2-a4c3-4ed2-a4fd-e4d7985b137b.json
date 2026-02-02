@@ -1,0 +1,386 @@
+{
+  "aeo:root": {
+    "criteria": {
+      "ticky": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "nosedeenian:yes": {
+    "criteria": {
+      "first_join": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "fsang:root": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "nosedeenian:buzzshock_root": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "alienevo:alien_evolution": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "eop:root": {
+    "criteria": {
+      "requirement": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "omni_extras:root": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "anur:root": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "fsang_secondary:root": {
+    "criteria": {
+      "tick": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "heroes:root": {
+    "criteria": {
+      "Join World": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "palladium:recipes/decorations/tailoring_bench": {
+    "criteria": {
+      "unlock_right_away": "2026-01-29 22:33:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2026-01-30 11:08:48 -0600",
+      "minecraft:taiga": "2026-01-29 22:33:54 -0600",
+      "minecraft:frozen_river": "2026-01-29 22:33:44 -0600",
+      "minecraft:beach": "2026-01-30 11:08:52 -0600",
+      "minecraft:river": "2026-01-30 11:08:45 -0600",
+      "minecraft:snowy_plains": "2026-01-29 22:33:26 -0600",
+      "minecraft:snowy_taiga": "2026-01-29 22:33:40 -0600",
+      "minecraft:cold_ocean": "2026-01-30 12:01:31 -0600",
+      "minecraft:forest": "2026-01-30 12:04:17 -0600",
+      "minecraft:frozen_ocean": "2026-01-29 22:41:07 -0600",
+      "minecraft:old_growth_spruce_taiga": "2026-01-30 11:23:58 -0600",
+      "minecraft:snowy_beach": "2026-01-29 22:34:05 -0600"
+    },
+    "done": false
+  },
+  "aeo:watch": {
+    "criteria": {
+      "watch": "2026-01-29 22:34:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-29 22:41:05 -0600"
+    },
+    "done": true
+  },
+  "eop:bloodweaver/blood_scythe": {
+    "criteria": {
+      "requirement": "2026-01-29 22:42:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-01-29 22:42:32 -0600"
+    },
+    "done": true
+  },
+  "eop:aberrant/chimera_kill": {
+    "criteria": {
+      "requirement": "2026-01-29 22:42:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2026-01-30 11:24:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-01-30 11:24:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "alienevo:recipes/upgrade_chip": {
+    "criteria": {
+      "has_galvan_metal": "2026-01-30 11:53:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-01-30 11:24:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-01-30 11:22:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-30 11:52:48 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

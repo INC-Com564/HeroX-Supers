@@ -1,0 +1,119 @@
+{
+  "grave.ht:root": {
+    "criteria": {
+      "requirement": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "fsang:root": {
+    "criteria": {
+      "tick": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "m_ten:root": {
+    "criteria": {
+      "0": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "alienevo:alien_evolution": {
+    "criteria": {
+      "tick": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "eop:root": {
+    "criteria": {
+      "requirement": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "m_ten:plumbers/root": {
+    "criteria": {
+      "0": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "fsang_secondary:root": {
+    "criteria": {
+      "tick": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "heroes:root": {
+    "criteria": {
+      "Join World": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "palladium:recipes/decorations/tailoring_bench": {
+    "criteria": {
+      "unlock_right_away": "2026-01-26 11:41:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-01-26 11:41:20 -0600",
+      "minecraft:river": "2026-01-26 15:06:03 -0600",
+      "minecraft:savanna": "2026-01-26 11:42:18 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-01-26 12:56:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-01-26 12:56:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-01-26 12:56:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-01-26 13:17:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "porkchop": "2026-01-26 13:17:37 -0600"
+    },
+    "done": false
+  },
+  "eop:bloodweaver/blood_scythe": {
+    "criteria": {
+      "requirement": "2026-01-26 13:17:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-01-26 13:17:48 -0600"
+    },
+    "done": true
+  },
+  "eop:aberrant/chimera_kill": {
+    "criteria": {
+      "requirement": "2026-01-26 13:17:48 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
