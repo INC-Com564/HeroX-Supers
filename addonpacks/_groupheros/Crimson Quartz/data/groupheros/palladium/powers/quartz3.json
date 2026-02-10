@@ -1,0 +1,33 @@
+{
+    "name": "Quartz (MK. X)",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "icon": "groupheros:textures/icons/arcreactorlogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "walking": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:entity.generic.small_fall",
+            "volume": 0.4,
+            "pitch": 0.1,
+            "looping": true,
+            "play_self": true,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {"type": "palladium:sprinting"},
+                        {"type": "palladium:on_ground"}
+                    ]
+                }
+            }
+        }
+    }
+}

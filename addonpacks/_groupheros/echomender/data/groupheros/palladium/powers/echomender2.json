@@ -1,0 +1,1415 @@
+{
+    "name": "Speedforce",
+    "bakcground": "minecraft:textures/block/purple_wool.png",
+    "icon": "groupheros:textures/icons/echospeed.png",
+    "abilities":
+    {
+        "speed_bar_test":{
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/echospeed.png",
+            "title": "Speedforce",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "listen_index": 0,
+            "gui_position": "null",
+            "description": "Run, player, run.",
+            "conditions": {
+                "enabling":
+                {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "need_empty_hand": false
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                            "type": "palladium:has_effect",
+                            "effect": "dampened:genetic"
+                          },
+                          {
+                              "type": "palladium:has_effect",
+                              "effect": "minecraft:unluck"
+                            },
+                            {
+                              "type": "palladium:has_effect",
+                              "effect": "minecraft:luck"
+                            }
+                      ]
+                    }
+                  ]
+            }
+        },
+        "set_score":{
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "listen_index": 0,
+            "gui_poisition": "null",
+            "description": "null",
+            "first_tick_commands": [
+                                    "/scoreboard objectives add GH.SpeedLevel dummy",
+                                    "/scoreboard players set @s GH.SpeedLevel 1",
+                                    "/scoreboard objectives add GH.SpeedLevel.Max dummy",
+                                    "/scoreboard players set @s GH.speedLevel.Max 5",
+                                    "/scoreboard objectives add GH.SpeedLevel.Min dummy",
+                                    "/scoreboard players set @s GH.SpeedLevel.Min 1"
+            ],
+            "last_tick_commands": ["/scoreboard players set @s GH.SpeedLevel 0"],
+            "commands": [],
+            "conditions":{
+                "enabling":{
+                    "type": "palladium:ability_enabled",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "speed_increase": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/execute if score @s GH.SpeedLevel < @s GH.SpeedLevel.Min run scoreboard players set @s GH.SpeedLevel 1"
+            ],
+            "conditions":{
+                "enabling":{
+                    "type": "palladium:ability_enabled",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "speed_decrease": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowu.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": 2,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/execute if entity @s[scores={GH.SpeedLevel=5..}] run scoreboard players set @s GH.SpeedLevel 5"
+            ],
+            "conditions":{
+                "enabling":{
+                    "type": "palladium:ability_enabled",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "speed_scroll_increase": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowu.png",
+            "title": "speed_scroll_increase",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/scoreboard players add @s GH.SpeedLevel 1"],
+            "last_tick_commands": [],
+            "commands": [
+                
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:held",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false
+                },
+                "unlocking": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "speed_scroll_decrease": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "speed_scroll_decrease",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/scoreboard players remove @s GH.SpeedLevel 1"],
+            "last_tick_commands": [],
+            "commands": [
+                
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:held",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false
+                },
+                "unlocking": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "Speed_level_1": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.3,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9111",
+            "conditions": {
+                "unlocking": {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.SpeedLevel",
+                    "min_score": 1,
+                    "max_score": 1
+                }
+            }
+        },
+        "Speed_level_2": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.5,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9112",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.SpeedLevel",
+                    "min_score": 2,
+                    "max_score": 2
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [ {
+                        "type": "palladium:and",
+                        "conditions": [
+                            {
+                            "type": "palladium:objective_score",
+                            "objective": "GH.Speedxp",
+                            "min_score": 600,
+                            "max_score": 500000
+                        },
+                            {
+                                "type": "palladium:ability_enabled",
+                                "power": "null",
+                                "ability": "speed_bar_test"
+                                
+                            }
+                        ]
+                    }
+                    ]
+                }
+            }
+        },
+        "Speed_level_3": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.7,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9113",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.SpeedLevel",
+                    "min_score": 3,
+                    "max_score": 3 
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [ {
+                        "type": "palladium:and",
+                        "conditions": [
+                            {
+                            "type": "palladium:objective_score",
+                            "objective": "GH.Speedxp",
+                            "min_score": 1400,
+                            "max_score": 500000
+                        },
+                            {
+                                "type": "palladium:ability_enabled",
+                                "power": "null",
+                                "ability": "speed_bar_test"
+                                
+                            }
+                        ]
+                    }
+                    ]
+                }
+            }
+        },
+        "Speed_level_4": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 1,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9114",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.SpeedLevel",
+                    "min_score": 4 ,
+                    "max_score": 4
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [ {
+                        "type": "palladium:and",
+                        "conditions": [
+                            {
+                            "type": "palladium:objective_score",
+                            "objective": "GH.Speedxp",
+                            "min_score": 2100,
+                            "max_score": 500000
+                        },
+                            {
+                                "type": "palladium:ability_enabled",
+                                "power": "null",
+                                "ability": "speed_bar_test"
+                                
+                            }
+                        ]
+                    },
+                    {
+                      "type": "palladium:item_in_slot",
+                      "item": {
+                          "item": "groupheros:frictionlessboots"
+                      },
+                      "slot": "curios:belt"
+                  }
+                    ]
+                }
+            }
+        },
+        "waterwalk": {
+            "type": "palladium:water_walk",
+            "icon": "groupheros:textures/icons/locustwater.png",
+            "title": "Water Walk",
+            "bar_color": "pink",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 5,
+            "gui_position": "null",
+            "description": "Your speed allows you to run and stand on water.",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "speed_bar_test"
+                }
+            }
+        },
+        "after_image": {
+            "type": "palladium:trail",
+            "list_index": 0,
+            "title": "null",
+            "trail": "groupheros:echomendertrail",
+            "hidden": true,
+            "hidden_in_bar": true,
+                "conditions": {
+                  "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "speed_bar_test"
+                }
+              }
+              },    
+            "sounds2": {
+                "type": "palladium:play_sound",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "sound": "heroes:heroes.stockpile.lighting.sfx",
+                "volume": 0.1,
+                "pitch": 1,
+                "play_self": true,
+                "looping": true,
+                "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "speed_bar_test"
+                }
+                }
+            },    
+            "sounds7": {
+                "type": "palladium:play_sound",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "sound": "minecraft:entity.allay.death",
+                "volume": 100,
+                "pitch": 0.8,
+                "play_self": true,
+                "looping": false,
+                "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "speed_bar_test"
+                }
+                }
+            },
+        "sprinting": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["execute at @s run playsound minecraft:entity.warden.sonic_boom ambient @s ~ ~ ~ 10 1"],
+            "last_tick_commands": ["execute at @s run playsound minecraft:entity.warden.death ambient @s ~ ~ ~ 10 1"],
+            "commands": [],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:sprinting"
+                        },
+                        {
+                            "type": "palladium:ability_enabled",
+                            "ability": "speed_bar_test"
+                        }
+                    ]
+                }
+            }
+        },
+      "score_xp_board":{
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": false,
+          "listen_index": 0,
+          "gui_poisition": "null",
+          "description": "null",
+          "first_tick_commands": [
+                                  "/scoreboard objectives add GH.Speedxp dummy"
+          ],
+          "last_tick_commands": [],
+          "commands": [],
+          "conditions":{
+              "enabling":{
+                  "type": "palladium:ability_enabled",
+                  "ability": "speed_bar_test"
+              }
+          }
+      },
+      "score_xp_add":{
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": false,
+          "listen_index": 0,
+          "gui_poisition": "null",
+          "description": "null",
+          "first_tick_commands": [],
+          "last_tick_commands": [],
+          "commands": ["/scoreboard players add @s GH.Speedxp 1"],
+          "conditions": {
+            "enabling": {
+                "type": "palladium:is_moving"
+            },
+            "unlocking": {
+                "type": "palladium:ability_enabled",
+                "ability": "speed_bar_test"
+            }
+          }
+      },
+      "speed_decrease_xp": {
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": false,
+          "list_index": 2,
+          "gui_position": "null",
+          "description": "null",
+          "first_tick_commands": [],
+          "last_tick_commands": [],
+          "commands": [
+              "/execute if entity @s[scores={GH.Speedxp=500000..}] run scoreboard players set @s GH.Speedxp 500000"
+          ],
+          "conditions":{
+              "enabling":{
+                  "type": "palladium:ability_enabled",
+                  "ability": "speed_bar_test"
+              }
+          }
+      },
+      "GUI_show_2": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedemp1.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+            "unlocking": { "type": "palladium:and",
+            "conditions": [
+                {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.Speedxp",
+                    "min_score": 600,
+                    "max_score": 500000
+                }
+
+            ]
+          },
+          "enabling": {
+            "type": "palladium:and",
+            "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "speed_bar_test"
+                
+            },
+            {
+                "type": "palladium:not",
+                "conditions": [ {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_2"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_3"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_4"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_5"
+                }]
+            }]
+        }
+        }
+      },
+      "GUI_show_3": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedemp2.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+            "unlocking": { "type": "palladium:and",
+            "conditions": [
+                {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.Speedxp",
+                    "min_score": 1400,
+                    "max_score": 500000
+                }
+
+            ]
+          },
+          "enabling": {
+            "type": "palladium:and",
+            "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "speed_bar_test"
+                
+            },
+            {
+                "type": "palladium:not",
+                "conditions": [ 
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_3"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_4"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_5"
+                }]
+            }]
+        }
+        }
+      },
+      "GUI_show_4": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedemp3.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+            "unlocking": { "type": "palladium:and",
+            "conditions": [
+                {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.Speedxp",
+                    "min_score": 2100,
+                    "max_score": 500000
+                }
+
+            ]
+          },
+          "enabling": {
+            "type": "palladium:and",
+            "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "speed_bar_test"
+                
+            },
+            {
+                "type": "palladium:not",
+                "conditions": [
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_4"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_5"
+                }]
+            },
+            {
+                "type": "palladium:item_in_slot",
+                "item": {
+                    "item": "groupheros:frictionlessboots"
+                },
+                "slot": "curios:belt"
+            }]
+        }
+        }
+      },
+      "GUI": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedbar.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+          "enabling": {
+              "type": "palladium:ability_enabled",
+              "ability": "Speed_level_1"
+          }
+          }
+      },
+      "GUI2": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedbar2.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "ability": "Speed_level_2"
+              },
+              "unlocking": {
+                "type": "palladium:objective_score",
+                "objective": "GH.Speedxp",
+                "min_score": 600,
+                "max_score": 500000
+            }
+              }
+      },
+      "GUI3": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedbar3.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "ability": "Speed_level_3"
+              },
+              "unlocking": {
+                  "type": "palladium:objective_score",
+                  "objective": "GH.Speedxp",
+                  "min_score": 1400,
+                  "max_score": 500000
+              }
+              }
+      },
+      "GUI4": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedbar4.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+          "enabling": {
+              "type": "palladium:ability_enabled",
+              "ability": "Speed_level_4"
+          },
+          "unlocking": {
+            "type": "palladium:and",
+            "conditions": [{
+                "type": "palladium:objective_score",
+                "objective": "GH.Speedxp",
+                "min_score": 2100,
+                "max_score": 500000
+            },
+            {
+              "type": "palladium:item_in_slot",
+              "item": {
+                  "item": "groupheros:frictionlessboots"
+              },
+              "slot": "curios:belt"
+          }]
+        }
+          }
+      },
+      "Speed_level_5": {
+          "type": "palladium:attribute_modifier",
+          "icon": "minecraft:iron_chestplate",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 1.2,
+          "operation": 0,
+          "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9115",
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:objective_score",
+                  "objective": "GH.SpeedLevel",
+                  "min_score": 5 ,
+                  "max_score": 5
+              },
+              "unlocking": {
+                  "type": "palladium:and",
+                  "conditions": [ {
+                      "type": "palladium:and",
+                      "conditions": [
+                          {
+                          "type": "palladium:objective_score",
+                          "objective": "GH.Speedxp",
+                          "min_score": 3100,
+                          "max_score": 500000
+                      },
+                          {
+                              "type": "palladium:ability_enabled",
+                              "power": "null",
+                              "ability": "speed_bar_test"
+                              
+                          },
+                          {
+                            "type": "palladium:item_in_slot",
+                            "item": {
+                                "item": "groupheros:frictionlessboots"
+                            },
+                            "slot": "curios:belt"
+                        }
+                      ]
+                  }
+                  ]
+              }
+          }
+      },
+      "GUI5": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedbar5.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+          "enabling": {
+              "type": "palladium:ability_enabled",
+              "ability": "Speed_level_5"
+          },
+          "unlocking": { 
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "GH.Speedxp",
+                        "min_score": 3100,
+                        "max_score": 500000
+                      },
+                      {
+                        "type": "palladium:item_in_slot",
+                        "item": {
+                            "item": "groupheros:frictionlessboots"
+                        },
+                        "slot": "curios:belt"
+                    }
+                ]
+          }
+          }
+      },
+      "GUI_show_5": {
+          "type": "palladium:gui_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "texture": "groupheros:textures/gui/presets/speedemp4.png",
+          "texture_width": 256,
+          "texture_height": 256,
+          "translate": [
+              0,
+              0,
+              0
+          ],
+          "rotate": [
+              0,
+              0,
+              0
+          ],
+          "scale": [
+              1,
+              1,
+              1
+          ],
+          "alignment": "stretch",
+          "conditions": {
+            "unlocking": { "type": "palladium:and",
+            "conditions": [
+                {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.Speedxp",
+                    "min_score": 3100,
+                    "max_score": 500000
+                },
+                {
+                  "type": "palladium:item_in_slot",
+                  "item": {
+                      "item": "groupheros:frictionlessboots"
+                  },
+                  "slot": "curios:belt"
+              }
+
+            ]
+          },
+          "enabling": {
+            "type": "palladium:and",
+            "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "speed_bar_test"
+                
+            },
+            {
+                "type": "palladium:not",
+                "conditions": [
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed_level_5"
+                }]
+            }]
+        }
+        }
+      },
+      "step_assist": {
+    "type": "palladium:attribute_modifier",
+    "icon": "minecraft:iron_chestplate",
+    "title": "null",
+    "bar_color": "light_gray",
+    "hidden": true,
+    "hidden_in_bar": true,
+    "list_index": -1,
+    "gui_position": "null",
+    "description": "null",
+    "attribute": "forge:step_height_addition",
+    "amount": 1,
+    "operation": 0,
+    "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e0",
+    "conditions": {
+        "enabling": {
+            "type": "palladium:ability_enabled",
+            "ability": "speed_bar_test"
+        }
+    }
+    },
+    "sparks": {
+        "type": "palladium:render_layer",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "render_layer": "groupheros:lightning_sparks_echomender",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "speed_bar_test"
+            }
+        }
+    },
+    "lightningtoss": {
+        "type": "palladium:energy_beam",
+        "icon": "groupheros:textures/icons/lightningthrow.png",
+        "title": "Lightning Throw",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "Sprint and right-click.",
+        "energy_beam": "groupheros:lasers_echomender",
+        "damage_type": "null",
+        "damage": 20,
+        "max_distance": 30,
+        "speed": 0.5,
+        "set_on_fire_seconds": 0,
+        "cause_fire": false,
+        "smelt_blocks": false,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:activation",
+                "cooldown": 60,
+                "ticks": 10,
+                "key_type": "right_click",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            },
+            "unlocking": {
+                "type": "palladium:and",
+                "conditions": [{
+                    "type": "palladium:sprinting"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "speed_bar_test"
+                }]
+            }
+        }
+    },
+    "lightingtosssound": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["execute at @s run playsound minecraft:entity.lightning_bolt.impact ambient @s ~ ~ ~ 10 1"],
+        "last_tick_commands": [],
+        "commands": [],
+        "conditions":{
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "lightningtoss"
+            }
+        }
+    },
+    "speed_jump": {
+        "type": "palladium:attribute_modifier",
+        "icon": "groupheros:textures/icons/speedjump.png",
+        "title": "Speed Leap",
+        "bar_color": "light_blue",
+        "hidden": false,
+        "hidden_in_bar": true,
+        "list_index": 4,
+        "gui_position": "null",
+        "description": "Run, left-click, and jump! (Level 4 specific)",
+        "attribute": "palladium:jump_power",
+        "amount": 5,
+        "operation": 0,
+        "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d08e1",
+        "conditions": {
+            "unlocking": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:sprinting"
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_bar_test"
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "Speed_level_4"
+                    }
+                ]
+            },
+            "enabling": {
+                "type": "palladium:activation",
+                "cooldown": 80,
+                "ticks": 80,
+                "key_type": "left_click",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            }
+        }
+    },
+    "speed_jump_2": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "palladium:fall_resistance",
+        "amount": 1000,
+        "operation": 0,
+        "uuid": "498be4fb-af06-42f2-8948-e6ccdc0d44e0",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "speed_jump"
+            }
+        }
+    },
+    "speed_siphon": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/item/philosopherstone.png",
+        "title": "Speed Siphen",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "Siphen speed off other speedsters.",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if entity @p[distance=0.1..11] run scoreboard players add @s GH.Speedxp 6"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            }
+        }
+    },
+    "speed_siphon2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if entity @p[distance=..11] run scoreboard players remove @e[distance=..11] GH.Speedxp 3"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_siphon5": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/scoreboard players add @s[distance=..11] GH.Speedxp 3"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_siphon3": {
+        "type": "palladium:particles",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "emitter": "groupheros:siphon_stuff",
+        "particle_type": "minecraft:happy_villager",
+        "options": "",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_siphon4": {
+        "type": "palladium:particles",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "emitter": "groupheros:siphon_stuff2",
+        "particle_type": "minecraft:happy_villager",
+        "options": "",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_slowness": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.Speedxp < @s GH.Speedslowness run effect give @s minecraft:slowness infinite 3 true",
+                     "/execute if score @s GH.Speedxp > @s GH.Speedslowness run effect clear @s minecraft:slowness"]
+    },
+    "set_score_slowness":{
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "listen_index": 0,
+        "gui_poisition": "null",
+        "description": "null",
+        "first_tick_commands": [
+                                "/scoreboard objectives add GH.Speedslowness dummy",
+                                "/scoreboard players set @s GH.Speedslowness -1"
+        ],
+        "last_tick_commands": [],
+        "commands": []
+    },
+    "speed_cap_min_2":{
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "listen_index": 0,
+        "gui_poisition": "null",
+        "description": "null",
+        "first_tick_commands": [
+                                "/scoreboard objectives add GH.Speedxp.min dummy",
+                                "/scoreboard players set @s GH.Speedxp.min 25000"
+        ],
+        "last_tick_commands": [],
+        "commands": []
+    },
+    "speed_cap_min": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.Speedxp > @s GH.Speedxp.min run scoreboard players set @s GH.Speedxp 25000"]
+    }
+    }
+}

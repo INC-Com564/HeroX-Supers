@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "metagen:white_fabric"
+      },
+      "D": {
+        "item": "metagen:pink_fabric"
+      }
+    },
+    "pattern": [
+      "DDD",
+      "QIQ",
+      "QIQ"
+    ],
+    "result": {
+      "item": "groupheros:weaverleggings"
+    },
+    "show_notification": true
+  }

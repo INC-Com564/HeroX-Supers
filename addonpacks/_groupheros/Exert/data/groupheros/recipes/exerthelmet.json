@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:purple_fabric"
+      },
+      "I": {
+        "item": "minecraft:black_dye"
+      },
+      "Q": {
+        "item": ""
+      }
+    },
+    "pattern": [
+      "CCC",
+      "ICI",
+      "CQC"
+    ],
+    "result": {
+      "item": "groupheros:exerthelmet"
+    },
+    "show_notification": true
+  }

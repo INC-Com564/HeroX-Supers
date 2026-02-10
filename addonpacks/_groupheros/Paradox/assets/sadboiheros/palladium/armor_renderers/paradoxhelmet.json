@@ -1,0 +1,5 @@
+{
+  "textures": "sadboiheros:textures/models/armor/paradoxlayer1.png",
+  "model_layers": "palladium:humanoid#suit",
+  "hide_second_layer": true
+}

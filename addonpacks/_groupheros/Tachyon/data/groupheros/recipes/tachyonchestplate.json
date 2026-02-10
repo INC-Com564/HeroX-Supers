@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "I": {
+        "item": "groupheros:velocity9"
+      },
+      "D": {
+        "item": "groupheros:velocity9edible"
+      },
+      "G": {
+        "item": "grave.core:titanium_block"
+      },
+      "Q": {
+        "item": "grave.core:titanium_ingot"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "DGD",
+      "QQQ"
+    ],
+    "result": {
+      "item": "groupheros:tachyonchestplate"
+    },
+    "show_notification": true
+  }

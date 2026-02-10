@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "W": {
+        "item": "minecraft:prismarine_bricks"
+      },
+      "D": {
+        "item": "metagen:black_fabric"
+      },
+      "K": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "J": {
+        "item": ""
+      },
+      "H": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "pattern": [
+      "HJH",
+      "DKD",
+      "WWW"
+    ],
+    "result": {
+      "item": "groupheros:hydromancerchestplate"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "palladium:quartz_circuit"
+      }
+    },
+    "pattern": [
+      "QIQ",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:nightlocustboots"
+    },
+    "show_notification": true
+  }

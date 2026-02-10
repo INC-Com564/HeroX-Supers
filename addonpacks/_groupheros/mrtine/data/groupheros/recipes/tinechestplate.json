@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "minecraft:gold_nugget"
+      },
+      "D": {
+        "item": "metagen:light_gray_fabric"
+      }
+    },
+    "pattern": [
+      "DID",
+      "DID",
+      "DDD"
+    ],
+    "result": {
+      "item": "groupheros:tinechestplate"
+    },
+    "show_notification": true
+  }

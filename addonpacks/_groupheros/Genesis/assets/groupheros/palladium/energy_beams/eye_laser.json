@@ -1,0 +1,8 @@
+[
+    {
+      "body_part": "head",
+      "glow_color": "#ff5252",
+      "rotation_speed": 8,
+      "offset": [0, 1.8, 0]
+    }
+  ]

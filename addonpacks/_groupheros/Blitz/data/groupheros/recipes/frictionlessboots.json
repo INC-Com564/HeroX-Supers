@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": ""
+      },
+      "I": {
+        "item": "groupheros:frictionlesspolymer"
+      },
+      "Q": {
+        "item": "groupheros:frictionlessgel"
+      }
+    },
+    "pattern": [
+      "ICI",
+      "ICI",
+      "QCQ"
+    ],
+    "result": {
+      "item": "groupheros:frictionlessboots"
+    },
+    "show_notification": true
+  }

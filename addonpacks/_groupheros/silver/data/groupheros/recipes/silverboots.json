@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:piston"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "palladium:lead_circuit"
+      },
+      "P": {
+        "item": "arrzenhanced:titanium_ingot"
+      }
+    },
+    "pattern": [
+      "PIP",
+      "QIQ",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:silverboots"
+    },
+    "show_notification": true
+  }

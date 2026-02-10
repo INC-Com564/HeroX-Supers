@@ -1,0 +1,8 @@
+{
+    "name": "Hydromancer Rebreather",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "icon": "groupheros:textures/icons/nevurablast.png",
+    "gui_display_type": "list",
+    "abilities": {
+        }
+      }

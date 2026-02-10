@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "I": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "Q": {
+        "item": "minecraft:light_blue_stained_glass_pane"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "QCQ",
+      "ICI"
+    ],
+    "result": {
+      "item": "groupheros:alloyhelmet"
+    },
+    "show_notification": true
+  }

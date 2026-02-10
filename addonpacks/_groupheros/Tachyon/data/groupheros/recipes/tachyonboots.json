@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "palladium:lead_circuit"
+      },
+      "P": {
+        "item": "palladium:raw_titanium"
+      }
+    },
+    "pattern": [
+      "QIQ",
+      "CIC",
+      "PIP"
+    ],
+    "result": {
+      "item": "groupheros:tachyonboots"
+    },
+    "show_notification": true
+  }

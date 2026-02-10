@@ -1,0 +1,8 @@
+{
+  "type": "palladium:armor",
+  "slot": "chest",
+  "armor_material": "minecraft:netherite",
+  "tooltip": [
+      "Tachyon Suit"
+  ]
+}

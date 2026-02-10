@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": ""
+      },
+      "D": {
+        "item": "arrzenhanced:titanium_ingot"
+      }
+    },
+    "pattern": [
+      "III",
+      "IDI",
+      "III"
+    ],
+    "result": {
+      "item": "grave.core:titanium_ingot"
+    },
+    "show_notification": true
+  }

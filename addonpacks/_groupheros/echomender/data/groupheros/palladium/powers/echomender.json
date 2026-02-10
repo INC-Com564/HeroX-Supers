@@ -1,0 +1,349 @@
+{
+    "name": "Echomender",
+    "background": "minecraft:textures/block/yellow_wool.png",
+    "icon": "groupheros:textures/icons/echologo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "echophasing": {
+            "type": "palladium:intangibility",
+            "icon": "groupheros:textures/icons/echophase.png",
+            "title": "Phase",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Harness the speedforce to phase.",
+            "vertical": false,
+            "whitelist": "null",
+            "blacklist": "palladium:prevents_intangibility",
+            "conditions": {
+                "enabling": [
+                  {
+                    "type": "palladium:held",
+                    "cooldown": 50,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false
+                }
+                ],
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:genetic"
+                        },
+                          {
+                            "type": "palladium:has_effect",
+                            "effect": "minecraft:luck"
+                          }
+                      ]
+                    }
+                  ]
+        }
+        },    
+        "sounds3": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.evoker.cast_spell",
+            "volume": 170,
+            "pitch": 0.4,
+            "play_self": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "echophasing"
+            }
+            }
+        },
+        "echospeedpunch": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/echopunch.png",
+            "title": "Speed Punch",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Harness their speed to deliver a devistating punch.",
+            "attribute": "palladium:punch_damage",
+            "amount": 9,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:activation",
+                "cooldown": 70,
+                "ticks": 30,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:genetic"
+                        },
+                          {
+                            "type": "palladium:has_effect",
+                            "effect": "minecraft:luck"
+                          }
+                      ]
+                    }
+                  ]
+            }
+        },    
+        "sounds5": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.player.breath",
+            "volume": 100,
+            "pitch": 0.1,
+            "play_self": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "echospeedpunch"
+            }
+            }
+        },
+        "echosound": {
+                "type": "palladium:play_sound",
+                "icon": "groupheros:textures/icons/echo.png",
+                "title": "Echos Of Philosophy",
+                "bar_color": "green",
+                "hidden": false,
+                "hidden_in_bar": false,
+                "description": "Let the stone speak.",
+                "sound": "minecraft:block.sculk_shrieker.shriek",
+                "volume": 100,
+                "pitch": 1,
+                "list_index": 2,
+            "gui_position": "null",
+                "looping": false,
+                "conditions": {
+                "enabling": {
+                  "type": "palladium:held",
+                  "cooldown": 270,
+                  "key_type": "key_bind",
+                  "needs_empty_hand": false
+              },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:genetic"
+                        },
+                          {
+                            "type": "palladium:has_effect",
+                            "effect": "minecraft:luck"
+                          }
+                      ]
+                    }
+                  ]
+                }
+        },
+        "echosound_beam": {
+          "type": "palladium:energy_beam",
+          "icon": "groupheros:textures/icons/unibeam.png",
+          "title": "Unibeam",
+          "bar_color": "light_blue",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": 2,
+          "gui_position": "null",
+          "description": "Unleash a blast of energy at your opponents.",
+          "energy_beam": "groupheros:echo_screech",
+          "damage_type": "null",
+          "damage": 2.5,
+          "max_distance": 5,
+          "speed": 0.5,
+          "set_on_fire_seconds": 0,
+          "cause_fire": false,
+          "smelt_blocks": false,
+          "conditions": {
+              "enabling": [
+                {
+                  "type": "palladium:ability_enabled",
+                  "ability": "echosound"
+              }
+          
+          ]
+
+          }
+          },
+          "echosound_beam_parts": {
+              "type": "palladium:particles",
+              "icon": "minecraft:blaze_rod",
+              "title": "null",
+              "bar_color": "light_gray",
+              "hidden": true,
+              "hidden_in_bar": true,
+              "list_index": -1,
+              "gui_position": "null",
+              "description": "null",
+              "emitter": "groupheros:mouth_echo",
+              "particle_type": "minecraft:soul",
+              "options": "0",
+              "conditions": {
+                  "enabling": {
+                      "type": "palladium:and",
+                      "conditions": [
+                          {
+                              "type": "palladium:ability_enabled",
+                              "ability": "echosound"
+                          }
+                      ]
+                  }
+              }
+          },
+        "echoheal": {
+            "type": "palladium:healing",
+            "icon": "groupheros:textures/icons/vitalheal.png",
+            "title": "Harness Vitality",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 3,
+            "gui_position": "null",
+            "description": "Harness the vitality of a speedster.",
+            "frequency": 1,
+            "amount": 20,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:activation",
+                "cooldown": 1000,
+                "ticks": 60,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:genetic"
+                        },
+                          {
+                            "type": "palladium:has_effect",
+                            "effect": "minecraft:luck"
+                          }
+                      ]
+                    }
+                  ]
+            }
+        },
+        "soundheal": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.lightning_bolt.impact",
+            "volume": 100,
+            "pitch": 0.1,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "echoheal"
+            }
+            }
+        },
+        "soundheal2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:block.sculk_shrieker.shriek",
+            "volume": 100,
+            "pitch": 0.1,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "echoheal"
+            }
+            }
+        },    
+        "sounds8": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:particle.soul_escape",
+            "volume": 1,
+            "pitch": 0.05,
+            "looping": true,
+            "play_self": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "echospeedforce"
+            }
+            }
+        },
+        "flash_time": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/flashtime.png",
+            "title": "Flash Time",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 4,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/effect clear @e minecraft:slowness"],
+            "commands": ["/effect give @e[distance=..25] minecraft:slowness infinite 3 true"],
+            "conditions": {
+                "enabling":  {
+                    "type": "palladium:toggle",
+                    "cooldown": 300,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "flash time 2": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/flashtime.png",
+            "title": "Flash Time",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 4,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/effect clear @e minecraft:slow_falling"],
+            "commands": ["/effect give @e[distance=..25] minecraft:slow_falling infinite 3 true"],
+            "conditions": {
+                "enabling":  {
+                  "type": "palladium:ability_enabled",
+                  "ability": "flash_time"
+              }
+            }
+        }
+    }
+}

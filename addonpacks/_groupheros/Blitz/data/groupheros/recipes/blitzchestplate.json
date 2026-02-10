@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": "minecraft:lightning_rod"
+      },
+      "Q": {
+        "item": "palladium:raw_titanium"
+      },
+      "D": {
+        "item": ""
+      },
+      "B": {
+        "item": "metagen:purple_fabric"
+      }
+    },
+    "pattern": [
+      "CDC",
+      "QIQ",
+      "BCB"
+    ],
+    "result": {
+      "item": "groupheros:blitzchestplate"
+    },
+    "show_notification": true
+  }

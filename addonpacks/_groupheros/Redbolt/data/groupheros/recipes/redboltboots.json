@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:red_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "metagen:black_fabric"
+      }
+    },
+    "pattern": [
+      "III",
+      "CIC",
+      "QIQ"
+    ],
+    "result": {
+      "item": "groupheros:redboltboots"
+    },
+    "show_notification": true
+  }

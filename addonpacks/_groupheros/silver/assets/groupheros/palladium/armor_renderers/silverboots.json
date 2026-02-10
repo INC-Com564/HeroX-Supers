@@ -1,0 +1,12 @@
+{
+  "textures": "groupheros:textures/models/armor/silverlayer1.png",
+  "model_layers": "palladium:humanoid#suit",
+  "render_layers": [
+    {
+      "model_layer": "palladium:humanoid#suit",
+      "texture": "groupheros:textures/models/armor/glowlayersilver3.png",
+      "render_type": "glow"
+    }
+  ],
+  "hide_second_layer": true
+}

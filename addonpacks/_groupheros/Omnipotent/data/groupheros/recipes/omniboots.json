@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": ""
+      },
+      "C": {
+        "item": "metagen:yellow_fabric"
+      }
+    },
+    "pattern": [
+      "III",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:omniboots"
+    },
+    "show_notification": true
+  }

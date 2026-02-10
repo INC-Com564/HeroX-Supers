@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:pink_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "metagen:white_fabric"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "CIC",
+      "QIQ"
+    ],
+    "result": {
+      "item": "groupheros:weaverboots"
+    },
+    "show_notification": true
+  }

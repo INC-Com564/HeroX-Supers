@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "palladium:lead_circuit"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "grave.core:copper_wires"
+      },
+      "D": {
+        "item": "dampened:titanium_gold_ingot"
+      }
+    },
+    "pattern": [
+      "QDQ",
+      "DID",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:quartzleggings"
+    },
+    "show_notification": true
+  }

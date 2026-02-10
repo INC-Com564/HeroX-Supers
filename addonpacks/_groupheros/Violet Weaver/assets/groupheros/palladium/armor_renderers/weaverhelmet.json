@@ -1,0 +1,30 @@
+{
+  "textures": "groupheros:textures/models/armor/v0.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "hide_second_layer": true,
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/violetlayer0.png",
+      "conditions": {
+        "type": "palladium:ability_enabled",
+        "power": "groupheros:weavercloth",
+        "ability": "clothing"
+    }
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/violetlayer1jacket.png",
+      "conditions": {
+        "type": "palladium:not",
+        "conditions": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:weavercloth",
+            "ability": "clothing"
+        }
+        ]
+    }
+    }
+  ]
+  }

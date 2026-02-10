@@ -1,0 +1,7 @@
+{
+    "type": "geckolib:default",
+    "model": "groupheros:geo/nlmk3.geo.json",
+    "texture": "groupheros:textures/models/nl3texture.png",
+    "render_type": "glow"
+
+}

@@ -1,0 +1,464 @@
+{
+    "name": "Bloodied Tools",
+    "background": "minecraft:textures/block/red_wool.png",
+    "icon": "groupheros:textures/item/bloodpickaxe.png",
+    "gui_display_type": "list",
+    "abilities": {
+    "Bloodaxe": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/item/bloodaxe.png",
+        "title": "Blood Axe",
+        "bar_color": "red",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": 0,
+        "gui_position": "null",
+        "description": "Form an axe out of your blood.",
+        "first_tick_commands": ["give @s groupheros:bloodaxe"],
+        "last_tick_commands": ["clear @s groupheros:bloodaxe"],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            },
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:genetic"
+                    }
+                  ]
+                }
+              ]
+        }
+    },
+    "Blood Damage": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["effect give @s minecraft:hunger infinite 3 true"],
+        "last_tick_commands": [""],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            }
+        }
+    },
+    "Bloodpick": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/item/bloodpickaxe.png",
+        "title": "Blood Pickaxe",
+        "bar_color": "red",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "Form a pickaxe out of your blood.",
+        "first_tick_commands": ["give @s groupheros:bloodpickaxe"],
+        "last_tick_commands": ["clear @s groupheros:bloodpickaxe"],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            },
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:genetic"
+                    }
+                  ]
+                }
+              ]
+        }
+    },
+    "Blood Damage2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["effect give @s minecraft:hunger infinite 3 true"],
+        "last_tick_commands": [""],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            }
+        }
+    },
+    "Bloodshovel": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/item/bloodshovel.png",
+        "title": "Blood Shovel",
+        "bar_color": "red",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": 2,
+        "gui_position": "null",
+        "description": "Form a shovel out of your blood.",
+        "first_tick_commands": ["give @s groupheros:bloodshovel"],
+        "last_tick_commands": ["clear @s groupheros:bloodshovel"],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            },
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:genetic"
+                    }
+                  ]
+                }
+              ]
+        }
+    },
+    "Blood Damage3": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["effect give @s minecraft:hunger infinite 3 true"],
+        "last_tick_commands": [""],
+        "commands": [
+            ""
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodovel"
+            }
+        }
+    },
+    "Blood Damage4": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "effect clear @s minecraft:hunger"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:not",
+                "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodshovel"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            } ]
+            }
+        }
+    },
+    "Blood clear": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "clear @s minecraft:diamond_axe"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:not",
+                "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodshovel"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            } ]
+            }
+        }
+    },
+    "Blood clear2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "clear @s minecraft:diamond_pickaxe"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:not",
+                "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodshovel"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            } ]
+            }
+        }
+    },
+    "Blood clear3": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "clear @s minecraft:shield"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:not",
+                "conditions": [{
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodshovel"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            },
+            {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            } ]
+            }
+        }
+    },
+    "Blood erase": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "/kill @e[type=item,name=\"Blood Axe\"]"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:has_power",
+                "power": "groupheros:nevuratools"
+            }
+        }
+    },
+    "Blood erase2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "/kill @e[type=item,name=\"Blood Pickaxe\"]"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:has_power",
+                "power": "groupheros:nevuratools"
+            }
+        }
+    },
+    "Blood erase3": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [""],
+        "last_tick_commands": [""],
+        "commands": [
+            "/kill @e[type=item,name=\"Blood Shovel\"]"
+        ],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:has_power",
+                "power": "groupheros:nevuratools"
+            }
+        }
+    },
+    "sfx1": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:block.honey_block.slide",
+        "volume": 1,
+        "pitch": 0.5,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodpick"
+            }
+        }
+    },
+    "sfx2": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:block.honey_block.slide",
+        "volume": 1,
+        "pitch": 0.5,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodshovel"
+            }
+        }
+    },
+    "sfx3": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:block.honey_block.slide",
+        "volume": 1,
+        "pitch": 0.5,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Bloodaxe"
+            }
+        }
+    }
+    }
+}

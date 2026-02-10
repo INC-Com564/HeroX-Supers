@@ -1,0 +1,92 @@
+{
+    "name": "Mysterious Watch",
+    "background": "minecraft:textures/block/green_wool.png",
+    "icon": "groupheros:textures/item/sizewatch.png",
+    "abilities":
+    {
+        "size_change_1": {
+            "type": "palladium:size",
+            "icon": "groupheros:textures/item/sizeup1.png",
+            "title": "Size Maximize",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Increase in scale.",
+            "scale": 2.5,
+            "conditions": {
+                "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "size_change_effect_1": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect give @s minecraft:speed infinite 10 true"],
+            "last_tick_commands": ["/effect clear @s minecraft:speed"],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "size_change_2"
+                }
+            }
+        },
+        "size_change_2": {
+            "type": "palladium:size",
+            "icon": "groupheros:textures/item/sizedown1.png",
+            "title": "Size Minimalize",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Decrease in scale.",
+            "scale": 0.2,
+            "conditions": {
+                "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "size_change_effect_2": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect give @s minecraft:slowness infinite 2 true"],
+            "last_tick_commands": ["/effect clear @s minecraft:slowness"],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "size_change_1"
+                }
+            }
+        }
+}
+}

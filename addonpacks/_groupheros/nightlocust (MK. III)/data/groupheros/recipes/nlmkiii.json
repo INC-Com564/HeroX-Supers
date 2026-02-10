@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "arrzenhanced:tachyon_battery"
+      },
+      "Q": {
+        "item": "groupheros:nanosuit"
+      },
+      "J": {
+        "item": "grave.core:advanced_motherboard"
+      },
+      "F": {
+        "item": "grave.core:datacard"
+      },
+      "L": {
+        "item": "palladium:quartz_circuit"
+      },
+      "H": {
+        "item": "palladium:redstone_flux_crystal"
+      }
+    },
+    "pattern": [
+      "HFH",
+      "LQL",
+      "CJC"
+    ],
+    "result": {
+      "item": "groupheros:nlmkiii"
+    },
+    "show_notification": true
+  }

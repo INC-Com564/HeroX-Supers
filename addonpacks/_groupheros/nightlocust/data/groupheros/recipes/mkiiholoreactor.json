@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "I": {
+        "item": "grave.core:copper_wires"
+      },
+      "Q": {
+        "item": "groupheros:mkiholoreactor"
+      },
+      "B": {
+        "item": "grave.core:datacard"
+      },
+      "J": {
+        "item": "grave.core:advanced_motherboard"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "IQI",
+      "CJC"
+    ],
+    "result": {
+      "item": "groupheros:mkiiholoreactor"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:datacard"
+      },
+      "C": {
+        "item": "metagen:yellow_fabric"
+      },
+      "A": {
+        "item": "grave.core:titanium_block"
+      },
+      "Q": {
+        "item": "metagen:black_fabric"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "QAQ",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:omnichestplate"
+    },
+    "show_notification": true
+  }

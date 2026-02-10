@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": ""
+      },
+      "I": {
+        "item": "minecraft:glass_bottle"
+      },
+      "Q": {
+        "item": "minecraft:ink_sac"
+      },
+      "B": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "pattern": [
+      "QBQ",
+      "BIB",
+      "QBQ"
+    ],
+    "result": {
+      "item": "groupheros:frictionlessgel"
+    },
+    "show_notification": true
+  }

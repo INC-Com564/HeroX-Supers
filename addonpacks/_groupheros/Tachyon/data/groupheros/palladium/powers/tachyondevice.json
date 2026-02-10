@@ -1,0 +1,145 @@
+{
+    "name": "Tachyon Device",
+    "background": "minecraft:textures/block/black_wool.png",
+    "icon": "groupheros:textures/icons/tachyonspeed.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "tachyon_speed":{
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/tachyonspeed.png",
+            "title": "Speedforce",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "listen_index": 0,
+            "gui_position": "null",
+            "description": "Run, player, run.",
+            "conditions": {
+                "enabling":
+                {
+                    "type": "palladium:toggle",
+                    "cooldown": 12000,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:emp"
+                        }
+                      ]
+                    },
+                    {
+                        "type": "palladium:or",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:echomender2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:blitz2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:nightlocust2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:paradox2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:velocity9"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:tachyon2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:exert2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:redbolt2"
+                            },
+                            {
+                                "type": "palladium:has_power",
+                                "power": "groupheros:nanosuit2"
+                            }
+                        ]
+                    }
+                  ]
+            }
+        },
+        "tachyon_level_1": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": ["/effect give @s minecraft:speed 1 5 true"],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "tachyon_speed"
+                },
+                "unlocking": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "tachyon_speed"
+                }
+            }
+        },
+        "sound_1": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["execute at @s run playsound minecraft:block.beacon.activate ambient @s ~ ~ ~ 10 1"],
+            "last_tick_commands": ["execute at @s run playsound minecraft:block.beacon.deactivate ambient @s ~ ~ ~ 10 1"],
+            "commands": [],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "tachyon_speed"
+                }
+            }
+        },    
+        "sounds_2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "palladium:entity.ability.heat_vision",
+            "volume": 0.02,
+            "pitch": 3,
+            "play_self": true,
+            "looping": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "tachyon_speed"
+            }
+            }
+        }
+    }
+}

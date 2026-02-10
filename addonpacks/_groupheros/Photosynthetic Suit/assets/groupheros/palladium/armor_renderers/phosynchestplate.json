@@ -1,0 +1,40 @@
+{
+  "textures": "groupheros:textures/models/armor/phosynlayer0.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "hide_second_layer": true,
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/photoproto.png",
+      "render_type": "glow"
+    },
+    {
+      "model_layer": "palladium:humanoid#suit",
+      "texture": "groupheros:textures/models/armor/phosynglow.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:energy_bar",
+          "power": "groupheros:phosyn",
+          "energy_bar": "phosyn_bar",
+          "min": 3001,
+          "max": 5000
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:humanoid#suit",
+      "texture": "groupheros:textures/models/armor/phosynglow2.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:energy_bar",
+          "power": "groupheros:phosyn",
+          "energy_bar": "phosyn_bar",
+          "min": 600,
+          "max": 3000
+      }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "D": {
+        "item": "grave.core:titanium_block"
+      },
+      "W": {
+        "item": "palladium:redstone_flux_crystal"
+      },
+      "R": {
+        "item": "minecraft:iron_block"
+      },
+      "K": {
+        "item": "groupheros:bloodvial"
+      },
+      "J": {
+        "item": ""
+      }
+    },
+    "pattern": [
+      "WWW",
+      "DKD",
+      "WRW"
+    ],
+    "result": {
+      "item": "groupheros:neilchestplate"
+    },
+    "show_notification": true
+  }

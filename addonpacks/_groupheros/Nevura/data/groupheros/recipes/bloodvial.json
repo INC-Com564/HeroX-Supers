@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "D": {
+        "item": "heroes:brain"
+      },
+      "R": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "K": {
+        "item": "minecraft:glass_bottle"
+      },
+      "J": {
+        "item": "minecraft:beef"
+      }
+    },
+    "pattern": [
+      "JDR",
+      "DKD",
+      "RDJ"
+    ],
+    "result": {
+      "item": "groupheros:bloodvial"
+    },
+    "show_notification": true
+  }

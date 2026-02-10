@@ -1,0 +1,11 @@
+{
+    "type": "palladium:thrusters",
+    "color": "#7a62ff",
+    "right_arm": false,
+    "left_arm": false,
+    "right_leg": true,
+    "left_leg": true,
+    "conditions": { 
+        "type": "palladium:is_hovering_or_flying"
+    }
+}

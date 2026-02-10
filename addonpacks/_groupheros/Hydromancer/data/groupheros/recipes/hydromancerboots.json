@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": ""
+      }
+    },
+    "pattern": [
+      "III",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:hydromancerboots"
+    },
+    "show_notification": true
+  }

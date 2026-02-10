@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "W": {
+        "item": "grave.core:copper_wires"
+      },
+      "D": {
+        "item": "minecraft:daylight_detector"
+      },
+      "J": {
+        "item": ""
+      },
+      "H": {
+        "item": "metagen:green_fabric"
+      },
+      "K": {
+        "item": "grave.core:titanium_block"
+      }
+    },
+    "pattern": [
+      "HJH",
+      "DKD",
+      "WHW"
+    ],
+    "result": {
+      "item": "groupheros:phosynchestplate"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,74 @@
+{
+    "name": "V.W. Clothing",
+    "background": "minecraft:textures/block/gray_wool.png",
+    "icon": "groupheros:textures/icons/weavercloth.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "clothing": {
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/weavercloth.png",
+            "title": "Clothing Toggle",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Take your beanie & jacket on/off.",
+            "conditions": {
+                "enabling":{
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "clothing_sfx": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.wool.break",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling":{
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "clothing"
+                }
+            }
+        },
+        "clothing_sfx2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.wool.break",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling":{
+                    "type": "palladium:ability_last_tick",
+                    "power": "null",
+                    "ability": "clothing"
+                }
+            }
+        }
+    }
+}

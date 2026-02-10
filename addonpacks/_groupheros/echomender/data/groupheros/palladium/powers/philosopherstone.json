@@ -1,0 +1,136 @@
+{
+    "name": "Philosopher Stone",
+    "background": "minecraft:textures/block/black_wool.png",
+    "icon": "groupheros:textures/icons/philosopherstone.png",
+    "abilities":
+    {
+    "speed_siphon": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedjump.png",
+        "title": "Speed Siphen",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "Siphen speed off other speedsters.",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if entity @p[distance=0.1..11] run scoreboard players add @s GH.Speedxp 6"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:held",
+                "cooldown": 0,
+                "key_type": "right_click",
+                "needs_empty_hand": false
+            }
+        }
+    },
+    "speed_siphon2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if entity @p[distance=..11] run scoreboard players remove @e[distance=..11] GH.Speedxp 3"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_siphon5": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/scoreboard players add @s[distance=..11] GH.Speedxp 3"],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_siphon3": {
+        "type": "palladium:particles",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "emitter": "groupheros:stone",
+        "particle_type": "minecraft:end_rod",
+        "options": "",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:and",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "ability": "speed_siphon"
+                    }
+                ]
+            }
+        }
+    },
+    "speed_cap_min_2":{
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "listen_index": 0,
+        "gui_poisition": "null",
+        "description": "null",
+        "first_tick_commands": [
+                                "/scoreboard objectives add GH.Speedxp.min dummy",
+                                "/scoreboard players set @s GH.Speedxp.min 25000"
+        ],
+        "last_tick_commands": [],
+        "commands": []
+    },
+    "speed_cap_min": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.Speedxp > @s GH.Speedxp.min run scoreboard players set @s GH.Speedxp 25000"]
+    }
+    }
+}

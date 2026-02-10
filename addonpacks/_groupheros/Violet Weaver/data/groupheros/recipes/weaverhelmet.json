@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:screen"
+      },
+      "D": {
+        "item": "metagen:pink_fabric"
+      },
+      "P": {
+        "item": "metagen:purple_fabric"
+      },
+      "G": {
+        "item": "metagen:gray_fabric"
+      }
+    },
+    "pattern": [
+      "GGG",
+      "IDI",
+      "PDP"
+    ],
+    "result": {
+      "item": "groupheros:weaverhelmet"
+    },
+    "show_notification": true
+  }

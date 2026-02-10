@@ -1,0 +1,118 @@
+{
+    "name": "Starter Core",
+    "background": "minecraft:textures/block/gray_wool.png",
+    "icon": "groupheros:textures/icons/startercore.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "Punch": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/dashpunch.png",
+            "title": "Tempered Punch",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "Increased attack damage and attack speed.",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": 2.5,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "requirements": {
+                    "type": "palladium:item_in_slot",
+                    "item": {
+                        "item": "groupheros:startercore"
+                    },
+                    "slot": "head"
+                },
+                "enabling": {
+                    "type": "palladium:activation",
+                    "cooldown": 120,
+                    "ticks": 17,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+    },
+    "punch sfx": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:entity.armor_stand.break",
+        "volume": 1,
+        "pitch": 0.5,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Punch"
+            }
+        }
+    },
+    "Speed": {
+        "type": "palladium:attribute_modifier",
+        "icon": "groupheros:textures/icons/dash.png",
+        "title": "Dash",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "Gain a short burst of speed.",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 2.5,
+        "operation": 0,
+        "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+        "requirements": {
+            "type": "palladium:item_in_slot",
+            "item": {
+                "item": "groupheros:startercore"
+            },
+            "slot": "head"
+        },
+        "enabling": {
+            "type": "palladium:activation",
+            "cooldown": 35,
+            "ticks": 3.5,
+            "key_type": "key_bind",
+            "needs_empty_hand": false,
+            "allow_scrolling_when_crouching": true
+        }
+    }
+},
+"speed sfx": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:entity.shulker.shoot",
+        "volume": 1,
+        "pitch": 1,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "Speed"
+            }
+        }
+    }
+}
+}

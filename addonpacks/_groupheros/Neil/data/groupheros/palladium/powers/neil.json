@@ -1,0 +1,713 @@
+{
+    "name": "O'Neil",
+    "background": "minecraft:textures/block/red_wool.png",
+    "icon": "groupheros:textures/icons/neilshow.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "wrath": {
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/neilshow.png",
+            "title": "Wrath P-2",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Fill yourself with rage and take down your opponent.",
+            "energy_bar_usage": {
+                "energy_bar": "neil_bar",
+                "amount": 1
+            },
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                        "type": "palladium:not",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_effect",
+                                "effect": "dampened:genetic"
+                            },
+                            {
+                                "type": "palladium:energy_bar",
+                                "power": "null",
+                                "energy_bar": "neil_bar",
+                                "min": 251
+                            }
+                        ]
+                    },
+                    {
+                        "type": "palladium:energy_bar",
+                        "energy_bar": "neil_bar",
+                        "min": 1
+                    }
+                ]
+            }
+        },
+        "wrath2": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.3,
+            "operation": 0,
+            "uuid": "498be4fb-af04-77f2-8948-e6ccdc0d99e2",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "wrath3": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": 8,
+            "operation": 0,
+            "uuid": "498be4fb-af04-77f2-8948-e6ccdc0d99e2",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "wrath4": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "palladium:fall_resistance",
+            "amount": 50,
+            "operation": 0,
+            "uuid": "558be4fb-af04-77f2-8948-e6ccdc0d99e2",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "wrath5": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "palladium:jump_power",
+            "amount": 2,
+            "operation": 0,
+            "uuid": "498be0fb-af04-77f2-8948-e6ccdc0d99e2",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "continentshatteringpunch": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/neilpun1.png",
+            "title": "Continent-shattering Punch",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 2,
+            "gui_position": "null",
+            "description": "Special Move: Continent-shattering Smash!",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": 8,
+            "operation": 0,
+            "uuid": "498be5fb-af04-77f2-8948-e6ccdc0d99e2",
+            "energy_bar_usage": {
+                "energy_bar": "neil_bar",
+                "amount": 1
+            },
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                        "type": "palladium:not",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_effect",
+                                "effect": "dampened:genetic"
+                            },
+                            {
+                                "type": "palladium:energy_bar",
+                                "power": "null",
+                                "energy_bar": "neil_bar",
+                                "min": 251
+                            }
+                        ]
+                    },
+                    {
+                        "type": "palladium:energy_bar",
+                        "energy_bar": "neil_bar",
+                        "min": 150
+                    }
+                ]
+            }
+        },
+        "continentshatteringpunch2": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.attack_knockback",
+            "amount": 20,
+            "operation": 0,
+            "uuid": "498be0fb-af04-07f2-8978-e6ccdc2d00e9",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "continentshatteringpunch"
+                }
+            }
+        },
+        "set_score": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "listen_index": 0,
+            "gui_poisition": "null",
+            "description": "null",
+            "first_tick_commands": [
+                "/scoreboard objectives add GH.neillevel minecraft.custom:minecraft.damage_taken",
+                "/scoreboard players set @s GH.neillevel 0",
+                "/scoreboard objectives add GH.neillevel.min dummy",
+                "/scoreboard players set @s GH.neillevel.min 250"
+            ],
+            "last_tick_commands": [],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:true"
+                }
+            }
+        },
+        "neil_decrease_score": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.neillevel 1"
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "neil_decrease_score2": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [
+                "/scoreboard players remove @s GH.neillevel 80"
+            ],
+            "commands": [
+                "/scoreboard players remove @s GH.neillevel 1"
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "continentshatteringpunch"
+                }
+            }
+        },
+        "neil_decrease_score3": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [
+                "/scoreboard players remove @s GH.neillevel 230"
+            ],
+            "commands": [
+                "/scoreboard players remove @s GH.neillevel 1"
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "worldshatteringpunch"
+                }
+            }
+        },
+        "neil_decrease_score4": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [
+                ""
+            ],
+            "commands": [
+                "/scoreboard players remove @s GH.neillevel 20"
+            ],
+            "conditions": {
+                "unlocking": [
+                    {
+                        "type": "palladium:not",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_effect",
+                                "effect": "dampened:genetic"
+                            },
+                            {
+                                "type": "palladium:energy_bar",
+                                "power": "null",
+                                "energy_bar": "neil_bar",
+                                "min": 251
+                            }
+                        ]
+                    },
+                    {
+                        "type": "palladium:energy_bar",
+                        "energy_bar": "neil_bar",
+                        "min": 170
+                    }
+                ],
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "continentshatteringpunch"
+                }
+            }
+        },
+        "speed_cap_min": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/execute if score @s GH.neillevel > @s GH.neillevel.min run scoreboard players set @s GH.neillevel 250"
+            ]
+        },
+        "Speed": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/dash.png",
+            "title": "Dash",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Gain a short burst of speed.",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 2.5,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "requirements": {
+                    "type": "palladium:item_in_slot",
+                    "item": {
+                        "item": "groupheros:startercore"
+                    },
+                    "slot": "head"
+                },
+                "enabling": {
+                    "type": "palladium:activation",
+                    "cooldown": 35,
+                    "ticks": 3.5,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "speed sfx": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:entity.shulker.shoot",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": true,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "Speed"
+                }
+            }
+        },
+        "wrath_render": {
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/neilshow.png",
+            "title": "Wrath Fake Render",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 5,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "wrath_render2": {
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/icons/neilshow.png",
+            "title": "Wrath Fake Render",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 5,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:entity_type",
+                    "entity_type": "palladium:suit_stand"
+                }
+            }
+        },
+        "sparks": {
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "groupheros:lightning_sparks_neil",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "wrath"
+                }
+            }
+        },
+        "after_image": {
+            "type": "palladium:trail",
+            "list_index": 0,
+            "title": "null",
+            "trail": "groupheros:neiltrail",
+            "hidden": true,
+            "hidden_in_bar": true,
+                "conditions": {
+                  "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "wrath"
+                }
+              }
+              },
+              "passive_punch": {
+                  "type": "palladium:attribute_modifier",
+                  "icon": "minecraft:iron_chestplate",
+                  "title": "null",
+                  "bar_color": "light_gray",
+                  "hidden": true,
+                  "hidden_in_bar": true,
+                  "list_index": -1,
+                  "gui_position": "null",
+                  "description": "null",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "amount": 3.5,
+                  "operation": 0,
+                  "uuid": "498be0fb-af04-77f2-8948-e6ccdc0d99e2",
+                  "conditions": {
+                      "enabling": {
+                          "type": "palladium:true"
+                      }
+                  }
+              },
+              "passive_defemse": {
+                "type": "palladium:attribute_modifier",
+                "icon": "minecraft:iron_chestplate",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "attribute": "minecraft:generic.armor",
+                "amount": 50,
+                "operation": 0,
+                "uuid": "498be0fb-af74-77f2-8948-e6ccdc0d99e2",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:true"
+                    }
+                }
+            },
+            "worldshatteringpunch": {
+                "type": "palladium:attribute_modifier",
+                "icon": "groupheros:textures/icons/neilpun2.png",
+                "title": "World-shattering Punch",
+                "bar_color": "light_gray",
+                "hidden": false,
+                "hidden_in_bar": false,
+                "list_index": 3,
+                "gui_position": "null",
+                "description": "Special Move: World-shattering Smash!",
+                "attribute": "minecraft:generic.attack_damage",
+                "amount": 100,
+                "operation": 0,
+                "uuid": "498be5fb-af04-77f2-8948-e6ccdc0d02e2",
+                "energy_bar_usage": {
+                    "energy_bar": "neil_bar",
+                    "amount": 1
+                },
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:toggle",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    },
+                    "unlocking": [
+                        {
+                            "type": "palladium:not",
+                            "conditions": [
+                                {
+                                    "type": "palladium:has_effect",
+                                    "effect": "dampened:genetic"
+                                },
+                                {
+                                    "type": "palladium:energy_bar",
+                                    "power": "null",
+                                    "energy_bar": "neil_bar",
+                                    "min": 251
+                                }
+                            ]
+                        },
+                        {
+                            "type": "palladium:energy_bar",
+                            "energy_bar": "neil_bar",
+                            "min": 237
+                        }
+                    ]
+                }
+            },
+            "worldshatteringpunch2": {
+                "type": "palladium:attribute_modifier",
+                "icon": "minecraft:iron_chestplate",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "attribute": "minecraft:generic.attack_knockback",
+                "amount": 40,
+                "operation": 0,
+                "uuid": "498be0fb-af04-07f2-8978-e6ccdc0d99e2",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "worldshatteringpunch"
+                    }
+                }
+            },
+            "wrathsound": {
+                "type": "palladium:command",
+                "icon": "minecraft:command_block",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "first_tick_commands": ["/playsound minecraft:block.lava.extinguish ambient @a[distance=..14] ~ ~ ~ 1 0.5"],
+                "last_tick_commands": ["/playsound minecraft:entity.player.breath ambient @a[distance=..14] ~ ~ ~ 1 1"],
+                "commands": [
+                ],
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "wrath"
+                    }
+                }
+            },
+            "worldshatteringpunch3": {
+                "type": "palladium:command",
+                "icon": "minecraft:command_block",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "first_tick_commands": ["/playsound minecraft:entity.generic.explode player @a[distance=..5] ~ ~ ~ 1 0.5"],
+                "last_tick_commands": [],
+                "commands": [
+                ],
+                "conditions": {
+
+                    "enabling": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "worldshatteringpunch"
+                    }
+                }
+            },
+            "worldshatteringpunchpart": {
+                "type": "palladium:command",
+                "icon": "minecraft:command_block",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "first_tick_commands": ["/particle minecraft:explosion ^ ^2 ^3"],
+                "last_tick_commands": [],
+                "commands": [
+                ],
+                "conditions": {
+                    "unlocking": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "worldshatteringpunch"
+                    }
+                }
+            },
+            "continentshatteringpunchsound": {
+                "type": "palladium:command",
+                "icon": "minecraft:command_block",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "first_tick_commands": ["/playsound minecraft:entity.warden.sonic_charge ambient @a[distance=..14] ~ ~ ~ 1 1.5"],
+                "last_tick_commands": [],
+                "commands": [
+                ],
+                "conditions": {
+                    "unlocking": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "continentshatteringpunch"
+                    }
+                }
+            }
+    },
+    "energy_bars": {
+        "neil_bar": {
+            "max": 250,
+            "auto_increase_per_tick": 0,
+            "auto_increase_interval": 20,
+            "color": "#dd6060",
+            "synced_value": {
+                "type": "score",
+                "objective": "GH.neillevel",
+                "fallback": 0
+            }
+        }
+    }
+}

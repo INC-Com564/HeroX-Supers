@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "grave.core:copper_wires"
+      },
+      "D": {
+        "item": "grave.core:basic_motherboard"
+      }
+    },
+    "pattern": [
+      "QDQ",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:nightlocustleggings"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,312 @@
+{
+    "name": "Mr. Tine",
+    "background": "minecraft:textures/block/orange_wool.png",
+    "icon": "groupheros:textures/icons/mrtinelogo0.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "flight tine": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/flight.png",
+            "title": "Flame Flight",
+            "bar_color": "orange",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Take to the skies with your flames.",
+            "attribute": "palladium:flight_speed",
+            "amount": 1,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:genetic"
+                        }
+                      ]
+                    }
+                  ]
+            },
+            "sfx": {
+                "type": "palladium:play_sound",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "sound": "minecraft:entity.blaze.shoot",
+                "volume": 1,
+                "pitch": 0.05,
+                "looping": true,
+                "play_self": true,
+                "conditions": {
+                    "type": "palladium:ability_type_enabled",
+                    "ability_type": "palladium:attribute_modifier"
+                }
+            }
+        },
+        "fireball":{
+            "type": "palladium:projectile",
+            "icon": "groupheros:textures/icons/fireball.png",
+            "title": "Fireball",
+            "bar_color": "orange",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Hurl fireballs at your enemies.",
+            "entity_type": "minecraft:fireball",
+            "entity_data": "null",
+            "inaccuracy": 0.5,
+            "velocity": 3,
+            "swinging_arm": "both",
+            "damage_from_player": false,
+            "ignore_player_movement": false,
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:activation",
+                        "cooldown": 25,
+                        "ticks": 1,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+            
+            ],
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:genetic"
+                    }
+                  ]
+                }
+              ]
+
+            }
+        },
+        "Wearing Suit": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "orange",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_arm_tine",
+            "particle_type": "minecraft:flame",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "flight tine"
+                }
+            }
+        },
+        "Wearing Suit2": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "orange",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_arm_tine",
+            "particle_type": "minecraft:flame",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "flight tine"
+                }
+            }
+        },
+        "Energy beam": {
+            "type": "palladium:energy_beam",
+            "icon": "groupheros:textures/icons/flamethrower.png",
+            "title": "Flamethrower",
+            "bar_color": "orange",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 2,
+            "gui_position": "null",
+            "description": "Scorch your opponents with a beam of fire.",
+            "energy_beam": "groupheros:hands_laser",
+            "damage_type": "null",
+            "damage": 1.5,
+            "max_distance": 35,
+            "speed": 0.5,
+            "set_on_fire_seconds": 5,
+            "cause_fire": true,
+            "smelt_blocks": false,
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:toggle",
+                        "cooldown": 70,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+            
+            ],
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:genetic"
+                    }
+                  ]
+                }
+              ]
+
+            }
+            },
+            "aim": {
+                "type": "palladium:aim",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "time": 10,
+                "arm": "both",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Energy beam"
+                    }
+                }
+            },
+            "fire beam": {
+                "type": "palladium:particles",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "orange",
+                "hidden": true,
+                "hidden_in_bar": false,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "emitter": "groupheros:right_arm_blast",
+                "particle_type": "minecraft:flame",
+                "options": "",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:ability_type_enabled",
+                        "ability_type": "palladium:energy_beam"
+                    }
+                }
+        },
+        "fire beam2": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "orange",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_arm_blast",
+            "particle_type": "minecraft:flame",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_type_enabled",
+                    "ability_type": "palladium:energy_beam"
+                }
+            }
+    },
+    "beam sfx": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:entity.blaze.shoot",
+        "volume": 1,
+        "pitch": 0.005,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_type_enabled",
+                "ability_type": "palladium:energy_beam"
+            }
+        }
+    },
+    "beam sfx2": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:entity.blaze.burn",
+        "volume": 100,
+        "pitch": 0.005,
+        "looping": true,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_type_enabled",
+                "ability_type": "palladium:energy_beam"
+            }
+        }
+    },
+    "beam hands": {
+        "type": "palladium:show_both_arms",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_type_enabled",
+                "ability_type": "palladium:energy_beam"
+            }
+        }
+    }
+    }
+}

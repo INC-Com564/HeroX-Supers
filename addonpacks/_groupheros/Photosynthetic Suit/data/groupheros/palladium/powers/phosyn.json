@@ -1,0 +1,530 @@
+{
+    "name": "Hydromancer",
+    "background": "minecraft:textures/block/yellow_wool.png",
+    "icon": "groupheros:textures/icons/phosunlogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "water_beam": {
+            "type": "palladium:energy_beam",
+            "icon": "groupheros:textures/icons/sunbeam.png",
+            "title": "Sun Blast",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "null",
+            "energy_beam": "groupheros:phosyn",
+            "damage_type": "null",
+            "damage": 5,
+            "max_distance": 30,
+            "speed": 0.5,
+            "set_on_fire_seconds": 4,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "energy_bar_usage": {
+                "energy_bar": "hydro_bar",
+                "amount": 6
+            },
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                        "type": "palladium:not",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_effect",
+                                "effect": "dampened:genetic"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "palladium:energy_bar",
+                        "energy_bar": "phosyn_bar",
+                        "min": 10
+                    }
+                ]
+            }
+        },
+        "aim": {
+            "type": "palladium:aim",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "time": 10,
+            "arm": "both",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "aim2": {
+            "type": "palladium:show_both_arms",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "water_beam_sfx_2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.power_select",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "water_beam_sfx_3": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.ambient",
+            "volume": 1,
+            "pitch": 1,
+            "looping": true,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "flight": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/sunflight.png",
+            "title": "Flight",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "palladium:flight_speed",
+            "amount": 1,
+            "operation": 0,
+            "uuid": "875be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "energy_bar_usage": {
+                "energy_bar": "phosyn_bar",
+                "amount": 6
+            },
+            "conditions": {
+                "unlocking": {
+                    "type": "palladium:energy_bar",
+                    "energy_bar": "phosyn_bar",
+                    "min": 1
+                }
+            }
+        },
+        "set_score":{
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "listen_index": 0,
+            "gui_poisition": "null",
+            "description": "null",
+            "first_tick_commands": [
+                                    "/scoreboard objectives add GH.phosynlevel dummy",
+                                    "/scoreboard players set @s GH.phosynlevel 0",
+                                    "/scoreboard objectives add GH.phosynlevel.min dummy",
+                                    "/scoreboard players set @s GH.phosynlevel.min 5000"
+            ],
+            "last_tick_commands": [],
+            "commands": [],
+            "conditions":{
+                "enabling":{
+                    "type": "palladium:true"
+                }
+            }
+        },
+        "hydro_increase_score": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players add @s GH.phosynlevel 40"
+            ],
+            "conditions":{
+                "enabling": {
+    "type": "palladium:brightness_at_position",
+    "min_brightness": 15,
+    "max_brightness": 15
+            },
+            "unlocking": {
+                "type": "palladium:not",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "water_beam"
+                    },
+                    {
+                        "type": "palladium:is_hovering_or_flying"
+                    }
+                ]
+            }
+            }
+        },
+        "hydro_increase_score2": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players add @s GH.phosynlevel 10"
+            ],
+            "conditions":{
+                "enabling": {
+    "type": "palladium:brightness_at_position",
+    "min_brightness": 4,
+    "max_brightness": 4
+            },
+            "unlocking": {
+                "type": "palladium:not",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "water_beam"
+                    },
+                    {
+                        "type": "palladium:is_hovering_or_flying"
+                    }
+                ]
+            }
+            }
+        },
+        "hydro_increase_score3": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players add @s GH.phosynlevel 40"
+            ],
+            "conditions":{
+                "enabling": {
+    "type": "palladium:brightness_at_position",
+    "min_brightness": 15,
+    "max_brightness": 15
+            },
+            "unlocking": {
+                "type": "palladium:is_on_fire"
+            }
+            }
+        },
+        "hydro_decrease_score": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.phosynlevel 10"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "water_beam"
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:brightness_at_position",
+                            "min_brightness": 0,
+                            "max_brightness": 14
+                        },
+                        {
+                            "type": "palladium:night"
+                        }
+                    ]
+                }
+            }
+        },
+        "hydro_decrease_score4": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.phosynlevel 2"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:brightness_at_position",
+                            "min_brightness": 0,
+                            "max_brightness": 14
+                        },
+                        {
+                            "type": "palladium:night"
+                        }
+                    ]
+                }
+            }
+        },
+        "hydro_decrease_score5": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.phosynlevel 20"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "water_beam"
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:brightness_at_position",
+                            "min_brightness": 0,
+                            "max_brightness": 15
+                        },
+                        {
+                            "type": "palladium:day"
+                        }
+                    ]
+                }
+            }
+        },
+        "hydro_decrease_score6": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.phosynlevel 7"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                },
+                "unlocking": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:brightness_at_position",
+                            "min_brightness": 0,
+                            "max_brightness": 15
+                        },
+                        {
+                            "type": "palladium:day"
+                        }
+                    ]
+                }
+            }
+        },
+        "speed_cap_min": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": ["/execute if score @s GH.phosynlevel > @s GH.phosynlevel.min run scoreboard players set @s GH.phosynlevel 5000"]
+        },
+        "water_flight_sfx_1": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.ambient",
+            "volume": 1,
+            "pitch": 1,
+            "looping": true,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "water_flight_sfx_2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.power_select",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "fire_fists": {
+            "type": "palladium:fire_aspect",
+            "icon": "minecraft:flint_and_steel",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "time": 5,
+            "should_stack_time": false,
+            "max_time": 5,
+            "conditions":{
+                "enabling": {
+                 "type": "palladium:energy_bar",
+                 "power": "null",
+                 "energy_bar": "phosyn_bar",
+                 "min": 600,
+                 "max": 6000
+             }
+             }
+        },
+        "fire_resistance": {
+            "type": "palladium:damage_immunity",
+            "icon": "minecraft:potion",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "damage_sources": [
+                "minecraft:is_fire"
+            ]
+        }
+    },
+    "energy_bars": {
+   "phosyn_bar": {
+       "max": 5000,
+       "auto_increase_per_tick": 0,
+       "auto_increase_interval": 20,
+       "color": "#ffc432",
+       "synced_value": {
+         "type": "score",
+         "objective": "GH.phosynlevel",
+         "fallback": 0
+       }
+   }
+}
+}

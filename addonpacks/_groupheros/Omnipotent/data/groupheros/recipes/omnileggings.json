@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "metagen:yellow_fabric"
+    },
+    "I": {
+      "item": ""
+    },
+    "P": {
+      "item": "metagen:black_fabric"
+    }
+  },
+  "pattern": [
+    "CPC",
+    "CIC",
+    "CIC"
+  ],
+  "result": {
+    "item": "groupheros:omnileggings"
+  },
+  "show_notification": true
+}

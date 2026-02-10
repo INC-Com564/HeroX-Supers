@@ -1,0 +1,39 @@
+{
+  "textures": "groupheros:textures/models/armor/nightlocustlayer1.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "hide_second_layer": true,
+  "render_layers": [
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachyondevicelayer1.png",
+      "conditions": {
+        "type": "palladium:or",
+        "conditions": [
+          {
+            "type": "palladium:has_power",
+            "power": "groupheros:tachyondevice"
+        },
+        {
+          "type": "palladium:item_in_slot",
+          "item": {
+              "item": "groupheros:tachyondevicedisplay"
+          },
+          "slot": "mainhand"
+      }
+        ]
+    }
+    },
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachyondeviceglowlayer1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:tachyondevice",
+          "ability": "tachyon_speed"
+      }
+      ]
+    }
+  ]
+}

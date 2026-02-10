@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "D": {
+        "item": ""
+      },
+      "B": {
+        "item": "metagen:red_fabric"
+      }
+    },
+    "pattern": [
+      "BDB",
+      "BCB",
+      "BCB"
+    ],
+    "result": {
+      "item": "groupheros:redboltchestplate"
+    },
+    "show_notification": true
+  }

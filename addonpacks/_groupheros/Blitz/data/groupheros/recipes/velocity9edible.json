@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": ""
+      },
+      "I": {
+        "item": "minecraft:glass_bottle"
+      },
+      "Q": {
+        "item": "minecraft:iron_nugget"
+      },
+      "P": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "pattern": [
+      "CQC",
+      "CIC",
+      "CPC"
+    ],
+    "result": {
+      "item": "groupheros:velocity9edible"
+    },
+    "show_notification": true
+  }

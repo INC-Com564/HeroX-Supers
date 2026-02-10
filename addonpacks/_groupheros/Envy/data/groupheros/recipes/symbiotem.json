@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "Q": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "J": {
+        "item": "minecraft:glass"
+      },
+      "B": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "pattern": [
+      "QQQ",
+      "JBJ",
+      "QQQ"
+    ],
+    "result": {
+      "item": "groupheros:symbiotem"
+    },
+    "show_notification": true
+  }

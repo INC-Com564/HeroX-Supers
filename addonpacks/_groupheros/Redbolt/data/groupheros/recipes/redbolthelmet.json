@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:red_fabric"
+      },
+      "I": {
+        "item": "palladium:redstone_flux_crystal"
+      },
+      "Q": {
+        "item": "grave.core:titanium_ingot"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "ICI",
+      "QQQ"
+    ],
+    "result": {
+      "item": "groupheros:redbolthelmet"
+    },
+    "show_notification": true
+  }

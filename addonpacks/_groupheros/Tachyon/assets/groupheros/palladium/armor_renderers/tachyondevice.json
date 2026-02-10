@@ -1,0 +1,12 @@
+{
+    "textures": "groupheros:textures/models/armor/tachyondevicelayer1.png",
+    "model_layers": "palladium:humanoid#suit",
+    "hide_second_layer": true,
+    "conditions":       {
+      "type": "palladium:item_in_slot",
+      "item": {
+          "item": "groupheros:tachyondevice"
+      },
+      "slot": "mainhand"
+  }
+  }

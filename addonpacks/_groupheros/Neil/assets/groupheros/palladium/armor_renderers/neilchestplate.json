@@ -1,0 +1,42 @@
+{
+  "textures": "groupheros:textures/models/armor/neillayer1.png",
+  "model_layers": "palladium:humanoid#suit",
+  "hide_second_layer": true,
+  "render_layers": [
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/wrathlayer1.png",
+      "render_type": "glow",
+      "conditions": {
+        "type": "palladium:or",
+        "conditions": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:neil",
+            "ability": "wrath"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:neil",
+            "ability": "wrath_render"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:neil",
+            "ability": "wrath_render2"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:neil",
+            "ability": "continentshatteringpunch"
+        },
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:neil",
+          "ability": "worldshatteringpunch"
+      }
+        ]
+      }
+    }
+  ]
+}

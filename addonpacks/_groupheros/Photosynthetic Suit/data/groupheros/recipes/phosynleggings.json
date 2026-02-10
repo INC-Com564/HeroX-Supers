@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:green_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "grave.core:copper_wires"
+      },
+      "H": {
+        "item": "minecraft:daylight_detector"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "HIH",
+      "QIQ"
+    ],
+    "result": {
+      "item": "groupheros:phosynleggings"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,7 @@
+{
+    "objectives": [
+        "GH.SpeedLevel",
+        "GH.SpeedLevel.Min",
+        "GH.SpeedLevel.Max"
+    ]
+}

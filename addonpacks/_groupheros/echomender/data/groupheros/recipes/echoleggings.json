@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": ""
+    },
+    "Q": {
+      "item": "metagen:brown_fabric"
+    },
+    "P": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "QPQ",
+    "EIE",
+    "PIP"
+  ],
+  "result": {
+    "item": "groupheros:echoleggings"
+  },
+  "show_notification": true
+}

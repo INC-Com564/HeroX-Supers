@@ -1,0 +1,6 @@
+{
+    "type": "palladium:shovel",
+    "tier": "minecraft:diamond",
+    "base_damage": 2,
+    "attack_speed": -3
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "grave.core:cpu"
+      },
+      "P": {
+        "item": "metagen:purple_fabric"
+      }
+    },
+    "pattern": [
+      "QIQ",
+      "PIP",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:etiboots"
+    },
+    "show_notification": true
+  }

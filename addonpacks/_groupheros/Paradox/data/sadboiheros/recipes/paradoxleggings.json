@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:blue_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "pattern": [
+      "QCQ",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:paradoxleggings"
+    },
+    "show_notification": true
+  }

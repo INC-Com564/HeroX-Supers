@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "minecraft:leather"
+      },
+      "D": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "pattern": [
+      "QDQ",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:tineleggings"
+    },
+    "show_notification": true
+  }

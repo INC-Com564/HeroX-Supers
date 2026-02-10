@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": "grave.core:screen"
+      },
+      "D": {
+        "item": ""
+      },
+      "B": {
+        "item": "grave.core:datacard"
+      },
+      "Y": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "pattern": [
+      "YBY",
+      "ICI",
+      "CCC"
+    ],
+    "result": {
+      "item": "groupheros:tachyonhelmet"
+    },
+    "show_notification": true
+  }

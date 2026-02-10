@@ -1,0 +1,50 @@
+{
+    "name": "Eternius3",
+    "background": "minecraft:textures/block/purple_wool.png",
+    "icon": "groupheros:textures/icons/upgradedspeed.png",
+    "abilities":
+    {
+    "extrahp": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 10,
+        "operation": 0,
+        "uuid": "498be4fb-af04-42f2-8948-e6ccdc8d99e1",
+    "conditions": {
+      "enabling": {
+        "type": "palladium:has_power",
+        "power": "groupheros:eternius"
+    }
+    }
+     },
+    "resistance": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "palladium:fall_resistance",
+            "amount": 10,
+            "operation": 0,
+            "uuid": "198be4fb-af04-42f2-8990-e6ccdc8d99e1",
+        "conditions": {
+          "enabling": {
+            "type": "palladium:has_power",
+            "power": "groupheros:eternius"
+        }
+        }
+    }
+    }
+}

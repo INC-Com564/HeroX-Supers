@@ -1,0 +1,16 @@
+{
+  "base": "groupheros:textures/models/example_texture#CROUCHING.png",
+  "variables": {
+      "CROUCHING": {
+          "type": "palladium:crouching",
+          "true_value": "_crouching",
+          "false_value": ""
+      }
+  },
+  "transformers": [
+    {
+      "type": "palladium:overlay",
+      "overlay": "groupheros:textures/models/example_overlay#CROUCHING.png"
+    }
+  ]
+}

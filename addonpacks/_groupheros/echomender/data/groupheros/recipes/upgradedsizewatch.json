@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "dampened:titanium_gold_ingot"
+      },
+      "Q": {
+        "item": "groupheros:sizewatch"
+      },
+      "E": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "pattern": [
+      "EIE",
+      "IQI",
+      "EIE"
+    ],
+    "result": {
+      "item": "groupheros:upgradedsizewatch"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,42 @@
+{
+    "name": "NightLocust",
+    "background": "minecraft:textures/block/purple_wool.png",
+    "icon": "sadboiheros:textures/icons/nightlocustlogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "helmet": {
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "sadboiheros:helmet",
+            "conditions": {
+                "enabling": { 
+                    "type": "palladium:true"
+                }
+            }
+        },
+        "emblem": {
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "sadboiheros:emblem",
+            "conditions": {
+                "enabling": { 
+                    "type": "palladium:true"
+                }
+            }
+        }
+    }
+}

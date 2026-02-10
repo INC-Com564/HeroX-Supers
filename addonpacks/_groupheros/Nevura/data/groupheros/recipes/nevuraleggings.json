@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:gray_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "palladium:raw_titanium"
+      },
+      "D": {
+        "item": "minecraft:flint"
+      }
+    },
+    "pattern": [
+      "QDQ",
+      "CIC",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:nevuraleggings"
+    },
+    "show_notification": true
+  }

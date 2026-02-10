@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "groupheros:blitzboots"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "palladium:quartz_circuit"
+      }
+    },
+    "pattern": [
+      "IQI",
+      "ICI",
+      "IQI"
+    ],
+    "result": {
+      "item": "groupheros:tachblitzboots"
+    },
+    "show_notification": true
+  }

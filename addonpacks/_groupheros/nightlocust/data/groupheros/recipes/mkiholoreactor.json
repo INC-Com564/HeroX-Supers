@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "palladium:quartz_circuit"
+      },
+      "I": {
+        "item": "arrzenhanced:tachyon_battery"
+      },
+      "Q": {
+        "item": "grave.core:cpu"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "IQI",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:mkiholoreactor"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:datacard"
+      },
+      "D": {
+        "item": "metagen:purple_fabric"
+      },
+      "E": {
+        "item": "groupheros:eternitynexus"
+      },
+      "C": {
+        "item": "grave.core:cpu"
+      }
+    },
+    "pattern": [
+      "DID",
+      "DED",
+      "DCD"
+    ],
+    "result": {
+      "item": "groupheros:etichestplate"
+    },
+    "show_notification": true
+  }

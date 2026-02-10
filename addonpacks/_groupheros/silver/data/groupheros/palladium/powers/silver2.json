@@ -1,0 +1,88 @@
+{
+    "name": "Silver (MK. X)",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "icon": "groupheros:textures/icons/arcreactorlogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "Hello": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/tellraw @s {\"text\":\"[Jarvis]: Greetings, Mr. Stark.\"}"
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_first_tick",
+                    "power": "null",
+                    "ability": "yo"
+                }
+             }
+        },
+        "yo": {
+            "type": "palladium:dummy",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null"
+        },
+        "GUI": {
+            "type": "palladium:gui_overlay",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "texture": "groupheros:textures/gui/presets/starkgui4.png",
+            "texture_width": 256,
+            "texture_height": 256,
+            "translate": [
+                0,
+                0,
+                0
+            ],
+            "rotate": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "alignment": "stretch"
+        },
+        "bootup": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.activate",
+            "volume": 1,
+            "pitch": 1.2,
+            "looping": false,
+            "play_self": true
+        }
+    }
+}

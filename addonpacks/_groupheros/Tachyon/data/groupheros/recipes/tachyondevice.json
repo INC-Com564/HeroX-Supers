@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": "grave.core:copper_wires"
+      },
+      "B": {
+        "item": "grave.core:advanced_motherboard"
+      }
+    },
+    "pattern": [
+      "ICI",
+      "CBC",
+      "ICI"
+    ],
+    "result": {
+      "item": "groupheros:tachyondevice"
+    },
+    "show_notification": true
+  }

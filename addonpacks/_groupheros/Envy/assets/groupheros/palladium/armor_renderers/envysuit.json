@@ -1,0 +1,346 @@
+{
+  "textures": "groupheros:textures/models/armor/blitzlayer3.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym0.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 1,
+          "max_score": 20
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym1.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 21,
+          "max_score": 30
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym2.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 31,
+          "max_score": 40
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym3.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 41,
+          "max_score": 50
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym4.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 51,
+          "max_score": 60
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym5.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 61,
+          "max_score": 70
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym6.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 71,
+          "max_score": 80
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym7.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 81,
+          "max_score": 90
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym8.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 91,
+          "max_score": 100
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym9.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 101,
+          "max_score": 110
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym9.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 111,
+          "max_score": 120
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym9.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 121,
+          "max_score": 130
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym9.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.symbolevel",
+          "min_score": 131,
+          "max_score": 180
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+          {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:envysuit2",
+              "ability": "symbiote_malice"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/envsuit2.png",
+      "conditions": [
+        {
+          "type": "palladium:not",
+          "conditions": [
+            {
+              "type": "palladium:objective_score",
+              "objective": "GH.symbolevel",
+              "min_score": 1,
+              "max_score": 160
+            },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:envysuit2",
+            "ability": "cloth"
+        },
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:envysuit2",
+          "ability": "symbiote_malice"
+      },
+      {
+        "type": "palladium:entity_type",
+        "entity_type": "palladium:suit_stand"
+    }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/envsuit1.png",
+      "conditions": [
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:envysuit2",
+          "ability": "cloth"
+      },
+      {
+        "type": "palladium:not",
+        "conditions": [
+        {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:envysuit2",
+            "ability": "symbiote_malice"
+        }
+        ]
+    }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/malice.png",
+      "conditions": [
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:envysuit2",
+          "ability": "symbiote_malice"
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/esym9.png",
+      "conditions": [
+        {
+          "type": "palladium:entity_type",
+          "entity_type": "palladium:suit_stand"
+      }
+      ]
+    }
+  ],
+  "hide_second_layer": true
+}

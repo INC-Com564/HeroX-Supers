@@ -1,0 +1,11 @@
+[
+    {
+      "type": "palladium:lightning",
+      "body_part": "right_arm",
+      "glow_color": "#ff0000",
+      "segments": 25,
+      "spread": 15,
+      "frequency": 2,
+      "offset": [0, -11, 0]
+    }
+  ]

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": ""
+      },
+      "I": {
+        "item": "minecraft:glass_bottle"
+      },
+      "Q": {
+        "item": "fermented_spider_eye"
+      },
+      "P": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    "pattern": [
+      "CQC",
+      "CIC",
+      "CPC"
+    ],
+    "result": {
+      "item": "groupheros:velocityregulator"
+    },
+    "show_notification": true
+  }

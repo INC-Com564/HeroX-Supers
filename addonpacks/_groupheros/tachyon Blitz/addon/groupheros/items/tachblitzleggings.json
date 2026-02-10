@@ -1,0 +1,8 @@
+{
+  "type": "palladium:armor",
+  "slot": "leggings",
+  "armor_material": "minecraft:diamond",
+  "tooltip": [
+    "Tachyon Suit"
+]
+}

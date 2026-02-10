@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "I": {
+        "item": ""
+      },
+      "D": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "pattern": [
+      "III",
+      "ICI",
+      "DID"
+    ],
+    "result": {
+      "item": "groupheros:nevurahelmet"
+    },
+    "show_notification": true
+  }

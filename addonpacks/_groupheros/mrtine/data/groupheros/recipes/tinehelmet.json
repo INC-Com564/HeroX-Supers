@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:white_fabric"
+      },
+      "I": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "III",
+      "CCC"
+    ],
+    "result": {
+      "item": "groupheros:tinehelmet"
+    },
+    "show_notification": true
+  }

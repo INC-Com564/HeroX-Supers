@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": "minecraft:purple_dye"
+      },
+      "Q": {
+        "item": ""
+      }
+    },
+    "pattern": [
+      "CCC",
+      "ICI",
+      "CQC"
+    ],
+    "result": {
+      "item": "groupheros:blitzhelmet"
+    },
+    "show_notification": true
+  }

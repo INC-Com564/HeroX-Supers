@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": "groupheros:mkiholoreactor"
+      },
+      "Q": {
+        "item": "grave.core:copper_wires"
+      },
+      "D": {
+        "item": "metagen:purple_fabric"
+      }
+    },
+    "pattern": [
+      "CDC",
+      "QIQ",
+      "CCC"
+    ],
+    "result": {
+      "item": "groupheros:nightlocustchestplate"
+    },
+    "show_notification": true
+  }

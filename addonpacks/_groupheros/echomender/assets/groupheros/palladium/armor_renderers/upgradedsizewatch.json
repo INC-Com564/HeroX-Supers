@@ -1,0 +1,16 @@
+{
+    "textures": "groupheros:textures/models/armor/blitzlayer3.png",
+    "model_layers": "palladium:tight_suit/humanoid#main",
+    "render_layers": [
+        {
+          "model_layer": "palladium:tight_suit/humanoid#main",
+          "texture": "groupheros:textures/models/armor/clocklayerglow1.png",
+          "render_type": "glow"
+        },
+        {
+            "model_layer": "palladium:tight_suit/humanoid#main",
+            "texture": "groupheros:textures/models/armor/clocklayer0.png"
+        }
+    ],
+    "hide_second_layer": true
+  }

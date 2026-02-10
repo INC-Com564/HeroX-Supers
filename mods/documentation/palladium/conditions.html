@@ -36,6 +36,22 @@ is_moon_knight_gliding</a>
 </li>
 </ul>
 <h3>
+UnOrthodox</h3>
+<ul>
+<li>
+<a href="#p_sing:check_uuid">
+check_uuid</a>
+</li>
+<li>
+<a href="#p_sing:wall">
+wall</a>
+</li>
+<li>
+<a href="#p_sing:wall_move">
+wall_move</a>
+</li>
+</ul>
+<h3>
 FSang18's Heropack</h3>
 <ul>
 <li>
@@ -467,6 +483,10 @@ or</a>
 pose</a>
 </li>
 <li>
+<a href="#palladium:power_selected">
+power_selected</a>
+</li>
+<li>
 <a href="#palladium:property_buyable">
 property_buyable</a>
 </li>
@@ -564,6 +584,14 @@ gravestone/is_mainhand</a>
 </li>
 </ul>
 <h3>
+Telekinesis AddonPack</h3>
+<ul>
+<li>
+<a href="#telekinesis:safe_player_has_effect">
+safe_player_has_effect</a>
+</li>
+</ul>
+<h3>
 Echoes of Power</h3>
 <ul>
 <li>
@@ -616,19 +644,43 @@ power_selected</a>
 </li>
 </ul>
 <h3>
-evo_reds_alienpack</h3>
-<ul>
-<li>
-<a href="#evo_reds_alienpack:watch_and_namespace_check">
-watch_and_namespace_check</a>
-</li>
-</ul>
-<h3>
 OmniExtras</h3>
 <ul>
 <li>
 <a href="#omni_extras:has_effect">
 has_effect</a>
+</li>
+<li>
+<a href="#omni_extras:hit_condition">
+hit_condition</a>
+</li>
+<li>
+<a href="#omni_extras:is_creative">
+is_creative</a>
+</li>
+<li>
+<a href="#omni_extras:is_holding_tagged_item">
+is_holding_tagged_item</a>
+</li>
+<li>
+<a href="#omni_extras:is_maxhealth">
+is_maxhealth</a>
+</li>
+<li>
+<a href="#omni_extras:nosedeenian_absorbable">
+nosedeenian_absorbable</a>
+</li>
+</ul>
+<h3>
+tatm</h3>
+<ul>
+<li>
+<a href="#tatm:has_hunger">
+has_hunger</a>
+</li>
+<li>
+<a href="#tatm:inventory_item_check">
+inventory_item_check</a>
 </li>
 </ul>
 <h3>
@@ -743,6 +795,138 @@ Checks if the entity is current doing the Moon Knight gliding.<br><br>Applicable
 Example:</h3>
 <pre class="json-snippet">
 {"type":"pantheonsent:is_moon_knight_gliding"}</pre>
+</div>
+<hr>
+
+<div id="p_sing:check_uuid">
+<h2>
+check_uuid</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+uuid</td>
+<td>
+String</td>
+<td>
+UUID of the Player</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+6edf23df-d6c2-4c77-86e6-c97b3956c0ad</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"p_sing:check_uuid","uuid":"6edf23df-d6c2-4c77-86e6-c97b3956c0ad"}</pre>
+</div>
+<hr>
+
+<div id="p_sing:wall">
+<h2>
+wall</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+data_name</td>
+<td>
+String</td>
+<td>
+Persistent data used</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+climb</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"p_sing:wall","data_name":"climb"}</pre>
+</div>
+<hr>
+
+<div id="p_sing:wall_move">
+<h2>
+wall_move</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+data_name</td>
+<td>
+String</td>
+<td>
+Persistent data used</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+climb</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"p_sing:wall_move","data_name":"climb"}</pre>
 </div>
 <hr>
 
@@ -5450,6 +5634,50 @@ Example:</h3>
 </div>
 <hr>
 
+<div id="palladium:power_selected">
+<h2>
+power_selected</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+power</td>
+<td>
+String</td>
+<td>
+ID of the power to test</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+pack:power</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"palladium:power_selected","power":"pack:power"}</pre>
+</div>
+<hr>
+
 <div id="palladium:property_buyable">
 <h2>
 property_buyable</h2>
@@ -6378,6 +6606,50 @@ Example:</h3>
 </div>
 <hr>
 
+<div id="telekinesis:safe_player_has_effect">
+<h2>
+safe_player_has_effect</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+effect</td>
+<td>
+String</td>
+<td>
+Effect to search for</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:health_boost</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"telekinesis:safe_player_has_effect","effect":"minecraft:health_boost"}</pre>
+</div>
+<hr>
+
 <div id="eop:attribute_check">
 <h2>
 attribute_check</h2>
@@ -6894,62 +7166,6 @@ Example:</h3>
 </div>
 <hr>
 
-<div id="evo_reds_alienpack:watch_and_namespace_check">
-<h2>
-watch_and_namespace_check</h2>
-<p>
-Applicable for: all</p>
-<h3>
-Settings:</h3>
-<table>
-<thead>
-<tr>
-<th>
-Setting</th>
-<th>
-Type</th>
-<th>
-Description</th>
-<th>
-Required</th>
-<th>
-Fallback Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-watchtype</td>
-<td>
-String</td>
-<td>
-Watch to check</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-prototype</td>
-</tr>
-<tr>
-<td>
-watch_namespace</td>
-<td>
-String</td>
-<td>
-Namespace to check</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-alienevo</td>
-</tr>
-</tbody>
-</table>
-<h3>
-Example:</h3>
-<pre class="json-snippet">
-{"type":"evo_reds_alienpack:watch_and_namespace_check","watchtype":"prototype","watch_namespace":"alienevo"}</pre>
-</div>
-<hr>
-
 <div id="omni_extras:has_effect">
 <h2>
 has_effect</h2>
@@ -7003,6 +7219,286 @@ false</td>
 Example:</h3>
 <pre class="json-snippet">
 {"type":"omni_extras:has_effect","effect":"minecraft:speed","minimum_level":0}</pre>
+</div>
+<hr>
+
+<div id="omni_extras:hit_condition">
+<h2>
+hit_condition</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+mode</td>
+<td>
+String</td>
+<td>
+Mode: 'block' (block hits), 'entity' (entity hits), or 'both' (block or entity hits)</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+both</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"omni_extras:hit_condition","mode":"both"}</pre>
+</div>
+<hr>
+
+<div id="omni_extras:is_creative">
+<h2>
+is_creative</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"omni_extras:is_creative"}</pre>
+</div>
+<hr>
+
+<div id="omni_extras:is_holding_tagged_item">
+<h2>
+is_holding_tagged_item</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+tags</td>
+<td>
+String[]</td>
+<td>
+Tags</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+[omni_extras:absorbable]</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"omni_extras:is_holding_tagged_item","tags":["omni_extras:absorbable"]}</pre>
+</div>
+<hr>
+
+<div id="omni_extras:is_maxhealth">
+<h2>
+is_maxhealth</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"omni_extras:is_maxhealth"}</pre>
+</div>
+<hr>
+
+<div id="omni_extras:nosedeenian_absorbable">
+<h2>
+nosedeenian_absorbable</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+search_radius</td>
+<td>
+Integer</td>
+<td>
+Radius to detect for absorbable blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+8</td>
+</tr>
+<tr>
+<td>
+passive_tags</td>
+<td>
+String[]</td>
+<td>
+Tag for absorbable blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+[omni_extras:nosedeenian_capable]</td>
+</tr>
+<tr>
+<td>
+powered_tags</td>
+<td>
+String[]</td>
+<td>
+Tag for powered absorbable blocks</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+[omni_extras:nosedeenian_powered_capable]</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"omni_extras:nosedeenian_absorbable","search_radius":8,"passive_tags":["omni_extras:nosedeenian_capable"],"powered_tags":["omni_extras:nosedeenian_powered_capable"]}</pre>
+</div>
+<hr>
+
+<div id="tatm:has_hunger">
+<h2>
+has_hunger</h2>
+<p>
+Checks if the player has a certain amount of hunger<br><br>Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+min_hunger</td>
+<td>
+Integer</td>
+<td>
+Minimum hunger level to pass</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+max_hunger</td>
+<td>
+Integer</td>
+<td>
+Maximum hunger level to pass</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+20</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"tatm:has_hunger","min_hunger":1,"max_hunger":20}</pre>
+</div>
+<hr>
+
+<div id="tatm:inventory_item_check">
+<h2>
+inventory_item_check</h2>
+<p>
+Applicable for: all</p>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+item_id</td>
+<td>
+String</td>
+<td>
+ID of the item to check for in the player inventory</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+minecraft:diamond</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"tatm:inventory_item_check","item_id":"minecraft:diamond"}</pre>
 </div>
 <hr>
 

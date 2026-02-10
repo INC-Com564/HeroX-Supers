@@ -1,0 +1,297 @@
+{
+  "textures": "groupheros:textures/models/armor/blitzlayer3.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay10.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": -100,
+          "max_score": 20
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay9.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 21,
+          "max_score": 30
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay8.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 31,
+          "max_score": 40
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay7.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 41,
+          "max_score": 50
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay6.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 51,
+          "max_score": 60
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay5.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 61,
+          "max_score": 70
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay4.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 71,
+          "max_score": 80
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay3.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 81,
+          "max_score": 90
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay2.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 91,
+          "max_score": 100
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay1.png",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 101,
+          "max_score": 200
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+            {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:nlmkiii3",
+              "ability": "invisibility"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlayglow1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 101,
+          "max_score": 210
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+            {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:nlmkiii3",
+              "ability": "invisibility"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlayglow2.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": -300,
+          "max_score": 500
+        },
+        {
+          "type": "palladium:not",
+          "conditions": [
+            {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:nlmkiii3",
+              "ability": "invisibility"
+          }
+          ]
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3force.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:objective_score",
+          "objective": "GH.nanolevel",
+          "min_score": 101,
+          "max_score": 210
+        },
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:nlmkiii3",
+          "ability": "forcefield"
+      },
+      {
+        "type": "palladium:not",
+        "conditions": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:nlmkiii3",
+            "ability": "invisibility"
+        }
+        ]
+    }
+      ]
+    },
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachyondevicelayer1.png",
+      "conditions": {
+        "type": "palladium:or",
+        "conditions": [
+          {
+            "type": "palladium:has_power",
+            "power": "groupheros:tachyondevice"
+          },
+          {
+            "type": "palladium:item_in_slot",
+            "item": {
+              "item": "groupheros:tachyondevicedisplay"
+            },
+            "slot": "mainhand"
+          }
+        ]
+      }
+    },
+    {
+      "model_layer": "palladium:suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachyondeviceglowlayer1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:tachyondevice",
+          "ability": "tachyon_speed"
+        }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/blastglow1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:and",
+          "conditions": [
+            {
+              "type": "palladium:ability_unlocked",
+              "power": "groupheros:nlmkiii",
+              "ability": "nightblast1"
+          },
+          {
+            "type": "palladium:objective_score",
+            "objective": "GH.nanolevel",
+            "min_score": 101,
+            "max_score": 150
+          }
+          ]
+      },
+      {
+        "type": "palladium:not",
+        "conditions": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:nlmkiii3",
+            "ability": "invisibility"
+        }
+        ]
+    }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlay1.png",
+      "conditions": [
+        {
+          "type": "palladium:entity_type",
+          "entity_type": "palladium:suit_stand"
+      }
+      ]
+    },
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/nl3overlayglow1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:entity_type",
+          "entity_type": "palladium:suit_stand"
+      }
+      ]
+    }
+  ],
+  "hide_second_layer": true
+}

@@ -1,0 +1,267 @@
+{
+    "name": "NL-MK. III",
+    "background": "minecraft:textures/block/purple_wool.png",
+    "icon": "groupheros:textures/icons/locustspeed6.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "invisibility": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/nl3invis.png",
+            "title": "invisibility",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["effect clear @s minecraft:invisibility"],
+            "commands": ["effect give @s minecraft:invisibility 1 0 true"],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 150,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "GH.nanolevel",
+                        "min_score": 91,
+                        "max_score": 210
+                      },
+                      {
+                        "type": "palladium:crouching"
+                    }
+                ]
+            }
+        },
+        "GUI": {
+            "type": "palladium:gui_overlay",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "texture": "groupheros:textures/gui/presets/nightgui2.png",
+            "texture_width": 256,
+            "texture_height": 256,
+            "translate": [
+                0,
+                0,
+                0
+            ],
+            "rotate": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "alignment": "stretch",
+            "conditions": {
+            "unlocking": [
+                {
+                    "type": "palladium:objective_score",
+                    "objective": "GH.nanolevel",
+                    "min_score": 100,
+                    "max_score": 210
+                  }
+            ]
+            }
+        },
+        "forcefield": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/forcefieldn.png",
+            "title": "Forcefield",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Crouch and hold right-click.",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "amount": 10000000,
+            "operation": 0,
+            "uuid": "059be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "energy_bar_usage": {
+                "energy_bar": "night_bar2",
+                "amount": 100
+            },
+            "conditions": {
+            "enabling": {
+                "type": "palladium:held",
+                "cooldown": 0,
+                "key_type": "right_click",
+                "needs_empty_hand": false
+            },
+                    "unlocking": [
+                        {
+                            "type": "palladium:not",
+                            "conditions": [
+                                {
+                                    "type": "palladium:has_effect",
+                                    "effect": "dampened:emp"
+                                },
+                                {
+                                    "type": "palladium:energy_bar",
+                                    "power": "null",
+                                    "energy_bar": "night_bar2",
+                                    "min": 9500
+                                }
+                            ]
+                        },
+                        {
+                            "type": "palladium:energy_bar",
+                            "energy_bar": "night_bar2",
+                            "min": 2
+                        },
+                        {
+                            "type": "palladium:objective_score",
+                            "objective": "GH.nanolevel",
+                            "min_score": 91,
+                            "max_score": 210
+                        },
+                        {
+                            "type": "palladium:crouching"
+                        }
+                    ]
+            }
+        },
+        "forcefield2": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "minecraft:generic.armor",
+            "amount": 10000000,
+            "operation": 0,
+            "uuid": "772be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "forcefield"
+                }
+            }
+        },
+        "forcefield3": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect give @s minecraft:resistance infinite 255 true"],
+            "last_tick_commands": ["/effect clear @s minecraft:resistance"],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "forcefield"
+                }
+            }
+        },
+        "night_decrease_score3": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [
+                
+            ],
+            "commands": [
+                "/scoreboard players remove @s GH.nightlevel 30"
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "forcefield"
+                }
+            }
+        },
+        "forcesfx1": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.activate",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_first_tick",
+                    "power": "null",
+                    "ability": "forcefield"
+                }
+            }
+        },
+        "forcesfx2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.beacon.deactivate",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_last_tick",
+                    "power": "null",
+                    "ability": "forcefield"
+                }
+            }
+        }
+    },
+    "energy_bars": {
+        "night_bar2": {
+            "max": 9000,
+            "auto_increase_per_tick": 0,
+            "auto_increase_interval": 20,
+            "color": "#e547ff",
+            "synced_value": {
+                "type": "score",
+                "objective": "GH.nightlevel",
+                "fallback": 0
+            }
+        }
+    }
+}

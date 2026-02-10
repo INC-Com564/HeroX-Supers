@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "minecraft:oak_log"
+      },
+      "Q": {
+        "item": "minecraft:iron_ingot"
+      },
+      "J": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "pattern": [
+      "CJC",
+      "JQJ",
+      "CJC"
+    ],
+    "result": {
+      "item": "groupheros:startercore"
+    },
+    "show_notification": true
+  }

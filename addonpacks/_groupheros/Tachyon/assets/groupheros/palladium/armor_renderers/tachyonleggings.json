@@ -1,0 +1,19 @@
+{
+  "textures": "groupheros:textures/models/armor/tachyonlayer2.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachyonglowlayer1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_enabled",
+          "power": "groupheros:blitz",
+          "ability": "speed_nightmode"
+      }
+      ]
+    }
+  ],
+  "hide_second_layer": true
+}

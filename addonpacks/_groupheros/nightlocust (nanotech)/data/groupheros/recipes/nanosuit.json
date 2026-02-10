@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": ""
+      },
+      "Q": {
+        "item": "groupheros:mkiiholoreactor"
+      },
+      "J": {
+        "item": "groupheros:nightlocustchestplate"
+      },
+      "B": {
+        "item": "groupheros:nightlocustleggings"
+      },
+      "F": {
+        "item": "groupheros:nightlocusthelmet"
+      },
+      "L": {
+        "item": "groupheros:nightlocustboots"
+      }
+    },
+    "pattern": [
+      "CFC",
+      "LQB",
+      "CJC"
+    ],
+    "result": {
+      "item": "groupheros:nanosuit"
+    },
+    "show_notification": true
+  }

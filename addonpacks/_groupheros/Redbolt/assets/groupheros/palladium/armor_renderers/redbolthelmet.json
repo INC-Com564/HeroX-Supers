@@ -1,0 +1,12 @@
+{
+  "textures": "groupheros:textures/models/armor/redboltlayer1.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "hide_second_layer": true,
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/redboltglowlayer1.png",
+      "render_type": "glow"
+    }
+  ]
+}

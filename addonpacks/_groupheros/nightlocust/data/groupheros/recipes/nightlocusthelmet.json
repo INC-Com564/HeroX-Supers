@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": "grave.core:screen"
+      },
+      "Q": {
+        "item": "metagen:gray_fabric"
+      },
+      "D": {
+        "item": "grave.core:cpu"
+      },
+      "B": {
+        "item": "grave.core:datacard"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "CIC",
+      "DQD"
+    ],
+    "result": {
+      "item": "groupheros:nightlocusthelmet"
+    },
+    "show_notification": true
+  }

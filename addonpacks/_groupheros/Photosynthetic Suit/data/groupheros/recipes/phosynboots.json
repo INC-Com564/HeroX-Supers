@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:green_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "H": {
+        "item": "grave.core:copper_wires"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "HIH",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:phosynboots"
+    },
+    "show_notification": true
+  }

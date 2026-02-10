@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "Q": {
+        "item": "minecraft:string"
+      },
+      "B": {
+        "item": "minecraft:leather"
+      }
+    },
+    "pattern": [
+      "IBI",
+      "QIQ",
+      "IBI"
+    ],
+    "result": {
+      "item": "groupheros:frictionlesspolymer"
+    },
+    "show_notification": true
+  }

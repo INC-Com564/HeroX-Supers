@@ -1,0 +1,418 @@
+{
+    "name": "Velocity-9",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "icon": "groupheros:textures/item/velocity9.png",
+    "abilities":
+    {
+        "vel_speed_start":{
+            "type": "palladium:dummy",
+            "icon": "groupheros:textures/item/velocity9.png",
+            "title": "Velocity Speed",
+            "bar_color": "light_blue",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "listen_index": 0,
+            "gui_position": "null",
+            "description": "It's Velocity-9 time.",
+            "conditions": {
+                "enabling":
+                {
+                    "type": "palladium:has_effect",
+                    "effect": "minecraft:unluck"
+                }
+            }
+        },
+        "effect_start": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect give @s minecraft:unluck 150 0 true"],
+            "last_tick_commands": [],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:has_effect",
+                    "effect": "minecraft:glowing"
+                }
+            }
+        },
+        "speed_effect": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s dampened:emp"],
+            "last_tick_commands": ["/effect give @s minecraft:poison 10 0 true"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect2": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s dampened:genetic"],
+            "last_tick_commands": ["/effect give @s minecraft:poison 10 0 true"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "after_image": {
+            "type": "palladium:trail",
+            "list_index": 0,
+            "title": "null",
+            "trail": "groupheros:tachyontrail",
+            "hidden": true,
+            "hidden_in_bar": true,
+                "conditions": {
+                  "enabling": {
+                    "type": "palladium:has_effect",
+                    "effect": "minecraft:unluck"
+                }
+              }
+              },
+              "speed": {
+                "type": "palladium:attribute_modifier",
+                "icon": "minecraft:iron_chestplate",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "attribute": "minecraft:generic.movement_speed",
+                "amount": 1.5,
+                "operation": 0,
+                "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d9991",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:has_effect",
+                        "effect": "minecraft:unluck"
+                    }
+                }
+            },
+        "speed_effect_con1": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/effect give @s minecraft:slowness infinite 1 true"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_con2": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/scoreboard players set @s GH.Speedxp 0"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_con3": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/effect give @s minecraft:poison 10 0 true"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_con4": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": ["/effect give @s minecraft:luck infinite 0 true"],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },    
+        "sounds2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "heroes:heroes.stockpile.lighting.sfx",
+            "volume": 0.1,
+            "pitch": 1,
+            "play_self": true,
+            "looping": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "vel_speed_start"
+            }
+            }
+        },    
+        "sounds7": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.warden.sonic_boom",
+            "volume": 100,
+            "pitch": 3,
+            "play_self": true,
+            "looping": false,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "vel_speed_start"
+            }
+            }
+        },
+        "sprinting": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["execute at @s run playsound minecraft:entity.warden.sonic_boom ambient @s ~ ~ ~ 10 1"],
+            "last_tick_commands": ["execute at @s run playsound minecraft:entity.warden.death ambient @s ~ ~ ~ 10 1"],
+            "commands": [],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:and",
+                    "conditions": [
+                        {
+                            "type": "palladium:sprinting"
+                        },
+                        {
+                            "type": "palladium:ability_enabled",
+                            "ability": "vel_speed_start"
+                        }
+                    ]
+                }
+            }
+        },
+        "speed_effect_pos1": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s minecraft:slowness"],
+            "last_tick_commands": [],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_pos2": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s minecraft:slowness"],
+            "last_tick_commands": [],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_pos3": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s minecraft:poison"],
+            "last_tick_commands": [],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "speed_effect_pos4": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": ["/effect clear @s minecraft:luck"],
+            "last_tick_commands": [],
+            "commands": [
+                ""
+            ],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "vel_speed_start"
+                }
+            }
+        },
+        "step_assist": {
+      "type": "palladium:attribute_modifier",
+      "icon": "minecraft:iron_chestplate",
+      "title": "null",
+      "bar_color": "light_gray",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "list_index": -1,
+      "gui_position": "null",
+      "description": "null",
+      "attribute": "forge:step_height_addition",
+      "amount": 1,
+      "operation": 0,
+      "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e0",
+      "conditions": {
+          "enabling": {
+              "type": "palladium:ability_enabled",
+              "ability": "speed_bar_test"
+          }
+      }
+      },
+      "sparks": {
+          "type": "palladium:render_layer",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "render_layer": "groupheros:lightning_sparks_velocity",
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "ability": "vel_speed_start"
+              }
+          }
+      }
+    }
+}

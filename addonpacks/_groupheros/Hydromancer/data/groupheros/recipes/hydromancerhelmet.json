@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "grave.core:titanium_block"
+    },
+    "D": {
+      "item": "grave.core:titanium_ingot"
+    },
+    "K": {
+      "item": "grave.core:cpu"
+    },
+    "J": {
+      "item": ""
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DJD",
+    "KWK"
+  ],
+  "result": {
+    "item": "groupheros:hydromancerhelmet"
+  },
+  "show_notification": true
+}

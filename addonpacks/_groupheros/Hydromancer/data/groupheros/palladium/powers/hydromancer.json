@@ -1,0 +1,641 @@
+{
+    "name": "Hydromancer",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "icon": "groupheros:textures/icons/hydrologo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "fast_water_speed": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "forge:swim_speed",
+            "amount": 10,
+            "operation": 0,
+            "uuid": "000be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_swimming"
+                }
+            }
+        },
+        "night_vision": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [
+                "/effect give @s minecraft:night_vision infinite 1 true"
+            ],
+            "last_tick_commands": [
+                "/effect clear @s minecraft:night_vision"
+            ],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:in_water"
+                }
+            }
+        },
+        "water_breathing": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [
+                "/effect give @s minecraft:water_breathing infinite 1 true"
+            ],
+            "last_tick_commands": [
+                "/effect clear @s minecraft:water_breathing"
+            ],
+            "commands": [],
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:in_water"
+                }
+            }
+        },
+        "water_beam": {
+            "type": "palladium:energy_beam",
+            "icon": "groupheros:textures/icons/waterblast.png",
+            "title": "Water Blast",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "null",
+            "energy_beam": "groupheros:hydromancer",
+            "damage_type": "null",
+            "damage": 5,
+            "max_distance": 30,
+            "speed": 0.5,
+            "set_on_fire_seconds": 0,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "energy_bar_usage": {
+                "energy_bar": "hydro_bar",
+                "amount": 6
+            },
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                        "type": "palladium:not",
+                        "conditions": [
+                            {
+                                "type": "palladium:has_effect",
+                                "effect": "dampened:genetic"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "palladium:energy_bar",
+                        "energy_bar": "hydro_bar",
+                        "min": 350
+                    }
+                ]
+            }
+        },
+        "aim": {
+            "type": "palladium:aim",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "time": 10,
+            "arm": "both",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "aim2": {
+            "type": "palladium:show_both_arms",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_1": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_arm_hydromancer",
+            "particle_type": "minecraft:bubble_column_up",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_2": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_arm_hydromancer",
+            "particle_type": "minecraft:bubble_column_up",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_3": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_arm_hydromancer",
+            "particle_type": "minecraft:splash",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_4": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_arm_hydromancer",
+            "particle_type": "minecraft:splash",
+            "options": "",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_5": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:hydro_left_blast",
+            "particle_type": "minecraft:dust",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "arm_part_6": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:hydro_right_blast",
+            "particle_type": "minecraft:dust",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "water_walk": {
+            "type": "palladium:water_walk",
+            "icon": "groupheros:textures/icons/hydrologo.png",
+            "title": "Water Walk",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:toggle",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            }
+        },
+        "water_beam_sfx_1": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:entity.generic.splash",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "water_beam_sfx_2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:entity.generic.swim",
+            "volume": 1,
+            "pitch": 1,
+            "looping": false,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "water_beam_sfx_3": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.water.ambient",
+            "volume": 1,
+            "pitch": 1,
+            "looping": true,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "flight": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/hydroflight.png",
+            "title": "Flight",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "palladium:flight_speed",
+            "amount": 1,
+            "operation": 0,
+            "uuid": "875be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "energy_bar_usage": {
+                "energy_bar": "hydro_bar",
+                "amount": 6
+            },
+            "conditions": {
+                "unlocking": {
+                    "type": "palladium:energy_bar",
+                    "energy_bar": "hydro_bar",
+                    "min": 1
+                }
+            }
+        },
+        "leg_part_1": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_leg_hydromancer2",
+            "particle_type": "minecraft:dust",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "leg_part_2": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_leg_hydromancer2",
+            "particle_type": "minecraft:dust",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "leg_part_3": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_leg_hydromancer",
+            "particle_type": "minecraft:splash",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "leg_part_4": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_leg_hydromancer",
+            "particle_type": "minecraft:splash",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "leg_part_5": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:left_leg_hydromancer",
+            "particle_type": "minecraft:falling_water",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "leg_part_6": {
+            "type": "palladium:particles",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "emitter": "groupheros:right_leg_hydromancer",
+            "particle_type": "minecraft:falling_water",
+            "options": "0 0 0.99 1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "set_score":{
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "listen_index": 0,
+            "gui_poisition": "null",
+            "description": "null",
+            "first_tick_commands": [
+                                    "/scoreboard objectives add GH.hydrolevel dummy",
+                                    "/scoreboard players set @s GH.hydrolevel 0",
+                                    "/scoreboard objectives add GH.hydrolevel.min dummy",
+                                    "/scoreboard players set @s GH.hydrolevel.min 5000"
+            ],
+            "last_tick_commands": [],
+            "commands": [],
+            "conditions":{
+                "enabling":{
+                    "type": "palladium:true"
+                }
+            }
+        },
+        "hydro_increase_score": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players add @s GH.hydrolevel 50"
+            ],
+            "conditions":{
+                "unlocking": {
+                    "type": "palladium:in_water"
+                }
+            }
+        },
+        "hydro_decrease_score": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.hydrolevel 5"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:ability_enabled",
+                    "power": "null",
+                    "ability": "water_beam"
+                }
+            }
+        },
+        "hydro_decrease_score2": {
+            "type": "palladium:command",
+            "icon": "groupheros:textures/icons/speedarrowd.png",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "/scoreboard players remove @s GH.hydrolevel 5"
+            ],
+            "conditions":{
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        },
+        "speed_cap_min": {
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": ["/execute if score @s GH.hydrolevel > @s GH.hydrolevel.min run scoreboard players set @s GH.hydrolevel 5000"]
+        },
+        "water_flight_sfx_1": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "sound": "minecraft:block.water.ambient",
+            "volume": 1,
+            "pitch": 1,
+            "looping": true,
+            "play_self": false,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:is_hovering_or_flying"
+                }
+            }
+        }
+    },
+    "energy_bars": {
+   "hydro_bar": {
+       "max": 5000,
+       "auto_increase_per_tick": 0,
+       "auto_increase_interval": 20,
+       "color": "#2986cc",
+       "synced_value": {
+         "type": "score",
+         "objective": "GH.hydrolevel",
+         "fallback": 0
+       }
+   }
+}
+}

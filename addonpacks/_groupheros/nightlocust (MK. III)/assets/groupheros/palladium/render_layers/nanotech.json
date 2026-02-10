@@ -1,0 +1,21 @@
+{
+    "model_layer": "groupheros:nanotech",
+    "textures": {
+        "base": "groupheros:textures/cube/nano.png",
+        "transformers": [
+            {
+                "type": "palladium:alpha_mask",
+                "mask": "groupheros:textures/cube/nano_#NANO.png"
+            }
+        ],
+        "variables": {
+            "NANO": {
+                "type": "palladium:ability_integer_property",
+                "power": "groupheros:nanosuit",
+                "ability": "nanosuit",
+                "property": "value"
+            }
+        },
+        "output": "groupheros:textures/cube_output/nanout_#MASK.png"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "type": "palladium:axe",
+    "tier": "minecraft:diamond",
+    "base_damage": 6,
+    "attack_speed": -3
+}

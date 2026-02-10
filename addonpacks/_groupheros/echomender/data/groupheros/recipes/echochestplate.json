@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "metagen:brown_fabric"
+      },
+      "D": {
+        "item": "minecraft:gold_ingot"
+      },
+      "W": {
+        "item": "metagen:white_fabric"
+      },
+      "B": {
+        "item": "groupheros:philosopherstone"
+      }
+    },
+    "pattern": [
+      "IWI",
+      "IBI",
+      "IDI"
+    ],
+    "result": {
+      "item": "groupheros:echochestplate"
+    },
+    "show_notification": true
+  }

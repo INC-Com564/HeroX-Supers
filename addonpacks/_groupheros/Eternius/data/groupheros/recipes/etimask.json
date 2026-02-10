@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "palladium:lead_circuit"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "grave.core:cpu"
+      },
+      "P": {
+        "item": "metagen:purple_fabric"
+      }
+    },
+    "pattern": [
+      "III",
+      "PIP",
+      "QCQ"
+    ],
+    "result": {
+      "item": "groupheros:etihelmet"
+    },
+    "show_notification": true
+  }

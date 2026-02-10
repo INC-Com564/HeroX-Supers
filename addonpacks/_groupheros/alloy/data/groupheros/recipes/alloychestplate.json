@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:datacard"
+      },
+      "D": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "C": {
+        "item": "minecraft:piston"
+      },
+      "A": {
+        "item": "groupheros:arcreactor"
+      },
+      "Q": {
+        "item": "grave.core:basic_motherboard"
+      }
+    },
+    "pattern": [
+      "CIC",
+      "DAD",
+      "QDQ"
+    ],
+    "result": {
+      "item": "groupheros:alloychestplate"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,338 @@
+{
+    "name": "Eternius",
+    "background": "minecraft:textures/block/purple_wool.png",
+    "icon": "groupheros:textures/icons/upgradedspeesterlogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+        "etispeedpunch": {
+            "type": "palladium:attribute_modifier",
+            "icon": "groupheros:textures/icons/upgradedpunch.png",
+            "title": "Speed Punch",
+            "bar_color": "gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": "null",
+            "description": "Harness the eternity nexus' power to deliver a devistating punch.",
+            "attribute": "palladium:punch_damage",
+            "amount": 16,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:activation",
+                "cooldown": 70,
+                "ticks": 40,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:dark_matter"
+                        },
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "minecraft:luck"
+                        }
+                      ]
+                    }
+                  ]
+            }
+        },
+        "entibeam": {
+            "type": "palladium:energy_beam",
+            "icon": "groupheros:textures/icons/unibeam.png",
+            "title": "Unibeam",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 2,
+            "gui_position": "null",
+            "description": "null",
+            "energy_beam": "groupheros:hands_laser_eti",
+            "damage_type": "null",
+            "damage": 3.5,
+            "max_distance": 40,
+            "speed": 0.5,
+            "set_on_fire_seconds": 5,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "conditions": {
+                "enabling": [
+                  {
+                    "type": "palladium:held",
+                    "cooldown": 70,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false
+                }
+            
+            ],
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:dark_matter"
+                    },
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "minecraft:luck"
+                    }
+                  ]
+                }
+              ]
+
+            }
+            },
+            "sprinting": {
+                "type": "palladium:command",
+                "icon": "minecraft:command_block",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": false,
+                "hidden_in_bar": false,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "first_tick_commands": ["execute at @s run playsound minecraft:block.beacon.activate ambient @a ~ ~ ~ 10 1"],
+                "last_tick_commands": [],
+                "commands": [],
+                "conditions":{
+                    "enabling": {
+                      "type": "palladium:ability_enabled",
+                      "ability": "entibeam"
+                  }
+                }
+            },
+            "aim": {
+                "type": "palladium:aim",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "time": 10,
+                "arm": "both",
+                "conditions": {
+                    "enabling": {
+                        "type": "palladium:ability_enabled",
+                        "ability": "entibeam"
+                    }
+                }
+            },
+            "beam hands": {
+                "type": "palladium:show_both_arms",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": false,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "null",
+                "conditions": {
+                    "enabling": {
+                      "type": "palladium:ability_enabled",
+                      "ability": "entibeam"
+                  }
+                }
+            },   
+        "sounds5": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.player.breath",
+            "volume": 100,
+            "pitch": 0.1,
+            "play_self": true,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "etispeedpunch"
+            }
+            }
+        },
+        "etiphasing": {
+          "type": "palladium:intangibility",
+          "icon": "groupheros:textures/icons/upgradedphase.png",
+          "title": "Phase",
+          "bar_color": "gray",
+          "hidden": false,
+          "hidden_in_bar": false,
+          "list_index": 3,
+          "gui_position": "null",
+          "description": "Phase through walls.",
+          "vertical": false,
+          "whitelist": "null",
+          "blacklist": "palladium:prevents_intangibility",
+          "conditions": {
+              "enabling": [
+                  {
+                      "type": "palladium:held",
+                      "cooldown": 50,
+                      "key_type": "key_bind",
+                      "needs_empty_hand": false
+                  }
+              ],
+              "unlocking": [
+                  {
+                    "type": "palladium:not",
+                    "conditions": [
+                      {
+                        "type": "palladium:has_effect",
+                        "effect": "dampened:dark_matter"
+                      },
+                      {
+                        "type": "palladium:has_effect",
+                        "effect": "minecraft:luck"
+                      }
+                    ]
+                  }
+                ]
+      }
+      },    
+      "sounds3": {
+          "type": "palladium:play_sound",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "sound": "minecraft:entity.evoker.prepare_summon",
+          "volume": 170,
+          "pitch": 0.8,
+          "play_self": true,
+          "conditions": {
+          "enabling": {
+              "type": "palladium:ability_enabled",
+              "ability": "etiphasing"
+          }
+          }
+      },
+        "etiheal": {
+            "type": "palladium:healing",
+            "icon": "groupheros:textures/icons/upgradedheal.png",
+            "title": "Recover Vitality",
+            "bar_color": "gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "Regain your vitality.",
+            "frequency": 1,
+            "amount": 20,
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:activation",
+                "cooldown": 1000,
+                "ticks": 60,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+                },
+                "unlocking": [
+                    {
+                      "type": "palladium:not",
+                      "conditions": [
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "dampened:dark_matter"
+                        },
+                        {
+                          "type": "palladium:has_effect",
+                          "effect": "minecraft:luck"
+                        }
+                      ]
+                    }
+                  ]
+            }
+        },
+        "soundheal": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.zombie_villager.converted",
+            "volume": 100,
+            "pitch": 0.1,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "etiheal"
+            }
+            }
+        },
+        "soundheal2": {
+            "type": "palladium:play_sound",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "sound": "minecraft:entity.evoker.prepare_attack",
+            "volume": 100,
+            "pitch": 0.1,
+            "conditions": {
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "ability": "etiheal"
+            }
+            }
+        },
+        "glide": {
+         "type": "palladium:attribute_modifier",
+         "icon": "groupheros:textures/icons/upgradedspeesterlogo.png",
+         "title": "Glide",
+         "bar_color": "light_gray",
+         "hidden": false,
+         "hidden_in_bar": false,
+         "list_index": 4,
+         "gui_position": "null",
+         "description": "null",
+         "attribute": "palladium:flight_speed",
+         "amount": 2,
+         "operation": 0,
+         "uuid": "498be4fb-af04-42f2-2008-e6ccdc0d99e1",
+         "conditions": {
+            "enabling": [
+                {
+                    "type": "palladium:toggle",
+                    "cooldown": 90,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            ],
+            "unlocking": [
+                {
+                  "type": "palladium:not",
+                  "conditions": [
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "dampened:dark_matter"
+                    },
+                    {
+                      "type": "palladium:has_effect",
+                      "effect": "minecraft:luck"
+                    }
+                  ]
+                }
+              ]
+        }
+    }
+}
+}

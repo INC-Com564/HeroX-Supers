@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "Q": {
+        "item": ""
+      },
+      "J": {
+        "item": "groupheros:weaverboots"
+      },
+      "B": {
+        "item": "groupheros:weaverleggings"
+      },
+      "F": {
+        "item": "groupheros:weaverchestplate"
+      },
+      "A": {
+        "item": "groupheros:weaverhelmet"
+      },
+      "X": {
+        "item": "groupheros:symbiotem"
+      }
+    },
+    "pattern": [
+      "QAQ",
+      "JXB",
+      "QFQ"
+    ],
+    "result": {
+      "item": "groupheros:envysuit"
+    },
+    "show_notification": true
+  }

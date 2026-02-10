@@ -1,0 +1,5 @@
+{
+  "textures": "groupheros:textures/models/armor/redboltlayer3.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "hide_second_layer": true
+}

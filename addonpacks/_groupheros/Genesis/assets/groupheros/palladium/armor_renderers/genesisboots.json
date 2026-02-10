@@ -1,0 +1,23 @@
+{
+  "textures": "groupheros:textures/models/armor/genesislayer2.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/genesisglowlayer2.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:not",
+          "conditions": [
+            {
+              "type": "palladium:has_effect",
+              "effect": "dampened:emp"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hide_second_layer": true
+}

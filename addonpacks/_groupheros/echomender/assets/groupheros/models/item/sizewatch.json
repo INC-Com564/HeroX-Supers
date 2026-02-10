@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "groupheros:item/sizewatch"
+    },
+    "render_layers": [
+      {
+        "parent": "minecraft:item/generated",
+        "texture": "groupheros:item/sizewatch2",
+        "render_type": "glow",
+        "conditions": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:sizewatch",
+            "ability": "size_change_1"
+        }
+        ]
+      }
+    ]
+  }

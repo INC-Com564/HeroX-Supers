@@ -1,0 +1,834 @@
+{
+    "name": "Envy (symbiote page)",
+    "background": "minecraft:textures/block/black_wool.png",
+    "icon": "groupheros:textures/icons/envylogo.png",
+    "gui_display_type": "list",
+    "abilities": {
+      "set_score_nano": {
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "Nanotechnology",
+          "bar_color": "black",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_poisition": "null",
+          "description": "null",
+          "first_tick_commands": [
+              "/scoreboard objectives add GH.symbolevel dummy",
+              "/scoreboard players set @s GH.symbolevel 0",
+              "/scoreboard objectives add GH.symbolevel.min dummy",
+              "/scoreboard players set @s GH.symbolevel.min 0",
+              "/scoreboard objectives add GH.symbolevel.max dummy",
+              "/scoreboard players set @s GH.symbolevel.max 140",
+              "/scoreboard objectives setdisplay sidebar.team.gray GH.symbolevel"
+          ],
+          "last_tick_commands": [],
+          "commands": [],
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:true"
+              }
+          }
+      },
+      "nanocapmin": {
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "first_tick_commands": [],
+          "last_tick_commands": [],
+          "commands": [
+              "/execute if score @s GH.symbolevel < @s GH.symbolevel.min run scoreboard players set @s GH.symbolevel 0"
+          ]
+      },
+      "nanocapmax": {
+          "type": "palladium:command",
+          "icon": "minecraft:command_block",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "first_tick_commands": [],
+          "last_tick_commands": [],
+          "commands": [
+              "/execute if score @s GH.symbolevel > @s GH.symbolevel.max run scoreboard players set @s GH.symbolevel 140"
+          ]
+      },
+      "symbiote": {
+          "type": "palladium:command",
+          "icon": "groupheros:textures/icons/symbio.png",
+          "title": "Symbiote Overtake",
+          "bar_color": "black",
+          "hidden": false,
+          "hidden_in_bar": false,
+          "list_index": 0,
+          "gui_position": "null",
+          "description": "null",
+          "first_tick_commands": [
+              ""
+          ],
+          "last_tick_commands": [],
+          "commands": [
+              "/scoreboard players add @s GH.symbolevel 10"
+          ],
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:toggle",
+                  "cooldown": 0,
+                  "key_type": "key_bind",
+                  "needs_empty_hand": false,
+                  "allow_scrolling_when_crouching": true
+              },
+              "unlocking": {
+                "type": "palladium:not",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "groupheros:envysuit2",
+                        "ability": "symbiote_malice"
+                    }
+                ]
+            }
+          }
+      },
+      "nanodecreasescore": {
+          "type": "palladium:command",
+          "icon": "groupheros:textures/icons/speedarrowd.png",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "first_tick_commands": [
+              ""
+          ],
+          "last_tick_commands": [],
+          "commands": [
+              "/scoreboard players remove @s GH.symbolevel 10"
+          ],
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:not",
+                  "conditions": [
+                      {
+                          "type": "palladium:ability_enabled",
+                          "power": "null",
+                          "ability": "symbiote"
+                      }
+                  ]
+              }
+          }
+      },
+      "shrinkoverlay": {
+          "type": "palladium:shrink_body_overlay",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "start_value": 0,
+          "max_value": 1,
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "power": "null",
+                  "ability": "symbiote"
+              }
+          }
+      },
+      "transformationsfx": {
+          "type": "palladium:play_sound",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "sound": "minecraft:entity.squid.hurt",
+          "volume": 0.5,
+          "pitch": 0.4,
+          "looping": false,
+          "play_self": true,
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "power": "null",
+                  "ability": "symbiote"
+              }
+          }
+      },
+      "transformationsfx2": {
+          "type": "palladium:play_sound",
+          "icon": "minecraft:blaze_rod",
+          "title": "null",
+          "bar_color": "light_gray",
+          "hidden": true,
+          "hidden_in_bar": true,
+          "list_index": -1,
+          "gui_position": "null",
+          "description": "null",
+          "sound": "minecraft:entity.squid.hurt",
+          "volume": 0.5,
+          "pitch": 0.4,
+          "looping": false,
+          "play_self": true,
+          "conditions": {
+              "enabling": {
+                  "type": "palladium:ability_enabled",
+                  "power": "null",
+                  "ability": "nanodecreasescore"
+              }
+          }
+      },
+      "cloth": {
+        "type": "palladium:dummy",
+        "icon": "groupheros:textures/icons/weavercloth.png",
+        "title": "Clothing",
+        "bar_color": "black",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:toggle",
+                "cooldown": 0,
+                "key_type": "key_bind",
+                "needs_empty_hand": false,
+                "allow_scrolling_when_crouching": true
+            },
+            "unlocking": {
+                "type": "palladium:not",
+                "conditions": [
+                  {
+                    "type": "palladium:ability_enabled",
+                    "power": "groupheros:envysuit2",
+                    "ability": "symbiote"
+                },
+                {
+                    "type": "palladium:ability_enabled",
+                    "power": "groupheros:envysuit2",
+                    "ability": "symbiote_malice"
+                }
+                ]
+            }
+        }
+    },
+    "shrink_overlay": {
+        "type": "palladium:shrink_body_overlay",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "start_value": 0,
+        "max_value": 1
+    },
+
+
+
+
+
+
+
+
+    "symbiote_suit_buff1": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": 0,
+        "uuid": "770be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.symbolevel",
+                "min_score": 81,
+                "max_score": 160
+              }
+        }
+    },
+    "symbiote_suit_buff2": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 6,
+        "operation": 0,
+        "uuid": "771be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.symbolevel",
+                "min_score": 81,
+                "max_score": 160
+              }
+        }
+    },
+    "symbiote_suit_buff3": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "palladium:jump_power",
+        "amount": 1.5,
+        "operation": 0,
+        "uuid": "772be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.symbolevel",
+                "min_score": 81,
+                "max_score": 160
+              }
+        }
+    },
+    "symbiote_suit_buff4": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.1,
+        "operation": 0,
+        "uuid": "773be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.symbolevel",
+                "min_score": 81,
+                "max_score": 160
+              }
+        }
+    },
+    "symbiote_suit_buff5": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["effect give @s minecraft:resistance 120 1 true"],
+        "last_tick_commands": ["effect clear @s minecraft:resistance"],
+        "commands": [],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.symbolevel",
+                "min_score": 81,
+                "max_score": 160
+              }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "set_score":{
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "listen_index": 0,
+        "gui_poisition": "null",
+        "description": "null",
+        "first_tick_commands": [
+                                "/scoreboard objectives add GH.mallevel dummy",
+                                "/scoreboard players set @s GH.mallevel 0",
+                                "/scoreboard objectives add GH.mallevel.min dummy",
+                                "/scoreboard players set @s GH.mallevel.min 5000",
+                                "/scoreboard objectives add GH.mallevel.max dummy",
+                                "/scoreboard players set @s GH.mallevel.max 0"
+        ],
+        "last_tick_commands": [],
+        "commands": [],
+        "conditions":{
+            "enabling":{
+                "type": "palladium:true"
+            }
+        }
+    },
+    "hydro_increase_score": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players add @s GH.mallevel 5"
+        ],
+        "conditions":{
+            "unlocking": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "symbiote"
+            }
+        }
+    },
+    "hydro_decrease_score": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players remove @s GH.mallevel 5"
+        ],
+        "conditions":{
+            "enabling": {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "symbiote_malice"
+            }
+        }
+    },
+    "hydro_decrease_score4": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players remove @s GH.mallevel 12"
+        ],
+        "conditions":{
+            "enabling": {
+                "type": "palladium:not",
+                "conditions": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "symbiote"
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "symbiote_malice"
+                    }
+                ]
+            }
+        }
+    },
+    "hydro_decrease_score2": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players remove @s GH.mallevel 5"
+        ],
+        "conditions":{
+            "enabling": {
+                "type": "palladium:is_hovering_or_flying"
+            }
+        }
+    },
+    "speed_cap_min": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.mallevel > @s GH.mallevel.min run scoreboard players set @s GH.mallevel 5000"]
+    },
+    "speed_cap_max": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.mallevel < @s GH.mallevel.max run scoreboard players set @s GH.mallevel 0"]
+    },
+
+
+
+
+
+
+
+
+    "symbiote_malice": {
+     "type": "palladium:size",
+     "icon": "palladium:textures/icon/size.png",
+     "title": "null",
+     "bar_color": "light_gray",
+     "hidden": true,
+     "hidden_in_bar": true,
+     "list_index": -1,
+     "gui_position": "null",
+     "description": "null",
+     "scale": 1.4,
+     "conditions": {
+        "enabling": {
+        "type": "palladium:objective_score",
+        "objective": "GH.mallevel2",
+        "min_score": 1,
+        "max_score": 1
+      }
+     }
+ },
+ "set_score2":{
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "listen_index": 0,
+        "gui_poisition": "null",
+        "description": "null",
+        "first_tick_commands": [
+                                "/scoreboard objectives add GH.mallevel2 dummy",
+                                "/scoreboard players set @s GH.mallevel2 0",
+                                "/scoreboard objectives add GH.mallevel2.min dummy",
+                                "/scoreboard players set @s GH.mallevel2.min 1"
+        ],
+        "last_tick_commands": [],
+        "commands": [],
+        "conditions":{
+            "enabling":{
+                "type": "palladium:true"
+            }
+        }
+    },
+    "speed_cap_min2": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": ["/execute if score @s GH.mallevel2 > @s GH.mallevel2.min run scoreboard players set @s GH.mallevel2 1"]
+    },
+    "hydro_increase_score2": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players set @s GH.mallevel2 1"
+        ],
+        "conditions":{
+            "unlocking": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel",
+                "min_score": 5000,
+                "max_score": 5500
+              }
+        }
+    },
+    "hydro_decrease_score3": {
+        "type": "palladium:command",
+        "icon": "groupheros:textures/icons/speedarrowd.png",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": 1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": [],
+        "last_tick_commands": [],
+        "commands": [
+            "/scoreboard players set @s GH.mallevel2 0"
+        ],
+        "conditions":{
+            "unlocking": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel",
+                "min_score": 0,
+                "max_score": 0
+              }
+        }
+    },
+    "transformationsfx3": {
+        "type": "palladium:play_sound",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "sound": "minecraft:entity.squid.hurt",
+        "volume": 0.5,
+        "pitch": 0.4,
+        "looping": false,
+        "play_self": true,
+        "conditions": {
+            "enabling": {
+                "type": "palladium:ability_last_tick",
+                "power": "null",
+                "ability": "symbiote_malice"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "symbiote_buff1": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.armor",
+        "amount": 8,
+        "operation": 0,
+        "uuid": "777be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel2",
+                "min_score": 1,
+                "max_score": 1
+              }
+        }
+    },
+    "symbiote_buff2": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 8.1,
+        "operation": 0,
+        "uuid": "778be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel2",
+                "min_score": 1,
+                "max_score": 1
+              }
+        }
+    },
+    "symbiote_buff3": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "palladium:jump_power",
+        "amount": 1.8,
+        "operation": 0,
+        "uuid": "779be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel2",
+                "min_score": 1,
+                "max_score": 1
+              }
+        }
+    },
+    "symbiote_buff4": {
+        "type": "palladium:attribute_modifier",
+        "icon": "minecraft:iron_chestplate",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": true,
+        "hidden_in_bar": true,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.2,
+        "operation": 0,
+        "uuid": "780be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel2",
+                "min_score": 1,
+                "max_score": 1
+              }
+        }
+    },
+    "symbiote_buff5": {
+        "type": "palladium:command",
+        "icon": "minecraft:command_block",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "first_tick_commands": ["effect give @s minecraft:absorption 120 2 true"],
+        "last_tick_commands": ["effect clear @s minecraft:absorption"],
+        "commands": [],
+        "conditions": {
+            "enabling": {
+                "type": "palladium:objective_score",
+                "objective": "GH.mallevel2",
+                "min_score": 1,
+                "max_score": 1
+              }
+        }
+    }
+
+
+
+
+    },
+    "energy_bars": {
+   "malice_bar": {
+       "max": 5000,
+       "auto_increase_per_tick": 0,
+       "auto_increase_interval": 20,
+       "color": "#6c606a",
+       "synced_value": {
+         "type": "score",
+         "objective": "GH.mallevel",
+         "fallback": 0
+       }
+   }
+}
+}

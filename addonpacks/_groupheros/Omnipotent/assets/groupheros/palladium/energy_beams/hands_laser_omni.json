@@ -1,0 +1,14 @@
+[
+    {
+      "body_part": "head",
+      "glow_color": "#e8bf53",
+      "rotation_speed": 8,
+      "offset": [-2, 3, 0]
+    },
+    {
+      "body_part": "head",
+      "glow_color": "#e8bf53",
+      "rotation_speed": 8,
+      "offset": [2, 3, 0]
+    }
+  ]

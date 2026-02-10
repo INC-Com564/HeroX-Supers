@@ -1,0 +1,29 @@
+{
+  "textures": "groupheros:textures/models/armor/tachblitzlayer3.png",
+  "model_layers": "palladium:tight_suit/humanoid#main",
+  "render_layers": [
+    {
+      "model_layer": "palladium:tight_suit/humanoid#main",
+      "texture": "groupheros:textures/models/armor/tachblitzglowlayer1.png",
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:or",
+          "conditions": [
+            {
+              "type": "palladium:ability_enabled",
+              "power": "groupheros:tachblitz",
+              "ability": "speed_tach"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "groupheros:tachblitz2",
+            "ability": "speed_bar_test"
+        }
+          ]
+      }
+      ]
+    }
+  ],
+  "hide_second_layer": true
+}

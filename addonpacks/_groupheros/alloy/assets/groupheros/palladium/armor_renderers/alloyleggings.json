@@ -1,0 +1,5 @@
+{
+  "textures": "groupheros:textures/models/armor/alloylayer1.png",
+  "model_layers": "palladium:humanoid#suit",
+  "hide_second_layer": true
+}

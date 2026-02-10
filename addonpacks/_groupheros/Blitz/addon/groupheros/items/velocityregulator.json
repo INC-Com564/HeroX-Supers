@@ -1,0 +1,21 @@
+{
+    "type": "palladium:default",
+        "food": {
+            "nutrition": 2,
+            "saturation_modifier": 0.6,
+            "meat": false,
+            "can_always_eat": true,
+            "fast": true,
+            "effects": [
+                {
+                    "mob_effect": "minecraft:slowness",
+                    "duration": 3600,
+                    "amplifier": 5,
+                    "ambient": false,
+                    "visible": true,
+                    "show_icon": true,
+                    "probability": 1
+                }
+            ]
+        }
+    }

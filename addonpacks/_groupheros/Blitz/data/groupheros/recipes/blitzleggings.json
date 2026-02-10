@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "metagen:black_fabric"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "metagen:purple_fabric"
+      }
+    },
+    "pattern": [
+      "QCQ",
+      "QIQ",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:blitzleggings"
+    },
+    "show_notification": true
+  }

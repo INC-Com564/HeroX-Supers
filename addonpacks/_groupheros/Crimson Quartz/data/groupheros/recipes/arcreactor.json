@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:advanced_motherboard"
+      },
+      "Q": {
+        "item": "palladium:lead_circuit"
+      },
+      "P": {
+        "item": "grave.core:copper_wires"
+      }
+    },
+    "pattern": [
+      "PQP",
+      "QIQ",
+      "PQP"
+    ],
+    "result": {
+      "item": "groupheros:arcreactor"
+    },
+    "show_notification": true
+  }

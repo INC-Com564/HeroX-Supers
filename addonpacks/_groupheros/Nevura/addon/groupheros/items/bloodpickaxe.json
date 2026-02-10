@@ -1,0 +1,6 @@
+{
+    "type": "palladium:pickaxe",
+    "tier": "minecraft:diamond",
+    "base_damage": 4,
+    "attack_speed": -2.8
+}

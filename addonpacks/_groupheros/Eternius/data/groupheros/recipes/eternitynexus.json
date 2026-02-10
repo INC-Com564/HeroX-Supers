@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "grave.core:datacard"
+      },
+      "D": {
+        "item": "minecraft:iron_ingot"
+      },
+      "E": {
+        "item": "minecraft:dragon_egg"
+      },
+      "C": {
+        "item": "groupheros:mkiholoreactor"
+      },
+      "B": {
+        "item": "grave.core:titanium_block"
+      }
+    },
+    "pattern": [
+      "DID",
+      "BEB",
+      "DCD"
+    ],
+    "result": {
+      "item": "groupheros:eternitynexus"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {},
+      "I": {
+        "item": "metagen:pink_fabric"
+      },
+      "Q": {
+        "item": "metagen:white_fabric"
+      },
+      "D": {
+        "item": "metagen:gray_fabric"
+      }
+    },
+    "pattern": [
+      "DID",
+      "DQD",
+      "IQI"
+    ],
+    "result": {
+      "item": "groupheros:weaverchestplate"
+    },
+    "show_notification": true
+  }

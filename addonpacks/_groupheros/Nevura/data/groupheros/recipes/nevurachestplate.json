@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "D": {
+        "item": "metagen:gray_fabric"
+      },
+      "W": {
+        "item": "metagen:white_fabric"
+      },
+      "R": {
+        "item": "metagen:red_fabric"
+      },
+      "K": {
+        "item": "groupheros:bloodvial"
+      },
+      "J": {
+        "item": ""
+      }
+    },
+    "pattern": [
+      "DJD",
+      "DKD",
+      "RWR"
+    ],
+    "result": {
+      "item": "groupheros:nevurachestplate"
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,5 @@
+{
+    "type": "geckolib:default",
+  "model": "sadboiheros:geo/helmet.geo.json",
+  "texture": "sadboiheros:textures/models/helmet.png"
+}

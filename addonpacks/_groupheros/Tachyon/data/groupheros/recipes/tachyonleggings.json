@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "C": {
+        "item": "grave.core:titanium_ingot"
+      },
+      "I": {
+        "item": ""
+      },
+      "Q": {
+        "item": "metagen:gray_fabric"
+      },
+      "D": {
+        "item": "minecraft:gold_ingot"
+      },
+      "E": {
+        "item": "palladium:lead_circuit"
+      }
+    },
+    "pattern": [
+      "DQD",
+      "EIE",
+      "CIC"
+    ],
+    "result": {
+      "item": "groupheros:tachyonleggings"
+    },
+    "show_notification": true
+  }

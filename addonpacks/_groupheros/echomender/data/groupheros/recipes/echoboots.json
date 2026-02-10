@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": ""
+      },
+      "P": {
+        "item": "minecraft:gold_ingot"
+      },
+      "Q": {
+        "item": "minecraft:emerald"
+      },
+      "B": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "pattern": [
+      "BIB",
+      "QIQ",
+      "PIP"
+    ],
+    "result": {
+      "item": "groupheros:echoboots"
+    },
+    "show_notification": true
+  }

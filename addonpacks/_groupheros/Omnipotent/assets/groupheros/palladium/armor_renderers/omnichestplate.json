@@ -1,0 +1,8 @@
+{
+  "textures": "groupheros:textures/models/armor/omnipotentlayer0.png",
+  "model_layers": "palladium:humanoid#suit",
+  "render_layers": [
+    "metagen:cape_black"
+  ],
+  "hide_second_layer": true
+}
