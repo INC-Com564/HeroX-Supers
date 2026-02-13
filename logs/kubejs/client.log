@@ -1,127 +1,131 @@
-[20:35:23] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:35:23] [INIT] Loaded plugins:
-[20:35:23] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:35:23] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:35:23] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
-[20:35:23] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[20:35:23] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:35:23] [INIT] - com.probejs.ProbeJSPlugin
-[20:35:23] [INIT] - org.mesdag.geckojs.GeckoJSPlugin
-[20:35:23] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[20:35:23] [INIT] - com.chen1335.renderjs.kubejs.RenderJSPlugin
-[20:35:23] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[20:35:23] [INFO] Loaded script client_scripts:example.js in 0.0 s
-[20:35:23] [INFO] Loaded script client_scripts:wingpack_render.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/sync_first_person.js in 0.001 s
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#2: Loaded Java class 'net.minecraft.client.Minecraft'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#3: Loaded Java class 'com.mojang.blaze3d.systems.RenderSystem'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#4: Loaded Java class 'net.minecraft.client.gui.components.EditBox'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#5: Loaded Java class 'org.lwjgl.glfw.GLFW'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#6: Loaded Java class 'net.minecraft.resources.ResourceLocation'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#7: Loaded Java class 'net.minecraft.network.chat.Component'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#8: Loaded Java class 'org.joml.Quaternionf'
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#9: Loaded Java class 'net.minecraft.client.gui.screens.inventory.InventoryScreen'
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/slider.js in 0.037 s
-[20:35:23] [INFO] addonpack_fsang_hero:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/send_power_selected.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/properties.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hud.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/animations.js in 0.034 s
-[20:35:23] [INFO] Loaded script addonpack_dampened:kubejs_scripts/animations.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_dampened:kubejs_scripts/hide_stuff.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_dampened:kubejs_scripts/tooltip_clientside.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/talpaedan.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/scan_mode.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/palladium_properties.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/orishan.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/opticoid.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/nosedeenian.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/murkmand.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/gourmand.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_nosedeenian:kubejs_scripts/mainhand_swap.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_nosedeenian:kubejs_scripts/buzzshock.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_vulpimancer.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_pyronite.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_petrosapien.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_kineceleran.js in 0.002 s
-[20:35:23] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#7: Loaded Java class 'org.lwjgl.glfw.GLFWScrollCallbackI'
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/werewolf_fur.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/warper_materials.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/third_person.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/speedster_lightning_change.js in 0.007 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_lightning_change.js in 0.005 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_flame_lightning_change.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/smith_metal_bones.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/send_power_selected.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/property.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_screen.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/key_bind.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/client_data.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_eop:kubejs_scripts/ability_animation.js in 0.014 s
-[20:35:23] [INFO] Loaded script addonpack_anur:kubejs_scripts/loboan.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/vax_anims.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/swampfire_anims.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/necrofriggian.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/earth_slam.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/crystalsapien.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/big_chill_anims.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_afomni:kubejs_scripts/aerophibian.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_aeo:kubejs_scripts/palladium_properties.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_aeo:kubejs_scripts/ov_watch.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_aeo:kubejs_scripts/omniverse_globals.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_aeo:kubejs_scripts/completed_code_ui.js in 0.006 s
-[20:35:23] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/utils/send_power_selected.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/utils/send_is_pressed.js in 0.0 s
-[20:35:23] [INFO] addonpack_telekinesis:kubejs_scripts/gui_display.js#2: Loaded Java class 'net.minecraft.client.gui.screens.ChatScreen'
-[20:35:23] [INFO] addonpack_telekinesis:kubejs_scripts/gui_display.js#3: Loaded Java class 'net.threetag.palladium.PalladiumConfig'
-[20:35:23] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/gui_display.js in 0.007 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_vulpimancer.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_swampfire_anims.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_arburian_pelarota.js in 0.006 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_anim.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/recal_anim.js in 0.002 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/palladium_properties.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/fake_prototype_anim.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/code_ui_ult.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/code_ui_recal.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_gax_classic:kubejs_scripts/handfix.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_gax_classic:kubejs_scripts/enhanced_chimera_sui_generis.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_tatm:kubejs_scripts/venom_web_wings.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_tatm:kubejs_scripts/venom_roar.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_tatm:kubejs_scripts/palladium_property_assets.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_tatm:kubejs_scripts/anti-venom_roar.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_p_sing:kubejs_scripts/ability_animation.js in 0.014 s
-[20:35:23] [INFO] Loaded script addonpack_heroes:kubejs_scripts/super_speed.js in 0.002 s
-[20:35:23] [INFO] Loaded script addonpack_heroes:kubejs_scripts/powers.js in 0.005 s
-[20:35:23] [INFO] Loaded script addonpack_heroes:kubejs_scripts/plasma_manip.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_heroes:kubejs_scripts/geokinetic.js in 0.001 s
-[20:35:23] [INFO] addonpack_alienevo:kubejs_scripts/power_ui.js#3: Loaded Java class 'net.minecraft.sounds.SoundEvents'
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/power_ui.js in 0.028 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/xp_ui.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/vulpimancer.js in 0.002 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/tetramand.js in 0.002 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/recal_anim.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/pyronite.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/prototype_anim.js in 0.002 s
-[20:35:23] [ERROR] ! TypeError: TypeError: redeclaration of const hueShiftControlPoints.
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/piscciss_volann.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/petrosapien.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/mainhand_swap.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/lepidopterran.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/kryptonian.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/kineceleran.js in 0.002 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/galvanic_mechamorph.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/galvan.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/ectonurite.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/display_player.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/code_ui.js in 0.0 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/astrobot.js in 0.001 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/arburian_pelarota.js in 0.003 s
-[20:35:23] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/prototype_anim.js in 0.001 s
-[20:35:23] [INFO] Loaded 99/100 KubeJS client scripts in 0.28 s with 0 errors and 0 warnings
-[20:35:25] [INFO] Client resource reload complete!
+[23:29:20] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[23:29:20] [INIT] Loaded plugins:
+[23:29:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:29:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:29:20] [INIT] - net.threetag.palladium.compat.kubejs.PalladiumKubeJSPlugin
+[23:29:20] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[23:29:20] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[23:29:20] [INIT] - com.probejs.ProbeJSPlugin
+[23:29:20] [INIT] - org.mesdag.geckojs.GeckoJSPlugin
+[23:29:20] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[23:29:20] [INIT] - com.chen1335.renderjs.kubejs.RenderJSPlugin
+[23:29:20] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[23:29:20] [INFO] Loaded script client_scripts:example.js in 0.0 s
+[23:29:20] [INFO] Loaded script client_scripts:wingpack_render.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/sync_first_person.js in 0.001 s
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#2: Loaded Java class 'net.minecraft.client.Minecraft'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#3: Loaded Java class 'com.mojang.blaze3d.systems.RenderSystem'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#4: Loaded Java class 'net.minecraft.client.gui.components.EditBox'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#5: Loaded Java class 'org.lwjgl.glfw.GLFW'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#6: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#7: Loaded Java class 'net.minecraft.network.chat.Component'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#8: Loaded Java class 'org.joml.Quaternionf'
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/slider.js#9: Loaded Java class 'net.minecraft.client.gui.screens.inventory.InventoryScreen'
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/slider.js in 0.04 s
+[23:29:20] [INFO] addonpack_fsang_hero:kubejs_scripts/send_power_selected.js#1: Loaded Java class 'net.threetag.palladium.client.screen.AbilityBarRenderer'
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/send_power_selected.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/properties.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/hud.js in 0.004 s
+[23:29:20] [INFO] Loaded script addonpack_fsang_hero:kubejs_scripts/animations.js in 0.023 s
+[23:29:20] [INFO] Loaded script addonpack_dampened:kubejs_scripts/animations.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_dampened:kubejs_scripts/hide_stuff.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_dampened:kubejs_scripts/tooltip_clientside.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/talpaedan.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/scan_mode.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/palladium_properties.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/orishan.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/opticoid.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/nosedeenian.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/murkmand.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_omni_extras:kubejs_scripts/gourmand.js in 0.001 s
+[23:29:20] [INFO] Loaded script addonpack_nosedeenian:kubejs_scripts/mainhand_swap.js in 0.0 s
+[23:29:20] [INFO] Loaded script addonpack_nosedeenian:kubejs_scripts/buzzshock.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_vulpimancer.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_pyronite.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_petrosapien.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_evolved:kubejs_scripts/evolved_kineceleran.js in 0.001 s
+[23:29:21] [INFO] addonpack_eop:kubejs_scripts/werewolf_fur.js#7: Loaded Java class 'org.lwjgl.glfw.GLFWScrollCallbackI'
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/werewolf_fur.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/warper_materials.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/third_person.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/speedster_lightning_change.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_lightning_change.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/spark_flame_lightning_change.js in 0.004 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/smith_metal_bones.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/send_power_selected.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/property.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/power_screen.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/key_bind.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/client_data.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_eop:kubejs_scripts/ability_animation.js in 0.013 s
+[23:29:21] [INFO] Loaded script addonpack_anur:kubejs_scripts/transylian.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_anur:kubejs_scripts/loboan.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/vax_anims.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/swampfire_anims.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/necrofriggian.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/earth_slam.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/crystalsapien.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/big_chill_anims.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_afomni:kubejs_scripts/aerophibian.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/rendering_stuff.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/palladium_properties.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/ov_watch.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/omniverse_globals.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/normal.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/ectonurite_ov.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_aeo:kubejs_scripts/completed_code_ui.js in 0.005 s
+[23:29:21] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/utils/send_power_selected.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/utils/send_is_pressed.js in 0.0 s
+[23:29:21] [INFO] addonpack_telekinesis:kubejs_scripts/gui_display.js#2: Loaded Java class 'net.minecraft.client.gui.screens.ChatScreen'
+[23:29:21] [INFO] addonpack_telekinesis:kubejs_scripts/gui_display.js#3: Loaded Java class 'net.threetag.palladium.PalladiumConfig'
+[23:29:21] [INFO] Loaded script addonpack_telekinesis:kubejs_scripts/gui_display.js in 0.006 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_vulpimancer.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_swampfire_anims.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_arburian_pelarota.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/ult_anim.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/recal_anim.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/palladium_properties.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/fake_prototype_anim.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/code_ui_ult.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_omni_evo:kubejs_scripts/code_ui_recal.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_gax_classic:kubejs_scripts/handfix.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_gax_classic:kubejs_scripts/enhanced_chimera_sui_generis.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/send_power_selected.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/key_reference.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_grave.core:kubejs_scripts/camera_client.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_tatm:kubejs_scripts/venom_web_wings.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_tatm:kubejs_scripts/venom_roar.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_tatm:kubejs_scripts/palladium_property_assets.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_tatm:kubejs_scripts/anti-venom_roar.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_p_sing:kubejs_scripts/ability_animation.js in 0.014 s
+[23:29:21] [INFO] Loaded script addonpack_heroes:kubejs_scripts/super_speed.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_heroes:kubejs_scripts/powers.js in 0.005 s
+[23:29:21] [INFO] Loaded script addonpack_heroes:kubejs_scripts/plasma_manip.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_heroes:kubejs_scripts/geokinetic.js in 0.0 s
+[23:29:21] [INFO] addonpack_alienevo:kubejs_scripts/power_ui.js#3: Loaded Java class 'net.minecraft.sounds.SoundEvents'
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/power_ui.js in 0.026 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/xp_ui.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/vulpimancer.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/tetramand.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/recal_anim.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/quick_change.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/pyronite.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/prototype_anim.js in 0.002 s
+[23:29:21] [ERROR] ! TypeError: TypeError: redeclaration of const hueShiftControlPoints.
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/piscciss_volann.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/petrosapien.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/palladium_properties.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/mainhand_swap.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/lepidopterran.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/kryptonian.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/kineceleran.js in 0.002 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/galvanic_mechamorph.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/galvan.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/ectonurite.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/display_player.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/code_ui.js in 0.0 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/astrobot.js in 0.001 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/arburian_pelarota.js in 0.003 s
+[23:29:21] [INFO] Loaded script addonpack_alienevo:kubejs_scripts/prototype_anim.js in 0.001 s
+[23:29:21] [INFO] Loaded 103/104 KubeJS client scripts in 0.25 s with 0 errors and 0 warnings
+[23:29:23] [INFO] Client resource reload complete!

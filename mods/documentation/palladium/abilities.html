@@ -439,16 +439,8 @@ multi_attribute_modifier</a>
 IntoTheOmniverse</h3>
 <ul>
 <li>
-<a href="#aeo:airbreather_module">
-airbreather_module</a>
-</li>
-<li>
 <a href="#aeo:apply_dna_from_omniverse_core">
 apply_dna_from_omniverse_core</a>
-</li>
-<li>
-<a href="#aeo:battery_upgrade_module">
-battery_upgrade_module</a>
 </li>
 <li>
 <a href="#aeo:completed_blueprint">
@@ -483,6 +475,14 @@ display_code</a>
 increase_digit</a>
 </li>
 <li>
+<a href="#aeo:module_handler">
+module_handler</a>
+</li>
+<li>
+<a href="#aeo:module_titles">
+module_titles</a>
+</li>
+<li>
 <a href="#aeo:omnitrix_cycle_next_animated">
 omnitrix_cycle_next_animated</a>
 </li>
@@ -497,10 +497,6 @@ omnitrix_transform</a>
 <li>
 <a href="#aeo:reveal_code">
 reveal_code</a>
-</li>
-<li>
-<a href="#aeo:suit_module">
-suit_module</a>
 </li>
 </ul>
 <h3>
@@ -16494,132 +16490,6 @@ Example:</h3>
 </div>
 <hr>
 
-<div id="aeo:airbreather_module">
-<h2>
-airbreather_module</h2>
-<h3>
-Settings:</h3>
-<table>
-<thead>
-<tr>
-<th>
-Setting</th>
-<th>
-Type</th>
-<th>
-Description</th>
-<th>
-Required</th>
-<th>
-Fallback Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-icon</td>
-<td>
-IIcon</td>
-<td>
-Icon for the ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-ItemIcon{stack=1 nether_star}</td>
-</tr>
-<tr>
-<td>
-title</td>
-<td>
-Component</td>
-<td>
-Allows you to set a custom title for this ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-bar_color</td>
-<td>
-AbilityColor</td>
-<td>
-Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-LIGHT_GRAY</td>
-</tr>
-<tr>
-<td>
-hidden</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the powers screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-hidden_in_bar</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the ability bar on your screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-list_index</td>
-<td>
-Integer</td>
-<td>
-Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
--1</td>
-</tr>
-<tr>
-<td>
-gui_position</td>
-<td>
-Vec2</td>
-<td>
-Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-description</td>
-<td>
-AbilityDescription</td>
-<td>
-Description of the ability. Visible in ability menu</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-</tbody>
-</table>
-<h3>
-Example:</h3>
-<pre class="json-snippet">
-{"type":"aeo:airbreather_module","icon":"minecraft:nether_star","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
-</div>
-<hr>
-
 <div id="aeo:apply_dna_from_omniverse_core">
 <h2>
 apply_dna_from_omniverse_core</h2>
@@ -16755,132 +16625,6 @@ alienevodnaapplication_omniverse</td>
 Example:</h3>
 <pre class="json-snippet">
 {"type":"aeo:apply_dna_from_omniverse_core","icon":{"type":"palladium:item","item":"minecraft:air","count":0},"title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null","property":"alienevodnaapplication_omniverse"}</pre>
-</div>
-<hr>
-
-<div id="aeo:battery_upgrade_module">
-<h2>
-battery_upgrade_module</h2>
-<h3>
-Settings:</h3>
-<table>
-<thead>
-<tr>
-<th>
-Setting</th>
-<th>
-Type</th>
-<th>
-Description</th>
-<th>
-Required</th>
-<th>
-Fallback Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-icon</td>
-<td>
-IIcon</td>
-<td>
-Icon for the ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-ItemIcon{stack=1 nether_star}</td>
-</tr>
-<tr>
-<td>
-title</td>
-<td>
-Component</td>
-<td>
-Allows you to set a custom title for this ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-bar_color</td>
-<td>
-AbilityColor</td>
-<td>
-Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-LIGHT_GRAY</td>
-</tr>
-<tr>
-<td>
-hidden</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the powers screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-hidden_in_bar</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the ability bar on your screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-list_index</td>
-<td>
-Integer</td>
-<td>
-Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
--1</td>
-</tr>
-<tr>
-<td>
-gui_position</td>
-<td>
-Vec2</td>
-<td>
-Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-description</td>
-<td>
-AbilityDescription</td>
-<td>
-Description of the ability. Visible in ability menu</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-</tbody>
-</table>
-<h3>
-Example:</h3>
-<pre class="json-snippet">
-{"type":"aeo:battery_upgrade_module","icon":"minecraft:nether_star","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
 </div>
 <hr>
 
@@ -17916,6 +17660,258 @@ Example:</h3>
 </div>
 <hr>
 
+<div id="aeo:module_handler">
+<h2>
+module_handler</h2>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 nether_star}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"aeo:module_handler","icon":"minecraft:nether_star","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
+</div>
+<hr>
+
+<div id="aeo:module_titles">
+<h2>
+module_titles</h2>
+<h3>
+Settings:</h3>
+<table>
+<thead>
+<tr>
+<th>
+Setting</th>
+<th>
+Type</th>
+<th>
+Description</th>
+<th>
+Required</th>
+<th>
+Fallback Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+icon</td>
+<td>
+IIcon</td>
+<td>
+Icon for the ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+ItemIcon{stack=1 nether_star}</td>
+</tr>
+<tr>
+<td>
+title</td>
+<td>
+Component</td>
+<td>
+Allows you to set a custom title for this ability</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+bar_color</td>
+<td>
+AbilityColor</td>
+<td>
+Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+LIGHT_GRAY</td>
+</tr>
+<tr>
+<td>
+hidden</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the powers screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+hidden_in_bar</td>
+<td>
+Boolean</td>
+<td>
+Determines if the ability is visible in the ability bar on your screen</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+false</td>
+</tr>
+<tr>
+<td>
+list_index</td>
+<td>
+Integer</td>
+<td>
+Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+-1</td>
+</tr>
+<tr>
+<td>
+gui_position</td>
+<td>
+Vec2</td>
+<td>
+Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+<tr>
+<td>
+description</td>
+<td>
+AbilityDescription</td>
+<td>
+Description of the ability. Visible in ability menu</td>
+<td style="background-color: lightcoral">
+false</td>
+<td>
+/</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Example:</h3>
+<pre class="json-snippet">
+{"type":"aeo:module_titles","icon":"minecraft:nether_star","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
+</div>
+<hr>
+
 <div id="aeo:omnitrix_cycle_next_animated">
 <h2>
 omnitrix_cycle_next_animated</h2>
@@ -18645,132 +18641,6 @@ false</td>
 Example:</h3>
 <pre class="json-snippet">
 {"type":"aeo:reveal_code","icon":"minecraft:redstone_torch","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
-</div>
-<hr>
-
-<div id="aeo:suit_module">
-<h2>
-suit_module</h2>
-<h3>
-Settings:</h3>
-<table>
-<thead>
-<tr>
-<th>
-Setting</th>
-<th>
-Type</th>
-<th>
-Description</th>
-<th>
-Required</th>
-<th>
-Fallback Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-icon</td>
-<td>
-IIcon</td>
-<td>
-Icon for the ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-ItemIcon{stack=1 nether_star}</td>
-</tr>
-<tr>
-<td>
-title</td>
-<td>
-Component</td>
-<td>
-Allows you to set a custom title for this ability</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-bar_color</td>
-<td>
-AbilityColor</td>
-<td>
-Changes the color of the ability in the ability bar. Possible values: [white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black]</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-LIGHT_GRAY</td>
-</tr>
-<tr>
-<td>
-hidden</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the powers screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-hidden_in_bar</td>
-<td>
-Boolean</td>
-<td>
-Determines if the ability is visible in the ability bar on your screen</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-false</td>
-</tr>
-<tr>
-<td>
-list_index</td>
-<td>
-Integer</td>
-<td>
-Determines the list index for custom ability lists. Starts at 0. Going beyond 4 (which is the 5th place in the ability) will start a new list. Keeping it at -1 will automatically arrange the abilities.</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
--1</td>
-</tr>
-<tr>
-<td>
-gui_position</td>
-<td>
-Vec2</td>
-<td>
-Position of the ability in the ability menu. Leave null for automatic positioning. 0/0 is center</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-<tr>
-<td>
-description</td>
-<td>
-AbilityDescription</td>
-<td>
-Description of the ability. Visible in ability menu</td>
-<td style="background-color: lightcoral">
-false</td>
-<td>
-/</td>
-</tr>
-</tbody>
-</table>
-<h3>
-Example:</h3>
-<pre class="json-snippet">
-{"type":"aeo:suit_module","icon":"minecraft:nether_star","title":"null","bar_color":"light_gray","hidden":false,"hidden_in_bar":false,"list_index":-1,"gui_position":"null","description":"null"}</pre>
 </div>
 <hr>
 

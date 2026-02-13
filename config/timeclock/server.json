@@ -13,6 +13,7 @@
     ]
   },
   "entity": {
-    "model_size": 1.0
+    "model_size": 1.0,
+    "entity_ownership_bypass": false
   }
 }
