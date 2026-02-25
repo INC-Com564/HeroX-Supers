@@ -1,0 +1,401 @@
+{
+  "aeo:root": {
+    "criteria": {
+      "ticky": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "nosedeenian:yes": {
+    "criteria": {
+      "first_join": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "fsang:root": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "nosedeenian:buzzshock_root": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "p_sing:give_suits": {
+    "criteria": {
+      "requirement": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "alienevo:alien_evolution": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "eop:root": {
+    "criteria": {
+      "requirement": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "omni_extras:root": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "anur:root": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "p_sing:root": {
+    "criteria": {
+      "requirement": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "fsang_secondary:root": {
+    "criteria": {
+      "tick": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "heroes:root": {
+    "criteria": {
+      "Join World": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "palladium:recipes/decorations/tailoring_bench": {
+    "criteria": {
+      "unlock_right_away": "2026-02-13 10:07:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2026-02-13 11:18:24 -0600",
+      "minecraft:sparse_jungle": "2026-02-13 10:07:44 -0600",
+      "minecraft:river": "2026-02-16 13:33:01 -0600",
+      "minecraft:stony_shore": "2026-02-16 13:33:11 -0600",
+      "minecraft:dripstone_caves": "2026-02-16 10:42:26 -0600",
+      "minecraft:forest": "2026-02-13 10:13:11 -0600",
+      "minecraft:jungle": "2026-02-13 10:09:46 -0600",
+      "minecraft:savanna": "2026-02-13 11:02:57 -0600",
+      "minecraft:plains": "2026-02-13 10:58:57 -0600"
+    },
+    "done": false
+  },
+  "eop:bloodweaver/blood_scythe": {
+    "criteria": {
+      "requirement": "2026-02-13 10:26:02 -0600"
+    },
+    "done": true
+  },
+  "p_sing:psycho_kill": {
+    "criteria": {
+      "requirement": "2026-02-13 10:57:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-02-13 10:57:19 -0600"
+    },
+    "done": true
+  },
+  "eop:aberrant/chimera_kill": {
+    "criteria": {
+      "requirement": "2026-02-13 10:57:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-02-13 10:57:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-02-13 10:57:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-02-13 10:57:22 -0600"
+    },
+    "done": true
+  },
+  "palladium:recipes/misc/titanium_ingot_from_titanium_block": {
+    "criteria": {
+      "has_titanium_block": "2026-02-13 11:19:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-13 11:19:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-13 11:19:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-13 11:19:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-13 11:19:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-13 11:19:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-02-13 11:20:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-02-13 11:20:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-02-16 11:16:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-02-16 11:16:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-02-16 11:16:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-02-16 11:16:09 -0600"
+    },
+    "done": true
+  },
+  "grave.core:recipes/white_fabric": {
+    "criteria": {
+      "has_wool": "2026-02-16 11:16:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-02-16 11:16:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-02-16 11:16:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-02-16 11:16:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-02-16 11:16:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-02-16 13:31:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-02-16 13:32:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-02-16 14:29:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2026-02-16 14:29:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2026-02-16 14:29:11 -0600"
+    },
+    "done": true
+  },
+  "alienevo:discover_pod": {
+    "criteria": {
+      "find_pod": "2026-02-16 14:34:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-02-21 17:43:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-02-21 17:43:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-02-21 17:43:58 -0600"
+    },
+    "done": true
+  },
+  "alienevo:recipes/prototype_omnitrix": {
+    "criteria": {
+      "has_prototype_core": "2026-02-21 18:27:10 -0600"
+    },
+    "done": true
+  },
+  "alienevo:obtain_core": {
+    "criteria": {
+      "prototype_core": "2026-02-21 18:27:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-02-24 14:12:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-02-24 14:29:25 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

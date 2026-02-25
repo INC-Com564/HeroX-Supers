@@ -1,0 +1,328 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Shall we play a game?
+
+Time: 2026-02-21 18:30:56
+Description: Ticking player
+
+dev.latvian.mods.rhino.WrappedException: Wrapped java.lang.NullPointerException: Cannot invoke "net.minecraft.world.scores.Objective.m_83320_()" because the return value of "net.minecraft.world.scores.Score.m_83404_()" is null (addonpack_alienevo:kubejs_scripts/detransform.js#112)
+	at dev.latvian.mods.rhino.Context.throwAsScriptRuntimeEx(Context.java:269) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.MemberBox.invoke(MemberBox.java:180) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.NativeJavaMethod.call(NativeJavaMethod.java:463) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1374) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at jdk.proxy3.$Proxy71.tick(Unknown Source) ~[?:?] {}
+	at net.threetag.palladium.compat.kubejs.ability.ScriptableAbility.lastTick(ScriptableAbility.java:63) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladium.power.DefaultPowerHolder.lambda$lastTick$1(DefaultPowerHolder.java:120) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar%23104!/:?] {}
+	at net.threetag.palladium.power.DefaultPowerHolder.lastTick(DefaultPowerHolder.java:120) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladium.power.PowerHandler.removePowerHolder(PowerHandler.java:112) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at net.threetag.palladium.power.PowerHandler.removePowerHolder(PowerHandler.java:104) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at net.threetag.palladium.power.PowerHandler.tick(PowerHandler.java:51) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?] {re:mixin}
+	at net.threetag.palladium.power.PowerManager.lambda$init$0(PowerManager.java:41) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.LivingEntityEvents.lambda$static$9(LivingEntityEvents.java:33) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.forge.PalladiumCoreEventHandler.livingTick(PalladiumCoreEventHandler.java:93) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.forge.__PalladiumCoreEventHandler_livingTick_LivingTickEvent.invoke(.dynamic) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:55) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:312) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:265) ~[forge-1.20.1-47.4.16-universal.jar%23270!/:?] {re:mixin,re:classloading,pl:mixin:APP:palladium.mixins.json:ForgeHooksMixin from mod palladium,pl:mixin:APP:connectormod.mixins.json:ForgeHooksMixin from mod connectormod,pl:mixin:APP:connectormod.mixins.json:item.ForgeHooksMixin from mod connectormod,pl:mixin:APP:lootjs-forge.mixins.json:ForgeHooksMixin from mod lootjs,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2258) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:connectormod:insertInjectionTarget,xf:fml:connectormod:updateItemUseStartTreshold,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:connectormod:insertInjectionTarget,xf:fml:connectormod:updateItemUseStartTreshold,pl:mixin:APP:tetra.mixins.json:LivingEntityMixin from mod tetra,pl:mixin:APP:timeclock-common.mixins.json:common.LivingMixin from mod timeclock,pl:mixin:APP:palladium-common.mixins.json:LivingEntityMixin from mod palladium,pl:mixin:APP:dummmmmmy-common.mixins.json:LivingEntityMixin from mod dummmmmmy,pl:mixin:APP:curios.mixins.json:MixinLivingEntity from mod curios,pl:mixin:APP:fabric-entity-events-v1.mixins.json:LivingEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-entity-events-v1.mixins.json:elytra.LivingEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:LivingEntityMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin from mod kubejs,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin from mod pehkui,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity from mod caelus,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin from mod entityjs,pl:mixin:APP:lodestone.mixins.json:common.LivingEntityMixin from mod lodestone,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin from mod pehkui,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:241) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:reach.PlayerEntityMixin from mod pehkui,pl:mixin:APP:tetra.mixins.json:PlayerEntityMixin from mod tetra,pl:mixin:APP:timeclock-common.mixins.json:common.LivingMixin from mod timeclock,pl:mixin:APP:timeclock-common.mixins.json:common.PlayerMixin from mod timeclock,pl:mixin:APP:playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator,pl:mixin:APP:palladium-common.mixins.json:PlayerMixin from mod palladium,pl:mixin:APP:geotetraarmor.mixins.json:PlayerMixin from mod geotetraarmor,pl:mixin:APP:dummmmmmy-common.mixins.json:PlayerMixin from mod dummmmmmy,pl:mixin:APP:fabric-entity-events-v1.mixins.json:PlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-entity-events-v1.mixins.json:elytra.PlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:pehkui.mixins.json:PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat117plus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1194plus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1201minus.EntityVehicleHeightOffsetMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:kubejs-common.mixins.json:PlayerMixin from mod kubejs,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-entity-events-v1.mixins.json:ServerPlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:kubejs-common.mixins.json:ServerPlayerMixin from mod kubejs,pl:mixin:APP:pehkui.mixins.json:ServerPlayerEntityMixin from mod pehkui,pl:mixin:APP:fabric-screen-handler-api-v1.mixins.json:ServerPlayerEntityMixin from mod fabric_screen_handler_api_v1,pl:mixin:APP:moonlight-common.mixins.json:ServerPlayerMixin from mod moonlight,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-networking-api-v1.mixins.json:ServerPlayNetworkHandlerMixin from mod fabric_networking_api_v1,pl:mixin:APP:tetra.mixins.json:ServerPlayNetHandlerMixin from mod tetra,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric_networking_api_v1,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerGamePacketListenerImplMixin from mod packetfixer,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.scores.Objective.m_83320_()" because the return value of "net.minecraft.world.scores.Score.m_83404_()" is null
+	at net.minecraft.server.ServerScoreboard.m_5734_(ServerScoreboard.java:36) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:palladium-common.mixins.json:ServerScoreboardMixin from mod palladium,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.scores.Score.m_83402_(Score.java:57) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.world.scores.Scoreboard.m_83485_(Scoreboard.java:83) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A,re:mixin,pl:connector_pre_launch:A}
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[?:?] {re:mixin}
+	at net.minecraft.world.scores.Scoreboard.m_83471_(Scoreboard.java:81) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A,re:mixin,pl:connector_pre_launch:A}
+	at jdk.internal.reflect.GeneratedMethodAccessor161.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at dev.latvian.mods.rhino.MemberBox.invoke(MemberBox.java:160) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	... 41 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mods: 
+	PalladiumCore (palladiumcore), Version: 1.0.1
+		Issue tracker URL: https://github.com/ThreeTAG/PalladiumCore/issues
+		at TRANSFORMER/palladiumcore@1.0.1/net.threetag.palladiumcore.event.LivingEntityEvents.lambda$static$9(LivingEntityEvents.java:33)
+
+	Palladium (palladium), Version: 4.5.1
+		Issue tracker URL: https://github.com/ThreeTAG/Palladium/issues
+		at TRANSFORMER/palladium@4.5.1/net.threetag.palladium.compat.kubejs.ability.ScriptableAbility.lastTick(ScriptableAbility.java:63)
+
+	Rhino (rhino), Version: 2001.2.3-build.10
+		Issue tracker URL: https://github.com/KubeJS-Mods/Rhino/issues
+		at TRANSFORMER/rhino@2001.2.3-build.10/dev.latvian.mods.rhino.Context.throwAsScriptRuntimeEx(Context.java:269)
+Stacktrace:
+	at dev.latvian.mods.rhino.Context.throwAsScriptRuntimeEx(Context.java:269) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.MemberBox.invoke(MemberBox.java:180) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.NativeJavaMethod.call(NativeJavaMethod.java:463) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1374) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.10.jar%23257!/:2001.2.3-build.10] {re:classloading}
+	at jdk.proxy3.$Proxy71.tick(Unknown Source) ~[?:?] {}
+	at net.threetag.palladium.compat.kubejs.ability.ScriptableAbility.lastTick(ScriptableAbility.java:63) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladium.power.DefaultPowerHolder.lambda$lastTick$1(DefaultPowerHolder.java:120) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar%23104!/:?] {}
+	at net.threetag.palladium.power.DefaultPowerHolder.lastTick(DefaultPowerHolder.java:120) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladium.power.PowerHandler.removePowerHolder(PowerHandler.java:112) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at net.threetag.palladium.power.PowerHandler.removePowerHolder(PowerHandler.java:104) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at net.threetag.palladium.power.PowerHandler.tick(PowerHandler.java:51) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:mixin,re:classloading}
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?] {re:mixin}
+	at net.threetag.palladium.power.PowerManager.lambda$init$0(PowerManager.java:41) ~[palladium-4.5.1+1.20.1-forge.jar%23248!/:4.5.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.LivingEntityEvents.lambda$static$9(LivingEntityEvents.java:33) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.forge.PalladiumCoreEventHandler.livingTick(PalladiumCoreEventHandler.java:93) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading}
+	at net.threetag.palladiumcore.event.forge.__PalladiumCoreEventHandler_livingTick_LivingTickEvent.invoke(.dynamic) ~[palladiumcore-forge-1.0.1+1.20.1-forge.jar%23387!/:1.0.1+1.20.1] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:55) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:312) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.2.33.jar%2381!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:265) ~[forge-1.20.1-47.4.16-universal.jar%23270!/:?] {re:mixin,re:classloading,pl:mixin:APP:palladium.mixins.json:ForgeHooksMixin from mod palladium,pl:mixin:APP:connectormod.mixins.json:ForgeHooksMixin from mod connectormod,pl:mixin:APP:connectormod.mixins.json:item.ForgeHooksMixin from mod connectormod,pl:mixin:APP:lootjs-forge.mixins.json:ForgeHooksMixin from mod lootjs,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2258) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:connectormod:insertInjectionTarget,xf:fml:connectormod:updateItemUseStartTreshold,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,xf:fml:connectormod:insertInjectionTarget,xf:fml:connectormod:updateItemUseStartTreshold,pl:mixin:APP:tetra.mixins.json:LivingEntityMixin from mod tetra,pl:mixin:APP:timeclock-common.mixins.json:common.LivingMixin from mod timeclock,pl:mixin:APP:palladium-common.mixins.json:LivingEntityMixin from mod palladium,pl:mixin:APP:dummmmmmy-common.mixins.json:LivingEntityMixin from mod dummmmmmy,pl:mixin:APP:curios.mixins.json:MixinLivingEntity from mod curios,pl:mixin:APP:fabric-entity-events-v1.mixins.json:LivingEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-entity-events-v1.mixins.json:elytra.LivingEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:LivingEntityMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin from mod kubejs,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin from mod pehkui,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity from mod caelus,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin from mod entityjs,pl:mixin:APP:lodestone.mixins.json:common.LivingEntityMixin from mod lodestone,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin from mod pehkui,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:241) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:reach.PlayerEntityMixin from mod pehkui,pl:mixin:APP:tetra.mixins.json:PlayerEntityMixin from mod tetra,pl:mixin:APP:timeclock-common.mixins.json:common.LivingMixin from mod timeclock,pl:mixin:APP:timeclock-common.mixins.json:common.PlayerMixin from mod timeclock,pl:mixin:APP:playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator,pl:mixin:APP:palladium-common.mixins.json:PlayerMixin from mod palladium,pl:mixin:APP:geotetraarmor.mixins.json:PlayerMixin from mod geotetraarmor,pl:mixin:APP:dummmmmmy-common.mixins.json:PlayerMixin from mod dummmmmmy,pl:mixin:APP:fabric-entity-events-v1.mixins.json:PlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:fabric-entity-events-v1.mixins.json:elytra.PlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:pehkui.mixins.json:PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat117plus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1194plus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1201minus.EntityVehicleHeightOffsetMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.PlayerEntityMixin from mod pehkui,pl:mixin:APP:kubejs-common.mixins.json:PlayerMixin from mod kubejs,pl:mixin:A,pl:connector_pre_launch:A}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 159
+	Entity Name: Z3EKnCleve
+	Entity's Exact location: -309.80, 94.00, 112.27
+	Entity's Block location: World: (-310,94,112), Section: (at 10,14,0 in -20,5,7; chunk contains blocks -320,-64,112 to -305,319,127), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-entity-events-v1.mixins.json:ServerPlayerEntityMixin from mod fabric_entity_events_v1,pl:mixin:APP:kubejs-common.mixins.json:ServerPlayerMixin from mod kubejs,pl:mixin:APP:pehkui.mixins.json:ServerPlayerEntityMixin from mod pehkui,pl:mixin:APP:fabric-screen-handler-api-v1.mixins.json:ServerPlayerEntityMixin from mod fabric_screen_handler_api_v1,pl:mixin:APP:moonlight-common.mixins.json:ServerPlayerMixin from mod moonlight,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:fabric-networking-api-v1.mixins.json:ServerPlayNetworkHandlerMixin from mod fabric_networking_api_v1,pl:mixin:APP:tetra.mixins.json:ServerPlayNetHandlerMixin from mod tetra,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric_networking_api_v1,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin from mod pehkui,pl:mixin:APP:packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerGamePacketListenerImplMixin from mod packetfixer,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:classloading,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23265!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Mac OS X (aarch64) version 26.3
+	Java Version: 17.0.17, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 1580302336 bytes (1507 MiB) / 4294967296 bytes (4096 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 10
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M2 Pro
+	Identifier: Apple Inc. Family 0xda33d83d Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Avalanche + Blizzard
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 10
+	Graphics card #0 name: Apple M2 Pro
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MB): 22528.00
+	Virtual memory used (MB): 18820.27
+	Swap memory total (MB): 6144.00
+	Swap memory used (MB): 4999.25
+	JVM Flags: 3 total; -Xss1M -Xmx4096m -Xms256m
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Z3EKnCleve'/159, l='ServerLevel[New World-2.2]', x=-309.80, y=94.00, z=112.27]]
+	Data Packs: vanilla, mod:tetra (incompatible), mod:gravecore, mod:fabric_renderer_api_v1, mod:timeclock (incompatible), mod:evolved, mod:eop, mod:geckolib, mod:playeranimator (incompatible), mod:connectorextras_kubejs_bridge, mod:fabric_item_api_v1, mod:palladiumcore (incompatible), mod:fabric_rendering_fluids_v1, mod:fabric_models_v0, mod:heroes, mod:palladiumextras, mod:palladium (incompatible), mod:fabric_convention_tags_v1, mod:fabric_command_api_v1, mod:fabric_block_view_api_v2, mod:fabric_command_api_v2, mod:geotetraarmor, mod:fabric_data_attachment_api_v1, mod:pantheonapi, mod:connectorextras_rei_bridge, mod:fabric_screen_api_v1, mod:cloth_config (incompatible), mod:blaze_heroes, mod:fabric_api, mod:dummmmmmy (incompatible), mod:connectorextras_modmenu_bridge, mod:fabric_content_registries_v0, mod:connectorextras_terrablender_bridge, mod:fsang, mod:fabric_game_rule_api_v1, mod:pantheonsent (incompatible), mod:nosedeenian, mod:fabric_api_lookup_api_v1, mod:dreyse_heroes, mod:reach_entity_attributes, mod:connectorextras_architectury_bridge, mod:curios (incompatible), mod:anur_trio, mod:cerbons_api, mod:connectormod, mod:dampened, mod:fabric_entity_events_v1, mod:lootjs, mod:architectury (incompatible), mod:kubejsoffline (incompatible), mod:tetra_material_overhaul, mod:fabric_loot_api_v2, mod:gax_classic, mod:connectorextras, mod:fabric_rendering_data_attachment_v1, mod:p_sing, mod:fabric_networking_api_v1, mod:framework, mod:probejs (incompatible), mod:fabric_lifecycle_events_v1, mod:fabric_key_binding_api_v1, mod:fabric_client_tags_api_v1, mod:fabric_dimensions_v1, mod:fabric_transfer_api_v1, mod:rhino (incompatible), mod:omni_extras, mod:fms, mod:fabric_model_loading_api_v1, mod:jei, mod:kubejs (incompatible), mod:tatm, mod:connectorextras_pehkui_bridge, mod:pehkui (incompatible), mod:fabric_screen_handler_api_v1, mod:fabric_resource_loader_v0, mod:caelus (incompatible), mod:fabric_rendering_v1, mod:fabric_renderer_indigo, mod:fabric_mining_level_api_v1, mod:connectorextras_geckolib_fabric_compat, mod:connectorextras_energy_bridge, mod:fabric_particles_v1, mod:forge, mod:fabric_transitive_access_wideners_v1, mod:just_enough_beacons, mod:moonlight (incompatible), mod:fabric_api_base, mod:fabric_blockrenderlayer_v1, mod:mixinsquared (incompatible), mod:amecsapi, mod:telekinesis, mod:cubes_without_borders (incompatible), mod:fabric_block_api_v1, mod:connectorextras_jei_bridge, mod:fabric_resource_conditions_api_v1, mod:geckojs, mod:forgeconfigapiport, mod:alienevo, mod:aeo, mod:entityjs (incompatible), mod:mutil, mod:fabric_item_group_api_v1, mod:renderjs, mod:fabric_biome_api_v1, mod:sherdsapi (incompatible), mod:fabric_registry_sync_v0, mod:omni_evo, mod:fabric_recipe_api_v1, mod:fabric_object_builder_api_v1, mod:yet_another_config_lib_v3 (incompatible), mod:fabric_sound_api_v1, mod:lodestone, mod:fabric_message_api_v1, mod:packetfixer (incompatible), mod:connectorextras_emi_bridge, mod:fabric_data_generation_api_v1, mod:fabric_events_interaction_v0, addonpack:file/NexGEN26, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: forge-47.4.16
+	Sinytra Connector: 1.0.0-beta.48+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.2.33.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.16.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.16.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.16.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.16.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.16.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		tetra-1.20.1-6.11.0.jar                           |tetra                         |tetra                         |6.11.0              |DONE      |Manifest: NOSIGNATURE
+		gravecore-1.2.5-forge.jar                         |Gravestone: Core              |gravecore                     |1.2.5               |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.2.2+cf68abbe77.jar       |Fabric Renderer API (v1)      |fabric_renderer_api_v1        |3.2.2+cf68abbe77    |DONE      |Manifest: NOSIGNATURE
+		timeclock-4.2.0-forge-1.20.1.jar                  |TimeClock                     |timeclock                     |4.2.0               |DONE      |Manifest: NOSIGNATURE
+		pinnacle_of_evolution-v3.3.jar                    |Pinnacle_of_Evolution         |evolved                       |3.3                 |DONE      |Manifest: NOSIGNATURE
+		Echoes-of-Power-3.0.5.jar                         |Echoes of Power               |eop                           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.8.3.jar                   |GeckoLib 4                    |geckolib                      |4.8.3               |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |DONE      |Manifest: NOSIGNATURE
+		kubejs-bridge-1.11.2+1.20.1.jar                   |Connector Extras KubeJS Bridge|connectorextras_kubejs_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-item-api-v1-2.1.29+4d0bbcfa77.jar          |Fabric Item API (v1)          |fabric_item_api_v1            |2.1.29+4d0bbcfa77   |DONE      |Manifest: NOSIGNATURE
+		palladiumcore-forge-1.0.1+1.20.1-forge.jar        |PalladiumCore                 |palladiumcore                 |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-fluids-v1-3.0.29+4ac5e37a77.jar  |Fabric Rendering Fluids (v1)  |fabric_rendering_fluids_v1    |3.0.29+4ac5e37a77   |DONE      |Manifest: NOSIGNATURE
+		fabric-models-v0-0.4.3+7c3892a477.jar             |Fabric Models (v0)            |fabric_models_v0              |0.4.3+7c3892a477    |DONE      |Manifest: NOSIGNATURE
+		Heroes_Beta_Forge_Fabric_V.1.1.83.jar             |Heroes                        |heroes                        |1.1.83              |DONE      |Manifest: NOSIGNATURE
+		palladiumextras-1.0.0.jar                         |Palladium Extras              |palladiumextras               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		palladium-4.5.1+1.20.1-forge.jar                  |Palladium                     |palladium                     |4.5.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-convention-tags-v1-1.5.6+fa3d1c0177.jar    |Fabric Convention Tags        |fabric_convention_tags_v1     |1.5.6+fa3d1c0177    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v1-1.2.35+f71b366f77.jar       |Fabric Command API (v1)       |fabric_command_api_v1         |1.2.35+f71b366f77   |DONE      |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.3+53347ba977.jar     |Fabric BlockView API (v2)     |fabric_block_view_api_v2      |1.0.3+53347ba977    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v2-2.2.14+561530ec77.jar       |Fabric Command API (v2)       |fabric_command_api_v2         |2.2.14+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		GeoTetraArmor-6.9.0-1.0.4.jar                     |GeoTetraArmor                 |geotetraarmor                 |6.9.0-1.0.4         |DONE      |Manifest: NOSIGNATURE
+		fabric-data-attachment-api-v1-1.0.2+30ef839e77.jar|Fabric Data Attachment API (v1|fabric_data_attachment_api_v1 |1.0.2+30ef839e77    |DONE      |Manifest: NOSIGNATURE
+		pantheonapi-1.1.3.jar                             |PantheonAPI                   |pantheonapi                   |1.1.3               |DONE      |Manifest: NOSIGNATURE
+		rei-bridge-1.11.2+1.20.1.jar                      |Connector Extras REI Bridge   |connectorextras_rei_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-screen-api-v1-2.0.9+45a670a577.jar         |Fabric Screen API (v1)        |fabric_screen_api_v1          |2.0.9+45a670a577    |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		blazeheroes-v1.0.4.jar                            |Blaze Heroes                  |blaze_heroes                  |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		fabric-api-0.92.6+1.11.14+1.20.1.jar              |Forgified Fabric API          |fabric_api                    |0.92.6+1.11.14+1.20.|DONE      |Manifest: NOSIGNATURE
+		dummmmmmy-1.20-2.0.9.jar                          |MmmMmmMmmmmm                  |dummmmmmy                     |1.20-2.0.9          |DONE      |Manifest: NOSIGNATURE
+		modmenu-bridge-1.11.2+1.20.1.jar                  |Connector Extras ModMenu Bridg|connectorextras_modmenu_bridge|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-content-registries-v0-4.0.13+a670df1e77.jar|Fabric Content Registries (v0)|fabric_content_registries_v0  |4.0.13+a670df1e77   |DONE      |Manifest: NOSIGNATURE
+		terrablender-bridge-1.11.2+1.20.1.jar             |Connector Extras Terrablender |connectorextras_terrablender_b|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		FSang18's Heroes v11.8.6.jar                      |FSang18's Heropack            |fsang                         |11.8.6              |DONE      |Manifest: NOSIGNATURE
+		fabric-game-rule-api-v1-1.0.41+683d4da877.jar     |Fabric Game Rule API (v1)     |fabric_game_rule_api_v1       |1.0.41+683d4da877   |DONE      |Manifest: NOSIGNATURE
+		pantheonsent-1.1.1+1.20.1-forge.jar               |PantheonSent                  |pantheonsent                  |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		nosedeenian_buzzshock_2.2.jar                     |nosedeenian                   |nosedeenian                   |2.1                 |DONE      |Manifest: NOSIGNATURE
+		fabric-api-lookup-api-v1-1.6.37+67f9824077.jar    |Fabric API Lookup API (v1)    |fabric_api_lookup_api_v1      |1.6.37+67f9824077   |DONE      |Manifest: NOSIGNATURE
+		dreyseheroes-1.0.0 (1).jar                        |DreyseHeroes                  |dreyse_heroes                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		reach-entity-attributes-2.4.0.jar                 |Reach Entity Attributes       |reach_entity_attributes       |2.4.0               |DONE      |Manifest: NOSIGNATURE
+		architectury-bridge-1.11.2+1.20.1.jar             |Connector Extras Architectury |connectorextras_architectury_b|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1.jar                    |Curios API                    |curios                        |5.14.1+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		anur-v1.0.4.jar                                   |The Anur Trio                 |anur_trio                     |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		CerbonsApi-Forge-1.20.1-1.0.0.jar                 |CerbonsApi                    |cerbons_api                   |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Connector-1.0.0-beta.48+1.20.1-mod.jar            |Connector                     |connectormod                  |1.0.0-beta.48+1.20.1|DONE      |Manifest: NOSIGNATURE
+		dampened-v1.2.0.jar                               |dampened                      |dampened                      |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		fabric-entity-events-v1-1.6.1+4ca7515277.jar      |Fabric Entity Events (v1)     |fabric_entity_events_v1       |1.6.1+4ca7515277    |DONE      |Manifest: NOSIGNATURE
+		lootjs-forge-1.20.1-2.13.1.jar                    |LootJS                        |lootjs                        |1.20.1-2.13.1       |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejsoffline-5.2.0.27.jar                        |KubeJS Offline (Forge)        |kubejsoffline                 |5.2.0.27            |DONE      |Manifest: NOSIGNATURE
+		Tetra Material Overhaul-6.9.0-0.0.4.jar           |Tetra Material Overhaul       |tetra_material_overhaul       |6.9.0-0.0.4         |DONE      |Manifest: NOSIGNATURE
+		fabric-loot-api-v2-1.2.3+eb28f93e77.jar           |Fabric Loot API (v2)          |fabric_loot_api_v2            |1.2.3+eb28f93e77    |DONE      |Manifest: NOSIGNATURE
+		the_five_project_forge_1.1.0.jar                  |the_five_project              |gax_classic                   |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		ConnectorExtras-1.11.2+1.20.1.jar                 |Connector Extras              |connectorextras               |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.39+a6081af|Fabric Rendering Data Attachme|fabric_rendering_data_attachme|0.3.39+a6081afc77   |DONE      |Manifest: NOSIGNATURE
+		UnOrthodox-9.0.0.jar                              |UnOrthodox                    |p_sing                        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-networking-api-v1-1.3.14+fb7c822677.jar    |Fabric Networking API (v1)    |fabric_networking_api_v1      |1.3.14+fb7c822677   |DONE      |Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.8.0.jar                  |Framework                     |framework                     |0.8.0               |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		probejs-6.0.1-forge.jar                           |ProbeJS                       |probejs                       |6.0.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-lifecycle-events-v1-2.2.23+afab492177.jar  |Fabric Lifecycle Events (v1)  |fabric_lifecycle_events_v1    |2.2.23+afab492177   |DONE      |Manifest: NOSIGNATURE
+		fabric-key-binding-api-v1-1.0.38+561530ec77.jar   |Fabric Key Binding API (v1)   |fabric_key_binding_api_v1     |1.0.38+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-client-tags-api-v1-1.1.3+5d6761b877.jar    |Fabric Client Tags            |fabric_client_tags_api_v1     |1.1.3+5d6761b877    |DONE      |Manifest: NOSIGNATURE
+		fabric-dimensions-v1-2.1.55+8005d10d77.jar        |Fabric Dimensions API (v1)    |fabric_dimensions_v1          |2.1.55+8005d10d77   |DONE      |Manifest: NOSIGNATURE
+		fabric-transfer-api-v1-3.3.6+631c9cd677.jar       |Fabric Transfer API (v1)      |fabric_transfer_api_v1        |3.3.6+631c9cd677    |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.3-build.10.jar                 |Rhino                         |rhino                         |2001.2.3-build.10   |DONE      |Manifest: NOSIGNATURE
+		omni-extras(1.0.7.1).jar                          |OmniExtras                    |omni_extras                   |1.0.7.1             |DONE      |Manifest: NOSIGNATURE
+		fms-1.0.0.jar                                     |FMS                           |fms                           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-model-loading-api-v1-1.0.4+6274ab9d77.jar  |Fabric Model Loading API (v1) |fabric_model_loading_api_v1   |1.0.4+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.129.jar                  |Just Enough Items             |jei                           |15.20.0.129         |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |KubeJS                        |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		Tales-Across-The-Multiverse.jar                   |tatm                          |tatm                          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		pehkui-bridge-1.11.2+1.20.1.jar                   |Connector Extras Pehkui Bridge|connectorextras_pehkui_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		Pehkui-3.8.2+1.20.1-forge.jar                     |Pehkui                        |pehkui                        |3.8.2+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-screen-handler-api-v1-1.3.33+561530ec77.jar|Fabric Screen Handler API (v1)|fabric_screen_handler_api_v1  |1.3.33+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-loader-v0-0.11.12+4b4151c077.jar  |Fabric Resource Loader (v0)   |fabric_resource_loader_v0     |0.11.12+4b4151c077  |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-v1-3.0.9+66e9a48f77.jar          |Fabric Rendering (v1)         |fabric_rendering_v1           |3.0.9+66e9a48f77    |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-indigo-1.5.3+b5b2da4177.jar       |Fabric Renderer - Indigo      |fabric_renderer_indigo        |1.5.3+b5b2da4177    |DONE      |Manifest: NOSIGNATURE
+		fabric-mining-level-api-v1-2.1.52+561530ec77.jar  |Fabric Mining Level API (v1)  |fabric_mining_level_api_v1    |2.1.52+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		geckolib-fabric-compat-1.11.2+1.20.1.jar          |Connector Extras Geckolib-Fabr|connectorextras_geckolib_fabri|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		energy-bridge-1.11.2+1.20.1.jar                   |Connector Extras Energy Bridge|connectorextras_energy_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-particles-v1-1.1.3+78e1ecb877.jar          |Fabric Particles (v1)         |fabric_particles_v1           |1.1.3+78e1ecb877    |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.16-universal.jar                |Forge                         |forge                         |47.4.16             |DONE      |Manifest: NOSIGNATURE
+		fabric-transitive-access-wideners-v1-4.3.2+1880499|Fabric Transitive Access Widen|fabric_transitive_access_widen|4.3.2+1880499877    |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		JustEnoughBeacons-Forge-1.19+-1.1.2.jar           |JustEnoughBeacons             |just_enough_beacons           |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		moonlight-1.20-2.16.27-forge.jar                  |Moonlight Library             |moonlight                     |1.20-2.16.27        |DONE      |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.32+ef105b4977.jar             |Fabric API Base               |fabric_api_base               |0.4.32+ef105b4977   |DONE      |Manifest: NOSIGNATURE
+		fabric-blockrenderlayer-v1-1.1.42+1d0da21e77.jar  |Fabric BlockRenderLayer Regist|fabric_blockrenderlayer_v1    |1.1.42+1d0da21e77   |DONE      |Manifest: NOSIGNATURE
+		mixinsquared-forge-0.1.1.jar                      |MixinSquared                  |mixinsquared                  |0.1.1               |DONE      |Manifest: NOSIGNATURE
+		amecsapi-1.5.3+mc1.20-pre1.jar                    |Amecs API                     |amecsapi                      |1.5.3+mc1.20-pre1   |DONE      |Manifest: NOSIGNATURE
+		telekinesis-b1.2.jar                              |Telekinesis AddonPack         |telekinesis                   |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		cwb-forge-3.0.0+mc1.20.jar                        |Cubes Without Borders         |cubes_without_borders         |3.0.0+mc1.20        |DONE      |Manifest: NOSIGNATURE
+		fabric-block-api-v1-1.0.12+0e6cb7f777.jar         |Fabric Block API (v1)         |fabric_block_api_v1           |1.0.12+0e6cb7f777   |DONE      |Manifest: NOSIGNATURE
+		jei-bridge-1.11.2+1.20.1.jar                      |Connector Extras JEI Bridge   |connectorextras_jei_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-conditions-api-v1-2.3.9+996d00b277|Fabric Resource Conditions API|fabric_resource_conditions_api|2.3.9+996d00b277    |DONE      |Manifest: NOSIGNATURE
+		GeckoJS-2001forge-1.5.2.jar                       |GeckoJS                       |geckojs                       |2001forge-1.5.2     |DONE      |Manifest: NOSIGNATURE
+		forgeconfigapiport-1.11.2+1.20.1.jar              |Forge Config API Port (Connect|forgeconfigapiport            |8.0.0               |DONE      |Manifest: NOSIGNATURE
+		AlienEvo-1.1.2-forge.jar                          |AlienEvo                      |alienevo                      |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		IntoTheOmniverse-v1.0.5.2.jar                     |IntoTheOmniverse              |aeo                           |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		entityjs-0.6.6-1.20.1.jar                         |EntityJS                      |entityjs                      |0.6.6-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		mutil-1.20.1-6.2.0.jar                            |mutil                         |mutil                         |6.2.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-item-group-api-v1-4.0.14+c9161c2d77.jar    |Fabric Item Group API (v1)    |fabric_item_group_api_v1      |4.0.14+c9161c2d77   |DONE      |Manifest: NOSIGNATURE
+		renderjs-forge-2001.2.1.jar                       |RenderJS                      |renderjs                      |2001.2.1            |DONE      |Manifest: NOSIGNATURE
+		fabric-biome-api-v1-13.0.14+dc36698e77.jar        |Fabric Biome API (v1)         |fabric_biome_api_v1           |13.0.14+dc36698e77  |DONE      |Manifest: NOSIGNATURE
+		sherdsapi-4.0.4+Forge.jar                         |Sherds API                    |sherdsapi                     |4.0.4               |DONE      |Manifest: NOSIGNATURE
+		fabric-registry-sync-v0-2.3.6+1c0ea72177.jar      |Fabric Registry Sync (v0)     |fabric_registry_sync_v0       |2.3.6+1c0ea72177    |DONE      |Manifest: NOSIGNATURE
+		omni_evo_1.0.1.jar                                |Omni Evo                      |omni_evo                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-recipe-api-v1-1.0.24+514a076577.jar        |Fabric Recipe API (v1)        |fabric_recipe_api_v1          |1.0.24+514a076577   |DONE      |Manifest: NOSIGNATURE
+		fabric-object-builder-api-v1-11.1.5+f8c414ce77.jar|Fabric Object Builder API (v1)|fabric_object_builder_api_v1  |11.1.5+f8c414ce77   |DONE      |Manifest: NOSIGNATURE
+		yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar  |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.6.6+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-sound-api-v1-1.0.14+4f23bd8477.jar         |Fabric Sound API (v1)         |fabric_sound_api_v1           |1.0.14+4f23bd8477   |DONE      |Manifest: NOSIGNATURE
+		lodestone-1.20.1-1.6.4.1.jar                      |Lodestone                     |lodestone                     |1.20.1-1.6.4.1      |DONE      |Manifest: NOSIGNATURE
+		fabric-message-api-v1-5.1.10+52cc178c77.jar       |Fabric Message API (v1)       |fabric_message_api_v1         |5.1.10+52cc178c77   |DONE      |Manifest: NOSIGNATURE
+		packetfixer-3.3.1-1.18-1.20.4-merged.jar          |PacketFixer                   |packetfixer                   |3.3.1               |DONE      |Manifest: NOSIGNATURE
+		emi-bridge-1.11.2+1.20.1.jar                      |Connector Extras EMI Bridge   |connectorextras_emi_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-data-generation-api-v1-12.3.7+369cb3a477.ja|Fabric Data Generation API (v1|fabric_data_generation_api_v1 |12.3.7+369cb3a477   |DONE      |Manifest: NOSIGNATURE
+		fabric-events-interaction-v0-0.6.5+0f26153f77.jar |Fabric Events Interaction (v0)|fabric_events_interaction_v0  |0.6.5+0f26153f77    |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: a779b4fa-143a-41a1-abf3-8ef3a62a1d42
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.16

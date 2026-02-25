@@ -1,0 +1,57 @@
+Fabric Loader
+https://fabricmc.net/
+Fabric API
+https://www.curseforge.com/minecraft/mc-mods/fabric-api
+Fabric Mod Menu
+https://www.curseforge.com/minecraft/mc-mods/modmenu
+
+Sodium
+https://www.curseforge.com/minecraft/mc-mods/sodium
+Sodium Extra
+https://www.curseforge.com/minecraft/mc-mods/sodium-extra
+Reese's Sodium Options
+https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options
+
+Lithium
+https://www.curseforge.com/minecraft/mc-mods/lithium
+Phosphor (or Starlight), 
+https://www.curseforge.com/minecraft/mc-mods/phosphor
+EntityCulling
+https://modrinth.com/mod/entityculling
+
+FerriteCore
+https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+Smooth Boot
+https://modrinth.com/mod/smoothboot-fabric/
+FPS Reducer
+https://www.curseforge.com/minecraft/mc-mods/fps-reducer
+-----------------------------------------------------------------------------------
+
+OFFICIAL SITE:
+https://optifine.net/downloads
+compatible with Forge and Fabric (need plugin).
+does not require Forge and Fabric.
+
+GRAPHICS SETTINGS:
+https://docs.google.com/spreadsheets/d/1BauxaAWpJ7OEoeiBJyQ2nZ_pNlCHCvygjgZO0bG9h-A/edit#gid=0
+
+DEFAULT (mc 1.17.1, distance 12, no shaders: ~27 max FPS)
+Texture Pack		Default
+Shaders		Default
+Time		Midnight, Night
+Graphics		Fancy
+Smooth Lighting		Maximum
+Brightness		0% (dungeon 0-50%)
+Render distance		8-12+
+Clouds		Off
+Particles		Minimal
+
+OPTIFINE  (mc 1.17.1, distance 12, no shaders: ~51 max FPS)	
+Shaders		Optifine Internal (/Shaders/Internal (x4,x2,x2,x2) (optional)
+Render distance		8-12+
+OptiFine		/Animation/Redstone: Off
+		/Animation/Particles: Minimal
+		/Quality/Connected Textures: Fancy
+		/Details/Fog: Off.
+
+PC: CPU 3570, GPU 1050Ti, DDR3 8GB, SSD SATA3
